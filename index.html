@@ -29,6 +29,7 @@
     .details h2 { margin-top: 0; }
     .rating { display: flex; flex-wrap: wrap; gap: 6px; margin: 15px 0; }
     .rating button { min-width: 40px; }
+    .surprise-options { display: flex; gap: 8px; margin-top: 8px; }
   </style>
 </head>
 <body>
@@ -46,6 +47,19 @@
     <div id="games" class="games"></div>
     <div id="empty" class="empty" hidden>No games found.</div>
   </main>
+
+  <dialog id="surpriseDialog">
+    <div class="details">
+      <button class="close" style="float:right">✕</button>
+      <h2>Surprise Me</h2>
+      <p class="muted">Choose one, or leave both blank for any game.</p>
+      <div class="surprise-options">
+        <button data-indie="true">Indie</button>
+        <button data-indie="false">Not Indie</button>
+        <button data-indie="">Any</button>
+      </div>
+    </div>
+  </dialog>
 
   <dialog id="gameDialog">
     <div class="details">
@@ -69,6 +83,7 @@
     const genreEl = document.getElementById('genre');
     const statusEl = document.getElementById('status');
     const dialog = document.getElementById('gameDialog');
+    const surpriseDialog = document.getElementById('surpriseDialog');
 
     async function loadGames() {
       const response = await fetch('games.json');
@@ -122,6 +137,14 @@
       dialog.showModal();
     }
 
+    function surprise(indieFilter) {
+      const pool = indieFilter === '' ? games : games.filter(game => Boolean(game.indie) === (indieFilter === 'true'));
+      if (!pool.length) return alert('No games match that choice yet.');
+      surpriseDialog.close();
+      const game = pool[Math.floor(Math.random() * pool.length)];
+      openGame(game.id || game.title);
+    }
+
     function escapeHtml(value) {
       return String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
     }
@@ -130,14 +153,9 @@
     genreEl.addEventListener('change', () => render());
     statusEl.addEventListener('change', () => render());
     document.getElementById('close').addEventListener('click', () => dialog.close());
-    document.getElementById('surprise').addEventListener('click', () => {
-      const choice = prompt('Surprise Me: type "indie" or "not indie"');
-      if (!choice) return;
-      const wanted = choice.toLowerCase().trim() === 'indie';
-      const pool = games.filter(game => Boolean(game.indie) === wanted);
-      if (!pool.length) return alert('No games match that choice yet.');
-      openGame(pool[Math.floor(Math.random() * pool.length)].id || pool[0].title);
-    });
+    document.querySelector('#surpriseDialog .close').addEventListener('click', () => surpriseDialog.close());
+    document.getElementById('surprise').addEventListener('click', () => surpriseDialog.showModal());
+    document.querySelectorAll('#surpriseDialog [data-indie]').forEach(button => button.addEventListener('click', () => surprise(button.dataset.indie)));
 
     loadGames().catch(() => { emptyEl.hidden = false; emptyEl.textContent = 'Could not load the game catalog.'; });
   </script>
