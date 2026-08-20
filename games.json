@@ -3,7 +3,8 @@
     {
       "id": "firewatch",
       "title": "Firewatch",
-      "genres": ["Adventure", "Narrative", "Exploration"],
+      "genres": ["Adventure", "Indie"],
+      "tiers": ["essential", "premium", "ultimate"],
       "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q8n.jpg",
       "leavingSoon": false,
       "indie": true
