@@ -5,6 +5,7 @@
       "title": "Firewatch",
       "genres": ["Adventure", "Indie"],
       "tiers": ["essential", "premium", "ultimate"],
+      "platforms": ["xbox-series-x-s", "xbox-one", "pc", "cloud"],
       "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q8n.jpg",
       "leavingSoon": false,
       "indie": true
