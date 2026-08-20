@@ -4,9 +4,142 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GamePassDB</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: #0f1115; color: #f5f5f5; }
+    header { padding: 28px 24px 18px; max-width: 1200px; margin: auto; }
+    h1 { margin: 0 0 18px; }
+    .controls { display: flex; flex-wrap: wrap; gap: 10px; }
+    input, select, button { border: 1px solid #333943; border-radius: 10px; padding: 11px 14px; background: #191c22; color: inherit; font: inherit; }
+    input { flex: 1 1 260px; }
+    button { cursor: pointer; }
+    button:hover { background: #242832; }
+    main { max-width: 1200px; margin: auto; padding: 10px 24px 40px; }
+    .games { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 18px; }
+    .card { background: #191c22; border: 1px solid #292e38; border-radius: 14px; overflow: hidden; cursor: pointer; }
+    .cover { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; background: #292e38; display: block; }
+    .card-info { padding: 12px; }
+    .card h2 { font-size: 16px; margin: 0 0 6px; }
+    .muted { color: #9da3ad; font-size: 13px; }
+    .badge { display: inline-block; margin-top: 8px; padding: 4px 7px; border-radius: 6px; background: #7a3030; font-size: 12px; }
+    .empty { color: #9da3ad; padding: 40px 0; text-align: center; }
+    dialog { width: min(520px, calc(100% - 30px)); border: 1px solid #333943; border-radius: 16px; background: #191c22; color: inherit; padding: 0; }
+    dialog::backdrop { background: #000b; }
+    .details { padding: 22px; }
+    .details h2 { margin-top: 0; }
+    .rating { display: flex; flex-wrap: wrap; gap: 6px; margin: 15px 0; }
+    .rating button { min-width: 40px; }
+  </style>
 </head>
 <body>
-  <h1>GamePassDB</h1>
-  <p>Xbox Game Pass game discovery.</p>
+  <header>
+    <h1>GamePassDB</h1>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search games...">
+      <select id="genre"><option value="">All genres</option></select>
+      <select id="status"><option value="">All games</option><option value="leaving">Leaving soon</option></select>
+      <button id="surprise">🎲 Surprise Me</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="games" class="games"></div>
+    <div id="empty" class="empty" hidden>No games found.</div>
+  </main>
+
+  <dialog id="gameDialog">
+    <div class="details">
+      <button id="close" style="float:right">✕</button>
+      <h2 id="detailTitle"></h2>
+      <p id="detailGenres" class="muted"></p>
+      <p id="detailStatus"></p>
+      <h3>Rate this game</h3>
+      <div id="rating" class="rating"></div>
+      <p id="selectedRating" class="muted">Choose a rating from 0–10.</p>
+    </div>
+  </dialog>
+
+  <script>
+    let games = [];
+    let currentGame = null;
+
+    const gamesEl = document.getElementById('games');
+    const emptyEl = document.getElementById('empty');
+    const searchEl = document.getElementById('search');
+    const genreEl = document.getElementById('genre');
+    const statusEl = document.getElementById('status');
+    const dialog = document.getElementById('gameDialog');
+
+    async function loadGames() {
+      const response = await fetch('games.json');
+      const data = await response.json();
+      games = data.games || [];
+      populateGenres();
+      render();
+    }
+
+    function populateGenres() {
+      const genres = [...new Set(games.flatMap(game => game.genres || []))].sort();
+      genreEl.innerHTML = '<option value="">All genres</option>' + genres.map(g => `<option>${escapeHtml(g)}</option>`).join('');
+    }
+
+    function render(list = filteredGames()) {
+      gamesEl.innerHTML = list.map(game => `
+        <article class="card" data-id="${escapeHtml(game.id || game.title)}">
+          <img class="cover" src="${escapeHtml(game.cover || '')}" alt="${escapeHtml(game.title)} cover" onerror="this.style.display='none'">
+          <div class="card-info">
+            <h2>${escapeHtml(game.title)}</h2>
+            <div class="muted">${escapeHtml((game.genres || []).join(' · '))}</div>
+            ${game.leavingSoon ? '<span class="badge">Leaving soon</span>' : ''}
+          </div>
+        </article>
+      `).join('');
+      emptyEl.hidden = list.length !== 0;
+      gamesEl.querySelectorAll('.card').forEach(card => card.addEventListener('click', () => openGame(card.dataset.id)));
+    }
+
+    function filteredGames() {
+      const q = searchEl.value.toLowerCase().trim();
+      return games.filter(game => {
+        const matchesSearch = !q || game.title.toLowerCase().includes(q);
+        const matchesGenre = !genreEl.value || (game.genres || []).includes(genreEl.value);
+        const matchesStatus = !statusEl.value || game.leavingSoon;
+        return matchesSearch && matchesGenre && matchesStatus;
+      });
+    }
+
+    function openGame(id) {
+      currentGame = games.find(game => String(game.id || game.title) === String(id));
+      if (!currentGame) return;
+      document.getElementById('detailTitle').textContent = currentGame.title;
+      document.getElementById('detailGenres').textContent = (currentGame.genres || []).join(' · ');
+      document.getElementById('detailStatus').textContent = currentGame.leavingSoon ? '🕐 Leaving soon' : 'Available on Game Pass';
+      const rating = document.getElementById('rating');
+      rating.innerHTML = Array.from({length: 11}, (_, i) => `<button data-rating="${i}">${i}</button>`).join('');
+      rating.querySelectorAll('button').forEach(button => button.addEventListener('click', () => {
+        document.getElementById('selectedRating').textContent = `You rated it ${button.dataset.rating}/10.`;
+      }));
+      dialog.showModal();
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    }
+
+    searchEl.addEventListener('input', () => render());
+    genreEl.addEventListener('change', () => render());
+    statusEl.addEventListener('change', () => render());
+    document.getElementById('close').addEventListener('click', () => dialog.close());
+    document.getElementById('surprise').addEventListener('click', () => {
+      const choice = prompt('Surprise Me: type "indie" or "not indie"');
+      if (!choice) return;
+      const wanted = choice.toLowerCase().trim() === 'indie';
+      const pool = games.filter(game => Boolean(game.indie) === wanted);
+      if (!pool.length) return alert('No games match that choice yet.');
+      openGame(pool[Math.floor(Math.random() * pool.length)].id || pool[0].title);
+    });
+
+    loadGames().catch(() => { emptyEl.hidden = false; emptyEl.textContent = 'Could not load the game catalog.'; });
+  </script>
 </body>
 </html>
