@@ -36,11 +36,7 @@ function normalizeTitle(title) { return String(title || '').toLowerCase().replac
 function chooseCover(images = []) { const poster = images.find(x => x.ImagePurpose === 'Poster'); const portrait = images.find(x => x.Height > x.Width && x.Uri); const fallback = images.find(x => x.Uri); return (poster || portrait || fallback)?.Uri?.replace(/^http:/, 'https:') || ''; }
 function extractGenres(product, localized) { const candidates = [...(product.Categories || []), ...(product.Properties?.Categories || []), ...(localized.Categories || [])]; return [...new Set(candidates.map(x => typeof x === 'string' ? x : x.Name || x.CategoryName).filter(Boolean))]; }
 function extractPlatforms(product, localized) { const text = JSON.stringify({ product, localized }).toLowerCase(); const platforms = []; if (text.includes('windows') || text.includes('pc')) platforms.push('PC'); if (text.includes('xbox series') || text.includes('xbox one') || text.includes('xbox')) platforms.push('Xbox'); if (text.includes('cloud')) platforms.push('Cloud'); return [...new Set(platforms)]; }
-function extractDescription(localized, old = {}) {
-  const candidates = [localized.ProductDescription, localized.Description, localized.LongDescription, localized.ShortDescription, localized.ProductShortDescription, old.description];
-  const value = candidates.find(x => typeof x === 'string' && x.trim().length > 0);
-  return value ? value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim() : '';
-}
+function extractDescription(localized, old = {}) { const candidates = [localized.ProductDescription, localized.Description, localized.LongDescription, localized.ShortDescription, localized.ProductShortDescription, old.description]; const value = candidates.find(x => typeof x === 'string' && x.trim().length > 0); return value ? value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim() : ''; }
 function readExistingGames() { try { if (!fs.existsSync('games.json')) return new Map(); const data = JSON.parse(fs.readFileSync('games.json', 'utf8')); return new Map((data.games || []).filter(game => game.id).map(game => [game.id, game])); } catch (error) { console.warn(`Could not read existing games.json: ${error.message}`); return new Map(); } }
 
 (async () => {
@@ -60,19 +56,20 @@ function readExistingGames() { try { if (!fs.existsSync('games.json')) return ne
     products.push(...(data.Products || []));
     console.log(`Products: ${Math.min(i + chunkSize, allIds.length)}/${allIds.length}`);
   }
+  const now = new Date().toISOString();
   const fetchedGames = products.map(product => {
     const localized = product.LocalizedProperties?.[0] || {}, id = product.BigId || product.ProductId || product.Id, title = localized.ProductTitle || localized.Title, images = localized.Images || [], platforms = extractPlatforms(product, localized);
     if (id && consoleIds.has(id) && !platforms.includes('Xbox')) platforms.push('Xbox');
     if (id && pcIds.has(id) && !platforms.includes('PC')) platforms.push('PC');
     const genres = extractGenres(product, localized), old = existingGames.get(id), officialIndie = indieSet.has(normalizeTitle(title));
-    return { ...(old || {}), id, title, description: extractDescription(localized, old), cover: chooseCover(images) || old?.cover || '', sourceUrl: `https://www.xbox.com/en-CA/games/store/-/${id}`, tiers: old?.tiers || [], platforms, genres, indie: officialIndie || genres.some(g => String(g).toLowerCase() === 'indie'), leavingSoon: old?.leavingSoon ?? false, status: 'active' };
+    return { ...(old || {}), id, title, description: extractDescription(localized, old), cover: chooseCover(images) || old?.cover || '', sourceUrl: `https://www.xbox.com/en-CA/games/store/-/${id}`, tiers: old?.tiers || [], platforms, genres, indie: officialIndie || genres.some(g => String(g).toLowerCase() === 'indie'), leavingSoon: old?.leavingSoon ?? false, status: 'active', addedAt: old?.addedAt || now, removedAt: undefined };
   }).filter(game => game.id && game.title);
   const active = [...new Map(fetchedGames.map(game => [game.id, game])).values()];
   if (active.length < 100) throw new Error(`Only ${active.length} complete products were returned from ${allIds.length} IDs. Refusing to overwrite games.json.`);
   const activeIds = new Set(active.map(game => game.id));
-  const removed = [...existingGames.values()].filter(game => game.id && !activeIds.has(game.id)).map(game => ({ ...game, status: 'removed' }));
+  const removed = [...existingGames.values()].filter(game => game.id && !activeIds.has(game.id)).map(game => ({ ...game, status: 'removed', removedAt: game.removedAt || now }));
   const merged = [...active, ...removed];
-  fs.writeFileSync('games.json', JSON.stringify({ updatedAt: new Date().toISOString(), source: 'Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection', market: MARKET, language: LANGUAGE, games: merged }, null, 2) + '\n');
+  fs.writeFileSync('games.json', JSON.stringify({ updatedAt: now, source: 'Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection', market: MARKET, language: LANGUAGE, games: merged }, null, 2) + '\n');
   console.log(`Official indie titles: ${officialIndieTitles.length}`);
   console.log(`Active games: ${active.length}`);
   console.log(`Removed games preserved: ${removed.length}`);
