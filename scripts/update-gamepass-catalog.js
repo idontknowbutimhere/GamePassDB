@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { chromium } = require('playwright');
 
 const MARKET = 'CA';
 const LANGUAGE = 'en-ca';
@@ -9,6 +10,7 @@ const SIGL = {
 };
 const SIGL_URL = 'https://catalog.gamepass.com/sigls/v2';
 const PRODUCT_URL = 'https://displaycatalog.mp.microsoft.com/v7.0/products';
+const ID_AT_XBOX_URL = 'https://www.xbox.com/en-CA/games/id';
 
 async function getJson(url) {
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -27,6 +29,38 @@ async function getSiglIds(id) {
   const url = `${SIGL_URL}?id=${id}&language=${LANGUAGE}&market=${MARKET}`;
   const data = await getJson(url);
   return [...new Set((Array.isArray(data) ? data : []).map(x => x.id).filter(Boolean))];
+}
+
+async function getOfficialIndieTitles() {
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const page = await browser.newPage({ locale: LANGUAGE });
+    await page.goto(ID_AT_XBOX_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    await page.waitForTimeout(3000);
+
+    const titles = await page.locator('a[href*="/games/store/"]').evaluateAll(links =>
+      links.map(link => (link.textContent || '').replace(/quick look/ig, '').trim())
+        .filter(text => text.length >= 2 && text.length <= 120)
+    );
+
+    const unique = [...new Set(titles)];
+    console.log(`Official ID@Xbox page returned ${unique.length} candidate indie titles.`);
+    return unique;
+  } catch (error) {
+    console.warn(`Could not read official ID@Xbox page: ${error.message}`);
+    return [];
+  } finally {
+    await browser.close();
+  }
+}
+
+function normalizeTitle(title) {
+  return String(title || '')
+    .toLowerCase()
+    .replace(/[®™©]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');
 }
 
 function chooseCover(images = []) {
@@ -71,6 +105,9 @@ function readExistingGames() {
   const existingGames = readExistingGames();
   console.log(`Existing games loaded: ${existingGames.size}`);
 
+  const officialIndieTitles = await getOfficialIndieTitles();
+  const indieSet = new Set(officialIndieTitles.map(normalizeTitle));
+
   const lists = {};
   for (const [name, id] of Object.entries(SIGL)) {
     lists[name] = await getSiglIds(id);
@@ -110,6 +147,7 @@ function readExistingGames() {
     if (id && pcIds.has(id) && !platforms.includes('PC')) platforms.push('PC');
     const genres = extractGenres(product, localized);
     const old = existingGames.get(id);
+    const officialIndie = indieSet.has(normalizeTitle(title));
 
     return {
       ...(old || {}),
@@ -120,7 +158,7 @@ function readExistingGames() {
       tiers: old?.tiers || [],
       platforms,
       genres,
-      indie: old?.indie ?? genres.some(g => g.toLowerCase() === 'indie'),
+      indie: officialIndie || genres.some(g => String(g).toLowerCase() === 'indie'),
       leavingSoon: old?.leavingSoon ?? false,
       status: 'active'
     };
@@ -139,13 +177,14 @@ function readExistingGames() {
   const merged = [...active, ...removed];
   const output = {
     updatedAt: new Date().toISOString(),
-    source: 'Microsoft Xbox Game Pass catalog APIs',
+    source: 'Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection',
     market: MARKET,
     language: LANGUAGE,
     games: merged
   };
 
   fs.writeFileSync('games.json', JSON.stringify(output, null, 2) + '\n');
+  console.log(`Official indie titles: ${officialIndieTitles.length}`);
   console.log(`Active games: ${active.length}`);
   console.log(`Removed games preserved: ${removed.length}`);
   console.log(`Total games in database: ${merged.length}`);
