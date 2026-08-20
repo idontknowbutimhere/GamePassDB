@@ -54,8 +54,22 @@ function extractPlatforms(product, localized) {
   return [...new Set(platforms)];
 }
 
+function readExistingGames() {
+  try {
+    if (!fs.existsSync('games.json')) return new Map();
+    const data = JSON.parse(fs.readFileSync('games.json', 'utf8'));
+    return new Map((data.games || []).filter(game => game.id).map(game => [game.id, game]));
+  } catch (error) {
+    console.warn(`Could not read existing games.json: ${error.message}`);
+    return new Map();
+  }
+}
+
 (async () => {
   console.log(`Fetching Microsoft Game Pass catalog for ${MARKET}/${LANGUAGE}...`);
+
+  const existingGames = readExistingGames();
+  console.log(`Existing games loaded: ${existingGames.size}`);
 
   const lists = {};
   for (const [name, id] of Object.entries(SIGL)) {
@@ -86,7 +100,7 @@ function extractPlatforms(product, localized) {
     console.log(`Products: ${Math.min(i + chunkSize, allIds.length)}/${allIds.length}`);
   }
 
-  const games = products.map(product => {
+  const fetchedGames = products.map(product => {
     const localized = product.LocalizedProperties?.[0] || {};
     const id = product.BigId || product.ProductId || product.Id;
     const title = localized.ProductTitle || localized.Title;
@@ -94,34 +108,46 @@ function extractPlatforms(product, localized) {
     const platforms = extractPlatforms(product, localized);
     if (id && consoleIds.has(id) && !platforms.includes('Xbox')) platforms.push('Xbox');
     if (id && pcIds.has(id) && !platforms.includes('PC')) platforms.push('PC');
+    const genres = extractGenres(product, localized);
+    const old = existingGames.get(id);
 
     return {
+      ...(old || {}),
       id,
       title,
-      cover: chooseCover(images),
+      cover: chooseCover(images) || old?.cover || '',
       sourceUrl: `https://www.xbox.com/en-CA/games/store/-/${id}`,
-      tiers: [],
+      tiers: old?.tiers || [],
       platforms,
-      genres: extractGenres(product, localized),
-      indie: extractGenres(product, localized).some(g => g.toLowerCase() === 'indie'),
-      leavingSoon: false
+      genres,
+      indie: old?.indie ?? genres.some(g => g.toLowerCase() === 'indie'),
+      leavingSoon: old?.leavingSoon ?? false,
+      status: 'active'
     };
   }).filter(game => game.id && game.title);
 
-  const unique = [...new Map(games.map(game => [game.id, game])).values()];
-
-  if (unique.length < 100) {
-    throw new Error(`Only ${unique.length} complete products were returned from ${allIds.length} IDs. Refusing to overwrite games.json.`);
+  const active = [...new Map(fetchedGames.map(game => [game.id, game])).values()];
+  if (active.length < 100) {
+    throw new Error(`Only ${active.length} complete products were returned from ${allIds.length} IDs. Refusing to overwrite games.json.`);
   }
 
+  const activeIds = new Set(active.map(game => game.id));
+  const removed = [...existingGames.values()]
+    .filter(game => game.id && !activeIds.has(game.id))
+    .map(game => ({ ...game, status: 'removed' }));
+
+  const merged = [...active, ...removed];
   const output = {
     updatedAt: new Date().toISOString(),
     source: 'Microsoft Xbox Game Pass catalog APIs',
     market: MARKET,
     language: LANGUAGE,
-    games: unique
+    games: merged
   };
 
   fs.writeFileSync('games.json', JSON.stringify(output, null, 2) + '\n');
-  console.log(`Successfully wrote ${unique.length} Game Pass games.`);
+  console.log(`Active games: ${active.length}`);
+  console.log(`Removed games preserved: ${removed.length}`);
+  console.log(`Total games in database: ${merged.length}`);
+  console.log(`Successfully wrote games.json without deleting rating/history fields.`);
 })();
