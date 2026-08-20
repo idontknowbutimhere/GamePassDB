@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T01:12:36.637Z",
-  "source": "Microsoft Xbox Game Pass catalog APIs",
+  "updatedAt": "2026-08-20T01:52:21.166Z",
+  "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
   "games": [
@@ -19,7 +19,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8LR42PTRGJ",
@@ -36,7 +37,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NGLST31DG26",
@@ -54,7 +56,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9ND0JVB184XL",
@@ -72,7 +75,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P4NV23Q6QC2",
@@ -89,7 +93,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NR6NJ401NBS",
@@ -107,7 +112,8 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8NKVVB0XQJ",
@@ -124,7 +130,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P59J86GHDGL",
@@ -143,7 +150,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N42SSSX2MTG",
@@ -157,7 +165,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHH1ZWRSZ41",
@@ -173,7 +182,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NPKGVXPFRSX",
@@ -190,7 +200,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDC9X7BKZR3",
@@ -208,7 +219,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MX7DMHK13SC",
@@ -225,7 +237,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NG07QJNK38J",
@@ -240,8 +253,9 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PMHGHXLGLJM",
@@ -258,7 +272,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHKWCSZ0SQJ",
@@ -272,7 +287,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P97ZTRTH25W",
@@ -290,7 +306,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NK8947Z28XL",
@@ -308,7 +325,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P33VJGVPHVP",
@@ -327,7 +345,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N5JRWWGMS1R",
@@ -341,7 +360,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NR7XDNVP5SW",
@@ -359,7 +379,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NHCT85MKHCV",
@@ -376,7 +397,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NZQPT0MWTD0",
@@ -395,7 +417,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRKMHZX1RCF2",
@@ -411,7 +434,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BW9TWC8L4JCS",
@@ -427,7 +451,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZGJRJC1FGF3",
@@ -444,7 +469,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXVQ8M4J9HNM",
@@ -460,7 +486,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRQH27C9RGXS",
@@ -476,7 +503,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P4NJFH17MRT",
@@ -493,7 +521,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZQQ7HX8PZ05",
@@ -509,7 +538,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTMS1PXLQ6P6",
@@ -525,7 +555,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXQQQQ8HRBSF",
@@ -541,7 +572,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPMJ413V6BB2",
@@ -557,7 +589,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQ9S8ZKCT3Q7",
@@ -573,7 +606,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NZCJF5VF1NV",
@@ -587,7 +621,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BWT5L9P3L60X",
@@ -603,7 +638,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH43KZB",
@@ -621,7 +657,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NC4WDL5KZBL",
@@ -639,7 +676,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9QJG4S82B5",
@@ -655,7 +693,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MSVPJCHHRPR",
@@ -669,7 +708,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PK087LNGJC5",
@@ -687,7 +727,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NCNBWZSHZR5",
@@ -704,7 +745,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MWXF3SRD7QN",
@@ -722,7 +764,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKFS43DLFFL",
@@ -741,7 +784,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BVR64CDJ01FJ",
@@ -759,7 +803,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSJG7TTSWVJ2",
@@ -776,7 +821,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BX27S00SKW1V",
@@ -793,7 +839,8 @@
         "Classics"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N21ZCV0JW6V",
@@ -811,7 +858,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSLX1RNXR6H7",
@@ -827,7 +875,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BP15SF17LH13",
@@ -843,7 +892,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPL68T0XK96W",
@@ -857,7 +907,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P0T51BDDWVT",
@@ -874,7 +925,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZ2N7TQ0XCF2",
@@ -890,7 +942,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N7GCF5SGCXC",
@@ -909,7 +962,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NXWSWBM4H6T",
@@ -927,7 +981,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJRSC0B0K88",
@@ -946,7 +1001,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N4X39HZ1CSQ",
@@ -963,7 +1019,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJWFF2KHL6H",
@@ -981,7 +1038,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NTXGKBW2HSM",
@@ -1000,7 +1058,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8H4RRSRV2S",
@@ -1020,7 +1079,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NX6XGVJ0J3D",
@@ -1038,7 +1098,8 @@
         "Multi-player Online Battle Arena"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRG51C5MWFSG",
@@ -1055,7 +1116,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NZP7NKR2QWG",
@@ -1077,7 +1139,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PFRTPRQ569Q",
@@ -1095,7 +1158,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N2J0FGV30DX",
@@ -1113,7 +1177,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P66TM1HLGLX",
@@ -1130,7 +1195,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3B1V55CDL0C",
@@ -1148,7 +1214,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PPR10S4JNLV",
@@ -1166,7 +1233,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRT1K9FV4LRR",
@@ -1183,7 +1251,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P9VNSQK1W3K",
@@ -1202,8 +1271,9 @@
         "Fighting",
         "Role playing"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C5DZFZ6NC5SQ",
@@ -1221,7 +1291,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P5B8CPQ9S7F",
@@ -1237,8 +1308,9 @@
       "genres": [
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N1N0NQNGK9W",
@@ -1252,7 +1324,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8KMNW6942X",
@@ -1266,7 +1339,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVQBQ3F6W9W",
@@ -1280,7 +1354,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PNGFSX7S117",
@@ -1294,7 +1369,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLZZ74TFD7P",
@@ -1308,7 +1384,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQQ8B4PJR25",
@@ -1323,7 +1400,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NNFG8BQRCXL",
@@ -1338,7 +1416,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PF697TG7PP7",
@@ -1357,7 +1436,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NDC5LJS839S",
@@ -1374,7 +1454,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NH019ZFFHTV",
@@ -1392,7 +1473,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQ9Q620NC614",
@@ -1410,7 +1492,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N7CJX93ZGWN",
@@ -1428,8 +1511,9 @@
         "Fighting",
         "Multi-player Online Battle Arena"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZ4GBWX9GND",
@@ -1445,7 +1529,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4GH8N6ZXG5L",
@@ -1461,7 +1546,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PPT8K6GQHRZ",
@@ -1479,7 +1565,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKHKBQJSSC3",
@@ -1497,7 +1584,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8V7HR160B4",
@@ -1516,7 +1604,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NNRCR6MBNDR",
@@ -1533,7 +1622,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BVFB8CBS75R6",
@@ -1550,7 +1640,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLFZVMSQ7CC",
@@ -1567,7 +1658,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSLTQT4L0RLV",
@@ -1583,7 +1675,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZ6W9LRPC26W",
@@ -1601,7 +1694,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P4D0K92BM7V",
@@ -1619,7 +1713,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N3DKKRHSJBT",
@@ -1636,7 +1731,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR74RLMH966K",
@@ -1653,7 +1749,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZ92FB6PWXFJ",
@@ -1669,7 +1766,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PMXPQ307Z5P",
@@ -1683,7 +1781,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C27XPR5XDMFT",
@@ -1699,7 +1798,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJJVQZ3BVPX",
@@ -1718,7 +1818,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PPN49GPNH5M",
@@ -1735,7 +1836,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N6JF50HZFW9",
@@ -1752,7 +1854,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NGZ1M3N98P2",
@@ -1769,7 +1872,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4B8XR1LCXR5",
@@ -1786,7 +1890,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BX3M8L83BBRW",
@@ -1802,7 +1907,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N0CCPMBLJQ8",
@@ -1818,8 +1924,9 @@
       "genres": [
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKK6CX54183",
@@ -1836,7 +1943,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSR9NLHVF1KL",
@@ -1854,7 +1962,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0N22P73QZ60",
@@ -1872,7 +1981,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQSCNS1T8PHQ",
@@ -1890,7 +2000,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3L4J3H7H12R",
@@ -1908,7 +2019,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLB6V0GNC9P",
@@ -1927,7 +2039,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRJLJ6RPLQTJ",
@@ -1943,7 +2056,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2PB7STLJGS0",
@@ -1959,7 +2073,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BP73LMGB1DFD",
@@ -1975,7 +2090,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MXWL7VJ2SJW",
@@ -1993,7 +2109,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PD9SZGNCMDZ",
@@ -2011,7 +2128,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQGN8TGNT8P",
@@ -2031,7 +2149,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P5Z4530318L",
@@ -2049,7 +2168,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NHFVWX1V7QJ",
@@ -2066,7 +2186,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHGQPRBBSXK",
@@ -2084,7 +2205,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N18L56XHK8Z",
@@ -2103,7 +2225,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C37XBX7DCBZ0",
@@ -2120,8 +2243,9 @@
         "Action & adventure",
         "Sports"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N66JJQFX3RX",
@@ -2140,7 +2264,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NT0PNTL6B79",
@@ -2157,7 +2282,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NTRS771L8HL",
@@ -2174,7 +2300,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSZM480TSWGP",
@@ -2190,7 +2317,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C299QVC2BSJF",
@@ -2207,7 +2335,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C5F2XDQPPJKZ",
@@ -2223,7 +2352,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NSF0BGH8D86",
@@ -2241,7 +2371,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N6Z8DQXSQWH",
@@ -2258,7 +2389,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8XKV2D5DZ5",
@@ -2275,7 +2407,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N6V2181GHLM",
@@ -2294,7 +2427,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3QH42WRGM3R",
@@ -2310,7 +2444,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P46M5JQ2PTF",
@@ -2327,7 +2462,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NSL68D814GC",
@@ -2344,7 +2480,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MXND4PQLK3W",
@@ -2362,7 +2499,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P5S26314HWQ",
@@ -2377,7 +2515,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PH9X0760B0T",
@@ -2394,7 +2533,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BS9SX4Q6XJRF",
@@ -2410,7 +2550,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4G76555T4QN",
@@ -2427,7 +2568,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C47GZZBMR5WG",
@@ -2443,7 +2585,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSDX4FNNC0DK",
@@ -2461,7 +2604,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BX03760D0QGN",
@@ -2478,7 +2622,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NFQ1XMXDLN6",
@@ -2497,7 +2642,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MSVVM5NS9L6",
@@ -2514,7 +2660,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NXVPTB0FXSZ",
@@ -2534,7 +2681,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N436FQM30HX",
@@ -2552,7 +2700,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NNPSTWT06VM",
@@ -2570,7 +2719,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NK13T4QFPQW",
@@ -2587,7 +2737,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P9FTXPKQ35P",
@@ -2604,7 +2755,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NSDM7MBGG8L",
@@ -2621,7 +2773,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLKS78C4F3Z",
@@ -2637,7 +2790,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVD16NP4J8T",
@@ -2654,7 +2808,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P822XLW9PB8",
@@ -2675,7 +2830,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9PDJ7Z8S2R",
@@ -2695,7 +2851,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDC8J1BSV8B",
@@ -2714,7 +2871,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N17PD34G54M",
@@ -2733,7 +2891,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDKDBQGG2N2",
@@ -2751,7 +2910,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3LW50BQJ878",
@@ -2765,7 +2925,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NHKL695M9F2",
@@ -2783,7 +2944,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PF432CVQBXT",
@@ -2801,7 +2963,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKBDN695GTT",
@@ -2820,7 +2983,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MW15L8FRT9P",
@@ -2836,8 +3000,9 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NNKJNRKFT0G",
@@ -2854,7 +3019,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MW581HCJPM6",
@@ -2872,7 +3038,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLVVTDHS1P0",
@@ -2892,7 +3059,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NWPW7F19FS5",
@@ -2912,7 +3080,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2Q32JM0BPZL",
@@ -2928,7 +3097,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2WKJJ9F5936",
@@ -2944,7 +3114,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR46KM4D5B9L",
@@ -2962,7 +3133,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C29HQ887KH4B",
@@ -2978,7 +3150,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3KLDKZBHNCZ",
@@ -2995,7 +3168,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BS6WJ2L56B10",
@@ -3011,7 +3185,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BX3JNK07Z6QK",
@@ -3029,7 +3204,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVJ4L71DF5Q",
@@ -3047,7 +3223,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BV2ZVP7PJZWL",
@@ -3064,7 +3241,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BV6BRSLFJW3W",
@@ -3081,7 +3259,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0KJ40T9QD86",
@@ -3098,7 +3277,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR7X7MVBBQKM",
@@ -3116,7 +3296,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C1DDW4PRF6K5",
@@ -3133,7 +3314,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PBNGCVBGML0",
@@ -3151,7 +3333,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMCDQ6RCJKH",
@@ -3168,7 +3351,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDCN8Z4HKRN",
@@ -3185,7 +3369,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P20JCF7BV93",
@@ -3202,7 +3387,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8S1MN4066K",
@@ -3219,7 +3405,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NWDPFPPK30V",
@@ -3236,7 +3423,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8C07SS8C9D",
@@ -3253,7 +3441,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9C8SV0S16W",
@@ -3270,7 +3459,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N255K81XBD3",
@@ -3287,7 +3477,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBZ7Z3JRXQ8",
@@ -3306,7 +3497,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N7MVHP2R7VP",
@@ -3324,7 +3516,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMNZ4CK59DM",
@@ -3342,7 +3535,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N3DWR830CVN",
@@ -3356,7 +3550,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4CBF3FHHCND",
@@ -3370,7 +3565,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVC9KWJVLT0",
@@ -3391,7 +3587,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKX70BBCDRN",
@@ -3405,7 +3602,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N431PX143P8",
@@ -3419,7 +3617,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLKVSWR299F",
@@ -3433,7 +3632,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MW715J1P29D",
@@ -3450,7 +3650,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N16RZ0S50V2",
@@ -3470,7 +3671,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N0KN24FWP6B",
@@ -3487,7 +3689,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P3ZRGNQVC7D",
@@ -3504,7 +3707,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2P985H1H42H",
@@ -3521,7 +3725,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPQZT43FWD49",
@@ -3538,8 +3743,9 @@
         "Fighting",
         "Family & kids"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P4KMR76PLLQ",
@@ -3554,7 +3760,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPN08ZDRPSFK",
@@ -3570,7 +3777,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C1SDBNRFXT1D",
@@ -3586,7 +3794,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPKDQSSFQ9WV",
@@ -3602,7 +3811,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH4PBBM",
@@ -3619,7 +3829,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSHMMGRP84N4",
@@ -3635,7 +3846,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8PS6993LSL",
@@ -3653,7 +3865,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQT21VXFS52F",
@@ -3669,7 +3882,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NN3HCKW5TPC",
@@ -3684,7 +3898,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C20WW4W29FQ1",
@@ -3702,7 +3917,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHK9D8CLQCG",
@@ -3721,7 +3937,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N7TFFRRZCC9",
@@ -3739,7 +3956,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PKP39CL0C8D",
@@ -3756,7 +3974,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PF2ZS4XB4JH",
@@ -3773,7 +3992,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMB4T25W817",
@@ -3791,8 +4011,9 @@
         "Action & adventure",
         "Family & kids"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NL3468NRPBG",
@@ -3811,7 +4032,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N6639H7VGH4",
@@ -3830,7 +4052,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N36BLQF3FX6",
@@ -3848,7 +4071,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NCT9L7NFHX7",
@@ -3865,7 +4089,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PC288TN7R8K",
@@ -3882,7 +4107,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJTHRNVH62H",
@@ -3900,7 +4126,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P77PG7DK0W2",
@@ -3917,7 +4144,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8DL6W0JBB8",
@@ -3935,7 +4163,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PCR3Z2MSM4T",
@@ -3953,7 +4182,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMNMS626R59",
@@ -3971,7 +4201,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRRC2BP0G9P0",
@@ -3987,7 +4218,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NP1P1WFS0LB",
@@ -4001,7 +4233,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C42KCJCLX6MX",
@@ -4015,7 +4248,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPRPQSKXTD1L",
@@ -4032,7 +4266,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N6J4RNFPKKL",
@@ -4046,7 +4281,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BV0K9LMLQ9W5",
@@ -4064,7 +4300,8 @@
         "Multi-player Online Battle Arena"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MT8PTGVHX2P",
@@ -4079,7 +4316,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9097G0XZMB",
@@ -4096,7 +4334,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PMBB7NGHV95",
@@ -4113,7 +4352,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4Z7QM8FSXM2",
@@ -4130,7 +4370,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NNHK7K8RV9C",
@@ -4148,7 +4389,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NC7NRD0CM11",
@@ -4167,7 +4409,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NFTC552K3GJ",
@@ -4184,7 +4427,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NL4714VTLRS",
@@ -4203,7 +4447,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NF6XPSBTTGB",
@@ -4222,7 +4467,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MT5NJ5W7B8Z",
@@ -4240,7 +4486,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NK4NTBFWW81",
@@ -4258,7 +4505,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N116V0599HB",
@@ -4276,7 +4524,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MW9469V91LM",
@@ -4294,7 +4543,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBFGKQLMV33",
@@ -4311,7 +4561,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSMZH25V6V46",
@@ -4329,8 +4580,9 @@
         "Platformer",
         "Puzzle & trivia"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3NHWKLR94M9",
@@ -4346,7 +4598,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PF9FQGH89WM",
@@ -4364,7 +4617,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C07KJZRH0L7S",
@@ -4380,7 +4634,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NSD4HTWM8HT",
@@ -4398,7 +4653,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8FQ28Z6QX3",
@@ -4415,7 +4671,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N020KFQG301",
@@ -4432,7 +4689,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVV0M74W05C",
@@ -4450,7 +4708,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8NSTDMZ11P",
@@ -4469,7 +4728,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C17GQF31D617",
@@ -4487,7 +4747,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTKN78H28RPV",
@@ -4504,7 +4765,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NXVC0482QS5",
@@ -4518,7 +4780,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRRVN5198461",
@@ -4535,7 +4798,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C1ZWH2BZ9TSF",
@@ -4553,7 +4817,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NZPKBFF0CV9",
@@ -4572,7 +4837,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NX7HCWL13Z9",
@@ -4590,7 +4856,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NM4WQ7TTH3J",
@@ -4610,7 +4877,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BV83SM3191S5",
@@ -4627,7 +4895,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NCJWHHMVHR0",
@@ -4644,7 +4913,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MXHL3TT792F",
@@ -4660,7 +4930,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2HDBXXNXT7R",
@@ -4676,7 +4947,8 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BX8FPDDRCLWT",
@@ -4692,7 +4964,8 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N2HB4MWG7HM",
@@ -4707,7 +4980,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MW53ZKZH168",
@@ -4724,7 +4998,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BNBWFH89FCF1",
@@ -4740,7 +5015,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N4W31HSMVVD",
@@ -4759,7 +5035,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BWT2GPVWCH2F",
@@ -4778,7 +5055,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BX7XFZ51XTW8",
@@ -4794,7 +5072,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3553MB4P5TT",
@@ -4810,7 +5089,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2S2QVRB97N",
@@ -4829,7 +5109,8 @@
         "Classics"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRMKDCZT0C4L",
@@ -4845,7 +5126,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P00SVGWDJCP",
@@ -4862,7 +5144,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1303FCXW6X",
@@ -4879,7 +5162,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTQMHK78ZPF9",
@@ -4895,7 +5179,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NF5S7MLM8XT",
@@ -4913,8 +5198,9 @@
         "Family & kids",
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8Q6DRTG22H",
@@ -4932,7 +5218,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C1H74N0TR8KT",
@@ -4950,7 +5237,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N3M5D5ZSW34",
@@ -4971,7 +5259,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVRJS95FLM9",
@@ -4990,7 +5279,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N3F1LW9HC6C",
@@ -5007,7 +5297,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLBH9J0XGR8",
@@ -5026,7 +5317,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NL9QN69HCL7",
@@ -5043,7 +5335,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N0FWWQ94X62",
@@ -5060,7 +5353,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N79TQTZTQQ4",
@@ -5078,7 +5372,8 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PKWHT7G60WQ",
@@ -5099,7 +5394,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZPR04V49BMH",
@@ -5115,7 +5411,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2484ZR2BWNQ",
@@ -5132,7 +5429,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NZX67J81X6F",
@@ -5149,7 +5447,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0SFCF4PBRSZ",
@@ -5165,7 +5464,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P9FJCK32PMT",
@@ -5183,7 +5483,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PB86W3JK8Z5",
@@ -5201,7 +5502,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDDP6ML6XHF",
@@ -5220,7 +5522,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N2PS831S84N",
@@ -5239,7 +5542,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PMQDM08SNK9",
@@ -5254,7 +5558,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2VGCTBMM52",
@@ -5269,7 +5574,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8NJ74FZTG9",
@@ -5286,7 +5592,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NF0D13RPX5L",
@@ -5304,7 +5611,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N5PKH0KW2L1",
@@ -5324,7 +5632,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NP86K57SQM3",
@@ -5342,7 +5651,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C48LBRJJCP2L",
@@ -5358,7 +5668,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8X6TVW9ZW8",
@@ -5376,8 +5687,9 @@
         "Role playing",
         "Fighting"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NH0MSG29X6L",
@@ -5396,7 +5708,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P0RGJND5SR0",
@@ -5415,7 +5728,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZNS9NZ97PF",
@@ -5433,7 +5747,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJC29JG70LM",
@@ -5451,7 +5766,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJBKF27C16M",
@@ -5469,7 +5785,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8XJRLCLH2P",
@@ -5486,7 +5803,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N7271QN4SGB",
@@ -5503,7 +5821,8 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P0073G9FW5Z",
@@ -5521,7 +5840,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P88K6NQW12H",
@@ -5539,7 +5859,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PG8TV30NN9H",
@@ -5557,7 +5878,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NDJLXD2X2DM",
@@ -5574,7 +5896,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8SQQJ5T94B",
@@ -5593,7 +5916,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PP9PFSCJTWR",
@@ -5610,7 +5934,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NFKCJNBR34N",
@@ -5627,7 +5952,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRZZLBF5T245",
@@ -5644,7 +5970,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMBJQ0265ZK",
@@ -5662,7 +5989,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PP837L3Q75D",
@@ -5680,7 +6008,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NC781DK18GN",
@@ -5698,7 +6027,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8H220G3S4P",
@@ -5716,7 +6046,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZN3SMXN824",
@@ -5734,7 +6065,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PB3GGBSG27C",
@@ -5751,7 +6083,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PC1KTWW5PB5",
@@ -5768,7 +6101,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N732VFPMWKT",
@@ -5785,7 +6119,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7SL78VHVMF",
@@ -5802,7 +6137,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PN0LC4CNLPT",
@@ -5819,7 +6155,8 @@
         "Multi-player Online Battle Arena"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N3LGKGF3CC2",
@@ -5837,7 +6174,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N51FH42VQDS",
@@ -5854,7 +6192,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N7358JZPX1Z",
@@ -5868,7 +6207,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PGFSLP8GWQK",
@@ -5887,7 +6227,8 @@
         "Classics"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQVQTL3PCH05",
@@ -5905,8 +6246,9 @@
         "Role playing",
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PMX3SK2RMG4",
@@ -5925,7 +6267,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NRCM30L6GRQ",
@@ -5943,7 +6286,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BW85KQB8Q31M",
@@ -5960,7 +6304,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8CD0XZKLP4",
@@ -5978,7 +6323,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PFWZMT737GG",
@@ -5996,7 +6342,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BVJLKDG2TX8H",
@@ -6013,7 +6360,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MT5KSV3RCWD",
@@ -6032,7 +6380,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PNKG0WBL61W",
@@ -6051,7 +6400,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKV34XDW014",
@@ -6068,8 +6418,9 @@
         "Action & adventure",
         "Role playing"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJRQHMCFQGS",
@@ -6089,7 +6440,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BNCZHKWRZ7BR",
@@ -6105,7 +6457,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NX6K9HN4F4K",
@@ -6122,7 +6475,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0SWGV4560W1",
@@ -6139,7 +6493,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZF7N4FQWHNR",
@@ -6156,7 +6511,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NZDHXL9SJJ8",
@@ -6173,7 +6529,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1P5Q3BNM7J",
@@ -6193,7 +6550,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NRHQLZX3900",
@@ -6212,7 +6570,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJD2KMX7TZ6",
@@ -6230,7 +6589,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BS34VNW7H61F",
@@ -6247,7 +6607,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PK5WS0HXQKQ",
@@ -6265,7 +6626,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PL89B9HCZ9W",
@@ -6283,7 +6645,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTJ0T8C04ZBV",
@@ -6299,7 +6662,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4HZC7LJG6PX",
@@ -6315,7 +6679,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BNRH7BRC1D02",
@@ -6331,7 +6696,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2HHT3VS7MP",
@@ -6348,7 +6714,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P0NPLQ9P1DB",
@@ -6365,7 +6732,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P45GGDTFNSM",
@@ -6381,8 +6749,9 @@
       "genres": [
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQMVWCMB8P59",
@@ -6399,7 +6768,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P4LSLG7B8CT",
@@ -6413,7 +6783,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C5HHPG1TXDNG",
@@ -6431,7 +6802,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBR2VXT87SJ",
@@ -6449,7 +6821,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1Z43KRNQD4",
@@ -6466,7 +6839,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7L9H478GGV",
@@ -6483,7 +6857,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPNDKQN84N6L",
@@ -6499,7 +6874,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P9446P7D9TZ",
@@ -6516,7 +6892,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLF73SS7M6J",
@@ -6534,7 +6911,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR27BSZ2M3SR",
@@ -6551,7 +6929,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2DCJ95ZXBMS",
@@ -6569,7 +6948,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C26K4DVGR45B",
@@ -6586,7 +6966,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH1Z6FQ",
@@ -6603,7 +6984,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8JRMWRQP4H",
@@ -6621,7 +7003,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P81K2C8RBF4",
@@ -6640,7 +7023,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PPP5344B3LS",
@@ -6659,7 +7043,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N5K7HWXL4Q6",
@@ -6677,8 +7062,9 @@
         "Action & adventure",
         "Multi-player Online Battle Arena"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P9278ZMGQLJ",
@@ -6696,7 +7082,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NV3L234VGXD",
@@ -6715,7 +7102,8 @@
         "Classics"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BWMH951M3G3P",
@@ -6732,7 +7120,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BW3T6SNS15BH",
@@ -6749,7 +7138,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BVFDTJ1XF6CS",
@@ -6766,7 +7156,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MTVJ3HHTQGS",
@@ -6791,7 +7182,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1RPXHWZ1C7",
@@ -6806,7 +7198,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTDRTXBKDBRR",
@@ -6822,7 +7215,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N4J937WLFPZ",
@@ -6840,7 +7234,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PFNXM9G4N83",
@@ -6857,7 +7252,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PKF2LDFPXTN",
@@ -6876,7 +7272,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P47S7NJGWZL",
@@ -6893,7 +7290,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PCJT6TLCGGV",
@@ -6910,7 +7308,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P3PL76N0KWZ",
@@ -6927,7 +7326,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MW79BJVF3QX",
@@ -6943,8 +7343,9 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4F7ZHLN6B2J",
@@ -6958,7 +7359,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQ4M1XWXFKHB",
@@ -6976,7 +7378,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2N57MC619K",
@@ -6993,7 +7396,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N6PHQ93Z451",
@@ -7011,7 +7415,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PKJTP6DTND3",
@@ -7029,7 +7434,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N7V5R3VLMJZ",
@@ -7047,7 +7453,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N0WDPMXNHWN",
@@ -7063,8 +7470,9 @@
       "genres": [
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7PF6ZP3958",
@@ -7082,7 +7490,8 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BNKDKQXMXRR2",
@@ -7098,7 +7507,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3QWNCV55VLL",
@@ -7114,7 +7524,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXF9VWKCD6QW",
@@ -7131,7 +7542,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9C1TB18R3B",
@@ -7150,7 +7562,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NV8W1KJSQLL",
@@ -7166,7 +7579,8 @@
         "Multi-player Online Battle Arena"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PNRSC0J6DT8",
@@ -7181,7 +7595,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8BRH7PGJMJ",
@@ -7201,7 +7616,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N221ZTFGQB0",
@@ -7220,7 +7636,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJCVGS6T30K",
@@ -7237,7 +7654,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4VLMWJWM7BG",
@@ -7254,7 +7672,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0QDQ0KX4HDV",
@@ -7271,7 +7690,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NG5L58FD3X5",
@@ -7290,7 +7710,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMF3KXT4P4G",
@@ -7309,7 +7730,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BWHFZNSL0PB5",
@@ -7325,7 +7747,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C042M8GWKS34",
@@ -7342,7 +7765,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MT19Q3CRMQZ",
@@ -7359,7 +7783,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2CSDTSCBZ0C",
@@ -7376,7 +7801,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PGC82V0DXFS",
@@ -7392,7 +7818,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLHVWSFB0FC",
@@ -7406,7 +7833,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0GWTPD0S8S1",
@@ -7422,7 +7850,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BV9CWVQWNS4P",
@@ -7443,7 +7872,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3D891Z6TNQM",
@@ -7461,8 +7891,9 @@
         "Simulation",
         "Action & adventure"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NCJSXWZTP88",
@@ -7479,7 +7910,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BT3KQ8HLLZ6K",
@@ -7493,7 +7925,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P86LLDCL5CC",
@@ -7515,7 +7948,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NTZH69PZSH0",
@@ -7532,7 +7966,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NT4X7P8B9NB",
@@ -7550,7 +7985,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C5JGRR1LFVW8",
@@ -7568,7 +8004,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C350VBGGCL6P",
@@ -7584,7 +8021,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJPCB188SVG",
@@ -7601,8 +8039,9 @@
         "Action & adventure",
         "Other"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRZHFR5XBLQS",
@@ -7619,7 +8058,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLMGFWCFZ9G",
@@ -7636,7 +8076,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJ67TQQ51Z0",
@@ -7654,7 +8095,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NP6V9LFVJ87",
@@ -7674,7 +8116,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N93V5M3TG4N",
@@ -7693,7 +8136,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N4M72L6KGC8",
@@ -7711,7 +8155,8 @@
         "Multi-player Online Battle Arena"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NRH78B682L8",
@@ -7730,7 +8175,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVR4ZQKNBSB",
@@ -7749,7 +8195,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NR0GCBSLDW4",
@@ -7766,7 +8213,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MWDJRQ1BXTC",
@@ -7783,7 +8231,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLHDB0WLHZ",
@@ -7801,7 +8250,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NNNMBXFFG4W",
@@ -7820,7 +8270,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P43RGDPJ62T",
@@ -7837,7 +8288,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P9GX5D8H9DW",
@@ -7854,7 +8306,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NF83PRZK6K3",
@@ -7868,7 +8321,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P6X0VL8BXZF",
@@ -7887,7 +8341,8 @@
         "Music"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MW1V43D3VZN",
@@ -7907,7 +8362,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTNPS60N3114",
@@ -7926,7 +8382,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NG66K0Z31LH",
@@ -7943,7 +8400,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N0P25WJHM8C",
@@ -7960,7 +8418,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PN3VDFTB5HZ",
@@ -7979,7 +8438,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2B4T86TXLRS",
@@ -7997,7 +8457,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MVN4ND41DD3",
@@ -8016,7 +8477,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PG0PMB5Q0GT",
@@ -8033,7 +8495,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTBWBGKPKS97",
@@ -8049,7 +8512,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PB5JN044BHZ",
@@ -8065,7 +8529,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NTB0ZG811GR",
@@ -8081,7 +8546,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BV05F8VT7JJ4",
@@ -8097,7 +8563,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXVCFBJBNS17",
@@ -8113,7 +8580,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C5K89TFLSV19",
@@ -8129,7 +8597,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQR437K7PQH",
@@ -8146,7 +8615,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRKX5CRMRTC2",
@@ -8160,7 +8630,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQ1W1T1FC14W",
@@ -8177,7 +8648,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2M8HBNVPT1T",
@@ -8194,7 +8666,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C40860J5R2MP",
@@ -8211,7 +8684,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PGD71CMDS0Z",
@@ -8227,7 +8701,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8FBXKMCLWC",
@@ -8245,7 +8720,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P008L2LS87F",
@@ -8263,7 +8739,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C41ZDFQ82M1G",
@@ -8282,7 +8759,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BVTKN6CQ8W5F",
@@ -8299,7 +8777,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P8RMKXRML7D",
@@ -8316,7 +8795,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NM50L0DXX1W",
@@ -8334,7 +8814,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N072VV7MFK7",
@@ -8351,7 +8832,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7M1VCXKQVD",
@@ -8368,7 +8850,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NPGPDCXWJQ7",
@@ -8382,7 +8865,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLFD17M47K3",
@@ -8396,7 +8880,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N7P8GVMF6SS",
@@ -8414,7 +8899,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZZZCHZ26NK",
@@ -8431,7 +8917,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQR7QS0F8SJ3",
@@ -8445,7 +8932,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2XNJC9WK15X",
@@ -8459,7 +8947,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2DQXX0CB42F",
@@ -8475,7 +8964,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BW6B077FCH11",
@@ -8491,7 +8981,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0VQBXFNZ1Q0",
@@ -8505,7 +8996,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C261457LCNMJ",
@@ -8521,7 +9013,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXBJQ1932138",
@@ -8541,7 +9034,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9ND19JDMBS3R",
@@ -8559,7 +9053,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NM6NMBJ7ZK4",
@@ -8576,7 +9071,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3VVNLQQ54F8",
@@ -8593,7 +9089,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2N9CS4FS1QR",
@@ -8610,7 +9107,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PB3RHWXB9MR",
@@ -8624,7 +9122,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXRB4ZH2GJHK",
@@ -8642,7 +9141,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRGPD72KHM3Q",
@@ -8660,7 +9160,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BVQ3V30ZXVT5",
@@ -8678,7 +9179,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N926481VT1Z",
@@ -8692,7 +9194,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQND4NQXFFV2",
@@ -8709,7 +9212,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHTX5QZ035T",
@@ -8727,7 +9231,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PC4RWP34M2D",
@@ -8744,8 +9249,9 @@
         "Fighting",
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NZG72SH3H4W",
@@ -8765,7 +9271,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7TLX79S7N7",
@@ -8782,7 +9289,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3SQQG5Q6Z64",
@@ -8798,7 +9306,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NSFGM8J6MBJ",
@@ -8815,8 +9324,9 @@
         "Racing & flying",
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9FR8CSZP56",
@@ -8830,7 +9340,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0RNBFHQ7X96",
@@ -8846,7 +9357,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NCDMPCPDTQF",
@@ -8864,7 +9376,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BVCRSR6XSDW5",
@@ -8880,7 +9393,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NHMR19TS1M0",
@@ -8898,7 +9412,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPPR6D5C2GLF",
@@ -8914,7 +9429,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BP6V6QZBMFP0",
@@ -8931,7 +9447,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLRT31Z4RWM",
@@ -8948,7 +9465,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NH8K4B707H0",
@@ -8967,7 +9485,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1H8K2V0NNP",
@@ -8987,7 +9506,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQ6Z171XZX8",
@@ -9004,7 +9524,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BNSDHDK45KBR",
@@ -9025,7 +9546,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4VKLMG1HLZW",
@@ -9041,7 +9563,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0X15TR4NP0B",
@@ -9058,7 +9581,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMPVJ7TCFD0",
@@ -9077,7 +9601,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PD5BM2Z8C4L",
@@ -9094,7 +9619,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N5VHX8KMVNV",
@@ -9113,7 +9639,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJ5WV40PD08",
@@ -9130,7 +9657,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSXSL6WBJ0V7",
@@ -9146,7 +9674,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BS1NPTPJGD4G",
@@ -9162,7 +9691,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQMVR9WL9FW",
@@ -9181,7 +9711,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BX1DTCBD1HXJ",
@@ -9198,8 +9729,9 @@
         "Shooter",
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NT3WC6RKBVQ",
@@ -9218,7 +9750,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P30BFHZ1BKN",
@@ -9238,7 +9771,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9PCZWHVP2L",
@@ -9256,7 +9790,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXZWT67JBZJH",
@@ -9275,7 +9810,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NWQ686JB33G",
@@ -9293,7 +9829,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C521HDXRTS7F",
@@ -9312,7 +9849,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQ9T0JF0D3L4",
@@ -9329,7 +9867,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NGH1FK0RJGL",
@@ -9348,7 +9887,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C1WRX8ZD77M9",
@@ -9364,7 +9904,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSXLFN5QQZSC",
@@ -9380,7 +9921,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4DMGRPNSHXG",
@@ -9396,7 +9938,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPR2TBS2KMQJ",
@@ -9412,7 +9955,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NGCFDHR2MV3",
@@ -9430,7 +9974,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N76QGDS5GJR",
@@ -9448,7 +9993,8 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NTFPTBXDDT3",
@@ -9464,7 +10010,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N6VS1BMZ3BW",
@@ -9481,7 +10028,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1ZW5K4S44V",
@@ -9499,7 +10047,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9ND3HTTQ0GKB",
@@ -9518,7 +10067,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9X9PC8V9CP",
@@ -9537,7 +10087,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NS86BQ33SPX",
@@ -9556,8 +10107,9 @@
         "Role playing",
         "Simulation"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSXDD75Q561F",
@@ -9574,7 +10126,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BT9FFLG51VVG",
@@ -9592,7 +10145,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPV4GXTDCNSH",
@@ -9609,7 +10163,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C421ZX7RCG0W",
@@ -9626,7 +10181,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4LLMHFQ1BXQ",
@@ -9643,7 +10199,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C57L9GR0HHB7",
@@ -9660,7 +10217,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N11JM7F5CXK",
@@ -9678,7 +10236,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C1ZT6N30L1WH",
@@ -9698,7 +10257,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLCL2VB2SC0",
@@ -9712,7 +10272,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRJNRZ9N734V",
@@ -9729,7 +10290,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NPRHD8GQKQS",
@@ -9747,7 +10309,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P41GS5W1C6L",
@@ -9764,7 +10327,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N3KQH8183GD",
@@ -9785,7 +10349,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N4X0WFZ2STM",
@@ -9801,7 +10366,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR03N9C6Z9G6",
@@ -9817,7 +10383,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLSCHRN5715",
@@ -9835,7 +10402,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJ06TZX4NMH",
@@ -9852,7 +10420,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BWVBNCMF22ZK",
@@ -9868,7 +10437,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSNZHRCKC13J",
@@ -9884,7 +10454,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C1LM235H6FZ1",
@@ -9900,7 +10471,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4HB1XWT02DK",
@@ -9914,7 +10486,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRN6BHDHB58J",
@@ -9930,7 +10503,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PD5BFNZ4V7K",
@@ -9947,7 +10521,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZKZFMQG2K2K",
@@ -9963,7 +10538,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTXM0C9C3B1S",
@@ -9979,7 +10555,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR7QJW8V9L2S",
@@ -9996,7 +10573,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BTCS0LP052HL",
@@ -10012,7 +10590,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQMQ3K1BLV1T",
@@ -10028,7 +10607,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDPD158GLKD",
@@ -10043,7 +10623,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BV0NSD4NN4V4",
@@ -10059,7 +10640,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NXR6469DM2P",
@@ -10074,7 +10656,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQRB60PW2SDL",
@@ -10090,7 +10673,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BNN7BPDZ6GQB",
@@ -10106,7 +10690,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQBTGDT4P54J",
@@ -10122,7 +10707,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BNKKJL1VRR5P",
@@ -10138,7 +10724,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0X6N5963CTW",
@@ -10154,7 +10741,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4GQQJJSZSZJ",
@@ -10171,7 +10759,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C2R5R5P2DF3C",
@@ -10187,7 +10776,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8117TM8JL3",
@@ -10201,7 +10791,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJGM0T0827V",
@@ -10220,7 +10811,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRPGP6H8P26F",
@@ -10240,7 +10832,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZW2R4STVDNK",
@@ -10256,7 +10849,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRBRQCVTJG2D",
@@ -10273,7 +10867,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQ192SFB694X",
@@ -10290,7 +10885,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BQG162F04T2L",
@@ -10307,7 +10903,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BT5P2X999VH2",
@@ -10327,7 +10924,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BZ910SG8ML8X",
@@ -10343,7 +10941,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BV5N90RDT0SH",
@@ -10359,7 +10958,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0Z1N477W100",
@@ -10375,7 +10975,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C040H652PD98",
@@ -10392,7 +10993,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C43H00X6KZRJ",
@@ -10409,7 +11011,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MVXMVT8ZKWC",
@@ -10427,7 +11030,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQ19C36R0VD",
@@ -10446,7 +11050,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BP96WRTVD7C1",
@@ -10462,7 +11067,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXWJNW4170RM",
@@ -10478,7 +11084,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C355T88BBX1S",
@@ -10494,7 +11101,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C3VM0TMWNZ5M",
@@ -10510,7 +11118,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDGC1Z6ZHTP",
@@ -10527,7 +11136,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C1C4DZJPBC2V",
@@ -10543,7 +11153,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BSCCQL7DZ9KD",
@@ -10559,7 +11170,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR1D9CR82ZM8",
@@ -10577,7 +11189,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BXZ0JDCPRV6C",
@@ -10593,7 +11206,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C22T53SQ7FLM",
@@ -10608,7 +11222,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N2S04LGXXH4",
@@ -10622,7 +11237,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C125W9BG2K0V",
@@ -10638,8 +11254,9 @@
       "genres": [
         "Sports"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4060P46HH4D",
@@ -10655,7 +11272,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BWK0Q0RQMH7V",
@@ -10671,7 +11289,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLRP6PHV6XP",
@@ -10688,7 +11307,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BRXTM276DLPR",
@@ -10704,7 +11324,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C0X2HNVH08FB",
@@ -10720,7 +11341,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BPBV3PCB0X44",
@@ -10739,7 +11361,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C11KKHB5H7QJ",
@@ -10755,7 +11378,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N1NLJK9SKRN",
@@ -10773,7 +11397,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR76VBTV0NK0",
@@ -10789,7 +11414,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "C4SG06H48738",
@@ -10805,7 +11431,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "BR9MPWXFBCRC",
@@ -10822,7 +11449,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NNM7PKZN3JF",
@@ -10840,7 +11468,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N97RC576957",
@@ -10858,7 +11487,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJWTJSVGVLJ",
@@ -10875,7 +11505,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P91FNMH1GG0",
@@ -10890,7 +11521,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N94NCGM1Q2N",
@@ -10906,7 +11538,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N1M64W9XZQ7",
@@ -10923,7 +11556,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MVSRJWZBG9G",
@@ -10939,7 +11573,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1VNX9Z03N5",
@@ -10953,7 +11588,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDDRVKPF6KG",
@@ -10970,7 +11606,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P686C1GJ91L",
@@ -10984,7 +11621,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NXQKPGMHH9G",
@@ -11000,7 +11638,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NN1M88HL5M6",
@@ -11017,7 +11656,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PGMNX4HG2C7",
@@ -11034,7 +11674,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZHXGGM7HDJ",
@@ -11050,7 +11691,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJPZK79N5VG",
@@ -11066,7 +11708,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZ1GSWX2G53",
@@ -11082,7 +11725,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2CHXX6D861",
@@ -11096,7 +11740,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZG3KH0PVZC",
@@ -11114,7 +11759,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NV01PJJLXN2",
@@ -11130,7 +11776,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N74SVVP5FS4",
@@ -11146,7 +11793,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKD0MLJ3Z3X",
@@ -11162,7 +11810,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDNF24PP2V2",
@@ -11176,7 +11825,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJ2SFHNCCRV",
@@ -11190,7 +11840,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N0QFT016SGV",
@@ -11206,7 +11857,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVZ03XT8S2P",
@@ -11220,7 +11872,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHPDGTRVGGL",
@@ -11236,7 +11889,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NTK0V6ZK6T8",
@@ -11250,7 +11904,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N21G14CVS5L",
@@ -11264,7 +11919,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQVDQS2BC10",
@@ -11282,7 +11938,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJRRVNZ8MRJ",
@@ -11302,7 +11959,8 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKFLWWM9CZ1",
@@ -11316,7 +11974,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZZNL8J2MSZ",
@@ -11332,7 +11991,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZ1RZTJTZKB",
@@ -11346,7 +12006,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMPDV49K4TX",
@@ -11363,7 +12024,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7RQ1QFFF8R",
@@ -11377,7 +12039,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NDKFJ6XDX2M",
@@ -11391,7 +12054,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N0SNSC9PK4D",
@@ -11407,7 +12071,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P3QS4LX8BM9",
@@ -11424,7 +12089,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NP1LC5MX609",
@@ -11442,7 +12108,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NWVC7XP3PFD",
@@ -11458,7 +12125,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PGZ346PSLN0",
@@ -11474,7 +12142,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDH7X3J5CZT",
@@ -11491,7 +12160,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7LVXNVQ6K7",
@@ -11505,7 +12175,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLGBZWN65RG",
@@ -11522,7 +12193,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHS0189K408",
@@ -11540,7 +12212,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMW7RJ8FP94",
@@ -11556,7 +12229,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NJ2FD5HJ7SB",
@@ -11573,7 +12247,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKF2SZ630ZH",
@@ -11589,7 +12264,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMS4SFNBGBH",
@@ -11606,7 +12282,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKVX66J0ZSK",
@@ -11623,7 +12300,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N92LSHFZ935",
@@ -11641,7 +12319,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N16SLB6FB96",
@@ -11658,7 +12337,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NPSLX5HNN3H",
@@ -11674,7 +12354,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9DKMNL85XZ",
@@ -11691,7 +12372,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N0H62KZ3BXV",
@@ -11708,7 +12390,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N3NTDPJCD9Z",
@@ -11726,7 +12409,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MW4RJDRSF78",
@@ -11742,7 +12426,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1N07XDL1D4",
@@ -11759,7 +12444,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MVF0PGV94F7",
@@ -11776,7 +12462,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PK09BL31FK1",
@@ -11790,7 +12477,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PC49MD70881",
@@ -11808,7 +12496,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N42CT1J5WGW",
@@ -11824,7 +12513,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1JS86M9SXH",
@@ -11840,7 +12530,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBZ9JF6TFMD",
@@ -11856,7 +12547,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKGNMNK3K3Z",
@@ -11872,7 +12564,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NDV7FRVD7ML",
@@ -11888,7 +12581,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MZR11JRF7BX",
@@ -11904,7 +12598,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NXWKGRHT31F",
@@ -11918,7 +12613,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P5Z088TJQ5S",
@@ -11932,7 +12628,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MVV32Z0JPCL",
@@ -11946,7 +12643,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NWX420Z2NLG",
@@ -11960,7 +12658,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1HX8TFF3VW",
@@ -11974,7 +12673,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NG3KNWZ7RZ7",
@@ -11988,7 +12688,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJ45NJCHSFS",
@@ -12002,7 +12703,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PM709J61828",
@@ -12018,7 +12720,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2PP895LSBJ",
@@ -12037,7 +12740,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PD0Z90216RJ",
@@ -12055,7 +12759,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P82LXD5RH31",
@@ -12069,7 +12774,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH3SHM5",
@@ -12086,7 +12792,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MWGGC7JH35B",
@@ -12104,7 +12811,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDS2N82QNXG",
@@ -12123,7 +12831,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH515BD",
@@ -12138,7 +12847,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH5WLR0",
@@ -12155,7 +12865,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9WZDNCRFHWFH",
@@ -12171,7 +12882,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9WZDNCRFJBFJ",
@@ -12187,7 +12899,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NTM9HXNLSZX",
@@ -12201,7 +12914,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NCLP4LV5K7Z",
@@ -12217,7 +12931,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P5241RBH1SZ",
@@ -12231,7 +12946,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NSB55HX1GGN",
@@ -12245,7 +12961,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2TFCCRKMRD",
@@ -12263,7 +12980,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PBRN7JS4XPC",
@@ -12279,7 +12997,8 @@
         "Multi-player Online Battle Arena"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P57SQHVWND7",
@@ -12295,7 +13014,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NV0Q705NQ2N",
@@ -12309,7 +13029,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N04NS8TP202",
@@ -12324,7 +13045,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P3T7HVKM6D0",
@@ -12340,7 +13062,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NS37Q75LBCG",
@@ -12357,7 +13080,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PB301R051CQ",
@@ -12373,7 +13097,8 @@
         "Multi-player Online Battle Arena"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P9XGNFNF11R",
@@ -12390,7 +13115,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PNG83MDD6SH",
@@ -12408,7 +13134,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PBM67RXX3V8",
@@ -12426,7 +13153,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P5F966564FS",
@@ -12443,7 +13171,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NM8GHT6CXN4",
@@ -12460,7 +13189,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NC9M1NCZ7SD",
@@ -12477,7 +13207,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9WZDNCRFHWCP",
@@ -12495,7 +13226,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9WZDNCRFHWD2",
@@ -12514,7 +13246,8 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NB6BVL3MTG4",
@@ -12528,7 +13261,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NM395CH685J",
@@ -12543,7 +13277,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P5X4QVLC2XR",
@@ -12562,7 +13297,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NXP44L49SHJ",
@@ -12577,7 +13313,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NVH8SJNX20S",
@@ -12591,7 +13328,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MTP0GJ0Q3MG",
@@ -12607,7 +13345,8 @@
         "Card & board"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PBWWQGXVMKC",
@@ -12625,7 +13364,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NDJX252Q5BW",
@@ -12643,7 +13383,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N2FJQC9NTX6",
@@ -12659,7 +13400,8 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PLWSGHFQ4PS",
@@ -12677,7 +13419,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBNFBQ546DT",
@@ -12695,7 +13438,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N4WHFF9HJ7H",
@@ -12712,7 +13456,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH1Z6FB",
@@ -12729,7 +13474,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PGB72NFG5JN",
@@ -12745,7 +13491,8 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P36DQX6W9CS",
@@ -12761,7 +13508,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHGK0538TXM",
@@ -12778,7 +13526,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N8N7NZSVTG3",
@@ -12796,7 +13545,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N1P6T7ZQ2KF",
@@ -12810,7 +13560,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PBC1QFBW563",
@@ -12827,7 +13578,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PDCBPJ8C47K",
@@ -12841,7 +13593,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NCT87FKQ4GM",
@@ -12858,7 +13611,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2JXK37PFLZ",
@@ -12874,7 +13628,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NWNLS28ZG37",
@@ -12890,7 +13645,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH6H0RV",
@@ -12908,7 +13664,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJLNG7448C6",
@@ -12924,7 +13681,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2J7WHV0K4N",
@@ -12941,7 +13699,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQ4M2DG11L0",
@@ -12958,7 +13717,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7T44TTDL7M",
@@ -12975,7 +13735,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH4SPK6",
@@ -12991,7 +13752,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N1WT4X26SHW",
@@ -13007,7 +13769,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NZ4T5RFD7KF",
@@ -13021,7 +13784,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NS84HCWZD8B",
@@ -13038,7 +13802,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PPH71DV44T7",
@@ -13056,7 +13821,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NF0RBL8SZL6",
@@ -13074,7 +13840,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NMCRMS6WN78",
@@ -13092,7 +13859,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NK2DT3K7DTF",
@@ -13110,7 +13878,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PG0S835V6J5",
@@ -13124,7 +13893,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NP6WL1XQDBW",
@@ -13140,7 +13910,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQ26CN8MZ1R",
@@ -13156,7 +13927,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PJNXM82ZX47",
@@ -13170,7 +13942,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLD3ZRWF8DT",
@@ -13187,7 +13960,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1P7DWHBDBD",
@@ -13201,7 +13975,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PB7921QZ087",
@@ -13217,7 +13992,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N2GWLMCHJTN",
@@ -13233,7 +14009,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MWR1NC6VQ6L",
@@ -13251,8 +14028,9 @@
         "Simulation",
         "Strategy"
       ],
-      "indie": false,
-      "leavingSoon": false
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PL427M642BV",
@@ -13268,7 +14046,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2RT7TNT37T",
@@ -13282,7 +14061,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NNLBL0T2Z43",
@@ -13300,7 +14080,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N464X6CT772",
@@ -13316,7 +14097,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PN8M16GG8M4",
@@ -13333,7 +14115,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NC4PV16GVT1",
@@ -13347,7 +14130,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NP6CV98V8M7",
@@ -13361,7 +14145,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PFXKRLVWJ0B",
@@ -13377,7 +14162,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PP7XSG5LDH1",
@@ -13393,7 +14179,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P2J5D12GJL5",
@@ -13409,7 +14196,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P03JGQ4S1GC",
@@ -13425,7 +14213,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MX8R81JW1B5",
@@ -13442,7 +14231,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NT0NT8JQMQN",
@@ -13459,7 +14249,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NFKN56ZBMR0",
@@ -13477,7 +14268,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NG2F1Q062VV",
@@ -13495,7 +14287,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1WJCK9B8S6",
@@ -13511,7 +14304,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N10HHMXFFC5",
@@ -13527,7 +14321,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NQV7C0G1040",
@@ -13548,7 +14343,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PKJ0532DTCW",
@@ -13562,7 +14358,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NCZ8W65H33V",
@@ -13576,7 +14373,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NDJPHS21XXG",
@@ -13592,7 +14390,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P85NL6T3DHP",
@@ -13606,7 +14405,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P0G4TBCCS7J",
@@ -13620,7 +14420,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHR6KG3D1RQ",
@@ -13634,7 +14435,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NC0071DJ6XC",
@@ -13650,7 +14452,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N2SB04LKPFP",
@@ -13666,7 +14469,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P1VK0ZCQGND",
@@ -13682,7 +14486,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PG0ZSTFBL1T",
@@ -13698,7 +14503,8 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N3F9256SF8K",
@@ -13714,7 +14520,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NWS5S7ZGD9T",
@@ -13734,7 +14541,8 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9GCWL14F1N",
@@ -13750,7 +14558,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NKCCHCFTHV2",
@@ -13767,7 +14576,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N9K5QP9G3GL",
@@ -13785,7 +14595,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PK7TLLPD7GV",
@@ -13801,7 +14612,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NM7J25GMDHP",
@@ -13817,7 +14629,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NWB9PL1L2PQ",
@@ -13833,7 +14646,8 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLT5XR52ZS7",
@@ -13850,7 +14664,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9MXG725MBV3N",
@@ -13864,7 +14679,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLFKBTNP2VJ",
@@ -13878,7 +14694,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P76M1N37K6K",
@@ -13894,7 +14711,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NBLGGH5342P",
@@ -13911,7 +14729,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P7Z1D3N8KR7",
@@ -13927,7 +14746,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NDBKK9G0FHL",
@@ -13941,7 +14761,8 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9P75CBJ9WT9W",
@@ -13958,7 +14779,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PBB4QHMSDKR",
@@ -13975,7 +14797,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9PHFTS44F99K",
@@ -13992,7 +14815,8 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NK9K07FDPJV",
@@ -14010,7 +14834,8 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NG06CSMM97P",
@@ -14028,7 +14853,8 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9N6WN0ZHZQ6W",
@@ -14046,7 +14872,8 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     },
     {
       "id": "9NLZH0VNVSKR",
@@ -14062,7 +14889,8 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false
+      "leavingSoon": false,
+      "status": "active"
     }
   ]
 }
