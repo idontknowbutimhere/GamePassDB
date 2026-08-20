@@ -11,11 +11,39 @@ const URL = 'https://www.xbox.com/en-CA/xbox-game-pass/games';
   });
 
   await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 120000 });
-  await page.waitForTimeout(10000);
+  await page.waitForTimeout(8000);
 
-  // The Xbox catalog is dynamically rendered. This first version records
-  // the visible game links and cover images so we can verify the selectors
-  // against the live Microsoft page before adding metadata matching.
+  // Xbox lazy-loads the catalog. Keep scrolling so additional game cards
+  // are rendered instead of only collecting the first visible batch.
+  let lastCount = 0;
+  let unchangedRounds = 0;
+
+  for (let round = 0; round < 40 && unchangedRounds < 5; round++) {
+    const count = await page.locator('a[href*="/games/store/"]').count();
+
+    if (count === lastCount) unchangedRounds++;
+    else unchangedRounds = 0;
+    lastCount = count;
+
+    // Some versions of the page expose a Load more / Show more control.
+    const buttons = page.getByRole('button');
+    const buttonCount = await buttons.count();
+    for (let i = 0; i < buttonCount; i++) {
+      const button = buttons.nth(i);
+      const text = (await button.innerText().catch(() => '')).trim().toLowerCase();
+      if (/^(load|show) more$/.test(text)) {
+        await button.click().catch(() => {});
+        await page.waitForTimeout(1500);
+      }
+    }
+
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+    await page.waitForTimeout(1800);
+  }
+
+  // Give the final lazy-loaded batch a moment to finish.
+  await page.waitForTimeout(3000);
+
   const games = await page.evaluate(() => {
     const results = [];
     const seen = new Set();
@@ -49,6 +77,10 @@ const URL = 'https://www.xbox.com/en-CA/xbox-game-pass/games';
 
   if (!games.length) {
     throw new Error('No Game Pass game cards were detected on the Microsoft catalog page. Refusing to overwrite games.json.');
+  }
+
+  if (games.length < 60) {
+    throw new Error(`Only detected ${games.length} games after exhausting lazy-loaded content. Refusing to overwrite games.json because the catalog is probably incomplete.`);
   }
 
   const output = {
