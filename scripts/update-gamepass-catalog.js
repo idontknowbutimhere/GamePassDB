@@ -1,94 +1,127 @@
-const { chromium } = require('playwright');
 const fs = require('fs');
 
-const URL = 'https://www.xbox.com/en-CA/xbox-game-pass/games';
+const MARKET = 'CA';
+const LANGUAGE = 'en-ca';
+const SIGL = {
+  all: '29a81209-df6f-41fd-a528-2ae6b91f719c',
+  console: 'f6f1f99f-9b49-4ccd-b3bf-4d9767a77f5e',
+  pc: 'fdd9e2a7-0fee-49f6-ad69-4354098401ff'
+};
+const SIGL_URL = 'https://catalog.gamepass.com/sigls/v2';
+const PRODUCT_URL = 'https://displaycatalog.mp.microsoft.com/v7.0/products';
+
+async function getJson(url) {
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const response = await fetch(url, { headers: { 'User-Agent': 'GamePassDB/1.0' } });
+      if (response.ok) return response.json();
+      if (attempt === 3) throw new Error(`${response.status} ${response.statusText}`);
+    } catch (error) {
+      if (attempt === 3) throw error;
+      await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+    }
+  }
+}
+
+async function getSiglIds(id) {
+  const url = `${SIGL_URL}?id=${id}&language=${LANGUAGE}&market=${MARKET}`;
+  const data = await getJson(url);
+  return [...new Set((Array.isArray(data) ? data : []).map(x => x.id).filter(Boolean))];
+}
+
+function chooseCover(images = []) {
+  const poster = images.find(x => x.ImagePurpose === 'Poster');
+  const portrait = images.find(x => x.Height > x.Width && x.Uri);
+  const fallback = images.find(x => x.Uri);
+  return (poster || portrait || fallback)?.Uri?.replace(/^http:/, 'https:') || '';
+}
+
+function extractGenres(product, localized) {
+  const candidates = [
+    ...(product.Categories || []),
+    ...(product.Properties?.Categories || []),
+    ...(localized.Categories || [])
+  ];
+  return [...new Set(candidates.map(x => typeof x === 'string' ? x : x.Name || x.CategoryName).filter(Boolean))];
+}
+
+function extractPlatforms(product, localized) {
+  const text = JSON.stringify({ product, localized }).toLowerCase();
+  const platforms = [];
+  if (text.includes('windows') || text.includes('pc')) platforms.push('PC');
+  if (text.includes('xbox series') || text.includes('xbox one') || text.includes('xbox')) platforms.push('Xbox');
+  if (text.includes('cloud')) platforms.push('Cloud');
+  return [...new Set(platforms)];
+}
 
 (async () => {
-  const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage({
-    locale: 'en-CA',
-    viewport: { width: 1440, height: 1000 }
-  });
+  console.log(`Fetching Microsoft Game Pass catalog for ${MARKET}/${LANGUAGE}...`);
 
-  await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 120000 });
-  await page.waitForTimeout(8000);
-
-  // Xbox lazy-loads the catalog. Keep scrolling so additional game cards
-  // are rendered instead of only collecting the first visible batch.
-  let lastCount = 0;
-  let unchangedRounds = 0;
-
-  for (let round = 0; round < 40 && unchangedRounds < 5; round++) {
-    const count = await page.locator('a[href*="/games/store/"]').count();
-
-    if (count === lastCount) unchangedRounds++;
-    else unchangedRounds = 0;
-    lastCount = count;
-
-    // Some versions of the page expose a Load more / Show more control.
-    const buttons = page.getByRole('button');
-    const buttonCount = await buttons.count();
-    for (let i = 0; i < buttonCount; i++) {
-      const button = buttons.nth(i);
-      const text = (await button.innerText().catch(() => '')).trim().toLowerCase();
-      if (/^(load|show) more$/.test(text)) {
-        await button.click().catch(() => {});
-        await page.waitForTimeout(1500);
-      }
-    }
-
-    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-    await page.waitForTimeout(1800);
+  const lists = {};
+  for (const [name, id] of Object.entries(SIGL)) {
+    lists[name] = await getSiglIds(id);
+    console.log(`${name}: ${lists[name].length} product IDs`);
   }
 
-  // Give the final lazy-loaded batch a moment to finish.
-  await page.waitForTimeout(3000);
-
-  const games = await page.evaluate(() => {
-    const results = [];
-    const seen = new Set();
-
-    for (const link of document.querySelectorAll('a[href]')) {
-      const href = link.href;
-      const img = link.querySelector('img');
-      const title = (img?.alt || link.textContent || '').replace(/\s+/g, ' ').trim();
-
-      if (!title || !img || !href.includes('/games/store/')) continue;
-      if (seen.has(href)) continue;
-      seen.add(href);
-
-      results.push({
-        id: href.split('/').pop(),
-        title,
-        cover: img.currentSrc || img.src || '',
-        sourceUrl: href,
-        tiers: [],
-        platforms: [],
-        genres: [],
-        indie: false,
-        leavingSoon: false
-      });
-    }
-
-    return results;
-  });
-
-  await browser.close();
-
-  if (!games.length) {
-    throw new Error('No Game Pass game cards were detected on the Microsoft catalog page. Refusing to overwrite games.json.');
+  const allIds = [...new Set([...lists.all, ...lists.console, ...lists.pc])];
+  if (allIds.length < 100) {
+    throw new Error(`Only ${allIds.length} product IDs returned. Refusing to overwrite games.json.`);
   }
 
-  if (games.length < 60) {
-    throw new Error(`Only detected ${games.length} games after exhausting lazy-loaded content. Refusing to overwrite games.json because the catalog is probably incomplete.`);
+  const consoleIds = new Set(lists.console);
+  const pcIds = new Set(lists.pc);
+  const products = [];
+  const chunkSize = 20;
+
+  for (let i = 0; i < allIds.length; i += chunkSize) {
+    const chunk = allIds.slice(i, i + chunkSize);
+    const params = new URLSearchParams({
+      bigIds: chunk.join(','),
+      market: MARKET,
+      languages: LANGUAGE,
+      'MS-CV': 'GamePassDB.1'
+    });
+    const data = await getJson(`${PRODUCT_URL}?${params}`);
+    products.push(...(data.Products || []));
+    console.log(`Products: ${Math.min(i + chunkSize, allIds.length)}/${allIds.length}`);
+  }
+
+  const games = products.map(product => {
+    const localized = product.LocalizedProperties?.[0] || {};
+    const id = product.BigId || product.ProductId || product.Id;
+    const title = localized.ProductTitle || localized.Title;
+    const images = localized.Images || [];
+    const platforms = extractPlatforms(product, localized);
+    if (id && consoleIds.has(id) && !platforms.includes('Xbox')) platforms.push('Xbox');
+    if (id && pcIds.has(id) && !platforms.includes('PC')) platforms.push('PC');
+
+    return {
+      id,
+      title,
+      cover: chooseCover(images),
+      sourceUrl: `https://www.xbox.com/en-CA/games/store/-/${id}`,
+      tiers: [],
+      platforms,
+      genres: extractGenres(product, localized),
+      indie: extractGenres(product, localized).some(g => g.toLowerCase() === 'indie'),
+      leavingSoon: false
+    };
+  }).filter(game => game.id && game.title);
+
+  const unique = [...new Map(games.map(game => [game.id, game])).values()];
+
+  if (unique.length < 100) {
+    throw new Error(`Only ${unique.length} complete products were returned from ${allIds.length} IDs. Refusing to overwrite games.json.`);
   }
 
   const output = {
     updatedAt: new Date().toISOString(),
-    source: URL,
-    games
+    source: 'Microsoft Xbox Game Pass catalog APIs',
+    market: MARKET,
+    language: LANGUAGE,
+    games: unique
   };
 
   fs.writeFileSync('games.json', JSON.stringify(output, null, 2) + '\n');
-  console.log(`Detected ${games.length} Xbox Game Pass games.`);
+  console.log(`Successfully wrote ${unique.length} Game Pass games.`);
 })();
