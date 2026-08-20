@@ -1,0 +1,31 @@
+name: Layout fix
+on:
+  push:
+    paths:
+      - '.github/workflows/layout-fix.yml'
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Put both rating lists on the left and reserve the right for ads
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text()
+          s = s.replace('.layout{display:grid;grid-template-columns:minmax(0,1fr) 620px;gap:24px}', '.layout{display:grid;grid-template-columns:620px minmax(0,1fr) 300px;gap:24px;align-items:start}')
+          s = s.replace('.rankings{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:start}', '.rankings{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:start;grid-column:1}')
+          s = s.replace('</main><div id="siteStats"', '<aside class="ad-space" aria-label="Advertisement"><div class="ad-placeholder">Ad space</div></aside></main><div id="siteStats"')
+          s = s.replace('main{max-width:1400px;margin:auto;padding:10px 24px 40px}', 'main{max-width:1400px;margin:auto;padding:10px 24px 40px;position:relative}.ad-space{grid-column:3;grid-row:1;min-height:250px}.ad-placeholder{border:1px dashed #333943;border-radius:10px;min-height:250px;display:flex;align-items:center;justify-content:center;color:#666d78;font-size:11px;text-transform:uppercase;letter-spacing:.08em}')
+          s = s.replace('@media(max-width:1050px){.layout{grid-template-columns:1fr}.rankings{grid-template-columns:1fr 1fr}}', '@media(max-width:1050px){.layout{grid-template-columns:1fr}.rankings{grid-column:1;grid-template-columns:1fr 1fr}.ad-space{grid-column:1;grid-row:auto;min-height:100px}.ad-placeholder{min-height:100px}}')
+          p.write_text(s)
+      - name: Commit layout
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add index.html
+          git diff --cached --quiet || git commit -m "Move both top 10 lists left and reserve ad space"
+          git push
