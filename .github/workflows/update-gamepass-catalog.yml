@@ -3,15 +3,22 @@ name: Update Game Pass catalog
 on:
   workflow_dispatch:
   schedule:
-    # Friday 00:00 UTC. We will adjust this once the catalog update timezone is confirmed.
-    - cron: '0 0 * * 5'
+    # Primary run: Friday 00:05 UTC.
+    - cron: '5 0 * * 5'
+    # Safety retry: Friday 01:00 UTC if the primary run was delayed or failed.
+    - cron: '0 1 * * 5'
 
 permissions:
   contents: write
 
+concurrency:
+  group: gamepass-catalog-update
+  cancel-in-progress: false
+
 jobs:
   update-catalog:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -28,6 +35,10 @@ jobs:
 
       - name: Read Xbox Game Pass catalog
         run: node scripts/update-gamepass-catalog.js
+
+      - name: Validate generated catalog
+        run: |
+          node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('games.json','utf8')); if(!Array.isArray(d.games)||d.games.length<100) { throw new Error('Refusing to publish an empty/incomplete catalog: '+(d.games?.length||0)+' games'); } console.log('Validated '+d.games.length+' games.');"
 
       - name: Commit catalog changes
         run: |
