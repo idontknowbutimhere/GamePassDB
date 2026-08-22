@@ -1,94 +1,109 @@
 const fs = require('fs');
 
-const CATALOG_URL = 'https://raw.githubusercontent.com/Austrum-lab/steam-appdb/master/data/game.json';
-const STEAMSPY_URL = 'https://steamspy.com/api.php';
-const BATCH_DELAY_MS = 350;
+const SOURCE_URL = 'https://raw.githubusercontent.com/Austrum-lab/steam-appdb/master/data/game.json';
 
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-function cleanTitle(title) {
-  return title
-    .replace(/[\u2010\u2011\u2012\u2013\u2014\u2212]/g, '-')
-    .replace(/\s*[\u2022\u00b7]\s*/g, ' - ')
-    .replace(/[\u00a0\u2000-\u200b]/g, ' ')
+function cleanTitle(value) {
+  return value
+    .normalize('NFKC')
+    // Replace Unicode dash variants and underscores with spaces.
+    .replace(/[\u2010-\u2015\u2212\uFE58\uFE63\uFF0D_]+/g, ' ')
+    // Remove other control/format characters and most symbol noise.
+    .replace(/[\u0000-\u001F\u007F-\u009F\u200B-\u200F\u202A-\u202E\u2060-\u206F\uFEFF]/g, '')
+    // Convert common separators to spaces.
+    .replace(/[|¦]+/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-async function getJson(url, attempt = 1) {
-  const res = await fetch(url, { headers: { 'User-Agent': 'GamePassDB SteamDB updater/1.0' } });
-  if (!res.ok) {
-    if (attempt < 4 && (res.status === 429 || res.status >= 500)) {
-      await sleep(attempt * 2000);
-      return getJson(url, attempt + 1);
-    }
-    throw new Error(`HTTP ${res.status} from ${url}`);
-  }
-  return res.json();
-}
-
-async function getSteamSpyPage(page) {
-  return getJson(`${STEAMSPY_URL}?request=all&page=${page}`);
-}
-
 async function main() {
   console.log('Downloading Steam game catalogue from steam-appdb...');
-  const catalog = await getJson(CATALOG_URL);
 
-  if (!Array.isArray(catalog)) throw new Error('steam-appdb returned an unexpected format.');
+  const res = await fetch(SOURCE_URL, {
+    headers: { 'User-Agent': 'GamePassDB SteamDB catalog updater/1.0' }
+  });
 
-  const games = new Map();
-  for (const app of catalog) {
-    const id = Number(app.appid);
-    const title = typeof app.name === 'string' ? cleanTitle(app.name) : '';
-    if (Number.isInteger(id) && id > 0 && title) games.set(id, { id, title, popularity: 0, owners: 0, players: 0 });
+  if (!res.ok) {
+    throw new Error(`steam-appdb returned HTTP ${res.status}`);
   }
 
-  if (games.size < 1000) throw new Error(`Safety check failed: only ${games.size} games received.`);
-  console.log(`Loaded ${games.size} games. Fetching public SteamSpy popularity data...`);
+  const data = await res.json();
+  if (!Array.isArray(data)) {
+    throw new Error('steam-appdb returned an unexpected format; expected an array.');
+  }
 
-  // SteamSpy publishes public popularity/ownership data in pages of roughly 1000 apps.
-  // We use it as the ranking signal while retaining every game from steam-appdb.
-  for (let page = 0; ; page++) {
-    console.log(`Fetching popularity page ${page}...`);
-    const data = await getSteamSpyPage(page);
-    const entries = Object.values(data || {});
-    if (!entries.length) break;
-
-    for (const app of entries) {
-      const id = Number(app.appid);
-      const game = games.get(id);
-      if (!game) continue;
-
-      const owners = Number(String(app.owners || '0').replace(/[^0-9]/g, '')) || 0;
-      const players = Number(app.ccu) || 0;
-      const reviews = Number(app.positive) + Number(app.negative) || 0;
-
-      // Current players are the strongest signal; estimated ownership and review
-      // volume provide stable fallback signals for games with little live traffic.
-      game.players = players;
-      game.owners = owners;
-      game.popularity = players * 1000000 + owners + reviews * 100;
-    }
-
-    if (entries.length < 900) break;
-    await sleep(BATCH_DELAY_MS);
+  const games = new Map();
+  for (const app of data) {
+    const id = Number(app.appid);
+    const title = typeof app.name === 'string' ? cleanTitle(app.name) : '';
+    if (Number.isInteger(id) && id > 0 && title) games.set(id, { id, title });
   }
 
   const apps = [...games.values()];
-  apps.sort((a, b) => b.popularity - a.popularity || a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }));
+  if (apps.length < 1000) {
+    throw new Error(`Safety check failed: only ${apps.length} games were received.`);
+  }
 
-  // Keep the popularity fields so the website can explain/display the ranking.
+  // Popularity is obtained from SteamSpy's public, keyless endpoint in batches.
+  // SteamSpy does not cover every Steam title, so unknown titles stay in the
+  // catalogue with popularityScore 0 and appear after ranked titles.
+  const STEAMSPY_URL = 'https://steamspy.com/api.php?request=appdetails&appid=';
+  const BATCH_SIZE = 50;
+  const DELAY_MS = 1000;
+
+  async function getPopularity(id) {
+    try {
+      const r = await fetch(`${STEAMSPY_URL}${id}`, {
+        headers: { 'User-Agent': 'GamePassDB SteamDB popularity updater/1.0' }
+      });
+      if (!r.ok) return null;
+      const d = await r.json();
+      if (!d || d.success === false) return null;
+
+      const owners = Number(String(d.owners || '0').replace(/[^0-9]/g, '')) || 0;
+      const positive = Number(d.positive) || 0;
+      const negative = Number(d.negative) || 0;
+      const players = Number(d.players_forever) || 0;
+      const rating = positive + negative > 0 ? positive / (positive + negative) : 0;
+
+      // Stable popularity score: owners are the strongest signal, with
+      // reviews/current lifetime players providing additional separation.
+      return Math.round(owners * 10 + players * 25 + (positive + negative) * 100 * rating);
+    } catch {
+      return null;
+    }
+  }
+
+  console.log(`Ranking ${apps.length} games by public SteamSpy popularity data...`);
+  let ranked = 0;
+
+  for (let i = 0; i < apps.length; i += BATCH_SIZE) {
+    const batch = apps.slice(i, i + BATCH_SIZE);
+    const results = await Promise.all(batch.map(async game => ({ game, score: await getPopularity(game.id) })));
+
+    for (const { game, score } of results) {
+      game.popularityScore = score ?? 0;
+      if (score !== null) ranked++;
+    }
+
+    console.log(`Popularity: ${Math.min(i + BATCH_SIZE, apps.length)}/${apps.length} (${ranked} ranked)`);
+    if (i + BATCH_SIZE < apps.length) await new Promise(resolve => setTimeout(resolve, DELAY_MS));
+  }
+
+  apps.sort((a, b) => {
+    if (b.popularityScore !== a.popularityScore) return b.popularityScore - a.popularityScore;
+    return a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
+  });
+
   const output = {
     updatedAt: new Date().toISOString(),
     source: 'Austrum-lab/steam-appdb + SteamSpy public popularity data',
-    popularity: 'current players > estimated owners > review volume',
     count: apps.length,
+    rankedCount: ranked,
     games: apps
   };
 
   fs.writeFileSync('steam/games.json', JSON.stringify(output));
-  console.log(`Wrote ${apps.length} Steam games, ranked by popularity.`);
+  console.log(`Wrote ${apps.length} Steam games to steam/games.json; ${ranked} received popularity data.`);
 }
 
 main().catch(err => {
