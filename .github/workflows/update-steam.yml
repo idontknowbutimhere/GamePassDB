@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'steam/update-steam.js'
+      - 'steam/update-rankings.js'
       - '.github/workflows/update-steam.yml'
   schedule:
     - cron: '17 4 * * *'
@@ -20,12 +21,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Fetch Steam app list
+      - name: Fetch Steam catalog
         run: node steam/update-steam.js
-      - name: Commit catalog if changed
+      - name: Generate rankings
+        run: node steam/update-rankings.js
+      - name: Commit catalog and rankings if changed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add steam/games.json
-          git diff --cached --quiet || git commit -m 'Update Steam catalog'
+          git add steam/games.json steam/rankings.json steam/rankings/history
+          git diff --cached --quiet || git commit -m 'Update Steam catalog and rankings'
           git push
