@@ -1,0 +1,37 @@
+name: Fix GamePassDB layout
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  fix-layout:
+    if: github.event.head_commit.message != 'Fix GamePassDB layout'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply layout
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text()
+          old = '.layout{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:20px}'
+          new = '.layout{display:grid;grid-template-columns:260px minmax(0,1fr) 270px;gap:20px}.side{grid-column:1;grid-row:1;display:grid;grid-template-columns:1fr;align-content:start}.side .panel:nth-child(3){display:none}.side .panel:nth-child(4){grid-column:3;grid-row:1;position:fixed;right:24px;top:140px;width:270px}.layout>section{grid-column:2;grid-row:1}'
+          if old not in s:
+              raise SystemExit('Expected layout CSS not found; refusing to modify file')
+          s = s.replace(old, new, 1)
+          old_media = '@media(max-width:850px){.layout{grid-template-columns:1fr}.side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}'
+          new_media = '@media(max-width:1100px){.layout{grid-template-columns:220px minmax(0,1fr)}.side .panel:nth-child(4){display:none}.side .panel:nth-child(1),.side .panel:nth-child(2){grid-column:1;position:static;width:auto}.layout>section{grid-column:2}}@media(max-width:850px){.layout{grid-template-columns:1fr}.side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.layout>section{grid-column:1}.side .panel:nth-child(1),.side .panel:nth-child(2){grid-column:auto}.side .panel:nth-child(4){display:block;position:static;width:auto;grid-column:1 / -1}'
+          if old_media not in s:
+              raise SystemExit('Expected responsive CSS not found; refusing to modify file')
+          s = s.replace(old_media, new_media, 1)
+          p.write_text(s)
+          PY
+      - name: Commit layout fix
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html
+          git commit -m 'Fix GamePassDB layout' || exit 0
+          git push
