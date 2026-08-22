@@ -2,6 +2,10 @@ name: Update Steam catalog
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'steam/update-steam.js'
+      - '.github/workflows/update-steam.yml'
   schedule:
     - cron: '17 4 * * *'
 
