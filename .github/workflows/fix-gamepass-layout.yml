@@ -1,0 +1,54 @@
+name: Verify GamePass Layout
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'gamepass/index.html'
+
+permissions:
+  contents: write
+
+jobs:
+  verify-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify and repair layout safely
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('gamepass/index.html')
+          text = path.read_text(encoding='utf-8')
+
+          expected = 'grid-template-columns:260px minmax(0,1fr) 270px'
+          legacy = 'grid-template-columns:minmax(0,1fr) 270px'
+
+          if expected in text:
+              print('GamePass layout already has the correct 3-column structure.')
+              raise SystemExit(0)
+
+          if legacy in text:
+              text = text.replace(legacy, expected, 1)
+              path.write_text(text, encoding='utf-8')
+              print('Repaired legacy GamePass layout to 3 columns.')
+              raise SystemExit(0)
+
+          print('No legacy layout found; leaving the file untouched.')
+          raise SystemExit(0)
+          PY
+
+      - name: Commit repair if needed
+        run: |
+          if git diff --quiet -- gamepass/index.html; then
+            echo 'No layout changes needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add gamepass/index.html
+          git commit -m 'Fix GamePass catalog layout'
+          git push
