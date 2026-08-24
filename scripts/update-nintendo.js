@@ -1,17 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
-// Nintendo's public North American store exposes multiple Algolia indexes.
-// ncom_game_* is a smaller game-focused index; store_all_products_* is the
-// broader public digital-store catalog and is the preferred source here.
-const ALGOLIA_APP_ID = 'U3B6GR4UA3';
-const ALGOLIA_KEY = 'c4da8be7fd29f0f5bfa42920b0a99dc7';
-const ALGOLIA_HOST = `https://${ALGOLIA_APP_ID.toLowerCase()}-dsn.algolia.net/1/indexes/*/queries`;
-const INDEXES = ['store_all_products_en_ca', 'ncom_game_en_ca', 'store_all_products_en_us', 'ncom_game_en_us'];
+// Nintendo's public Algolia endpoint now rejects server-side requests (403).
+// Use the public TitleDB mirror instead. Nlib documents TitleDB as its source
+// for Switch metadata, and TitleDB publishes a Canadian CA.en.json catalog.
+const CATALOG_URLS = [
+  'https://raw.githubusercontent.com/blawar/titledb/master/CA.en.json',
+  'https://raw.githubusercontent.com/blawar/titledb/master/US.en.json'
+];
 const PRICE_URL = 'https://api.ec.nintendo.com/v1/price';
 const OUTPUT = path.join(__dirname, '..', 'nintendo', 'games.json');
 const MIN_GAMES = 1000;
-const PAGE_SIZE = 1000;
 
 async function jsonFetch(url, options = {}) {
   const res = await fetch(url, options);
@@ -24,7 +23,13 @@ function first(...values) {
 }
 
 function asArray(value) {
-  if (Array.isArray(value)) return value.flatMap(v => typeof v === 'string' ? [v] : (v?.name ? [v.name] : [])).filter(Boolean);
+  if (Array.isArray(value)) {
+    return value.flatMap(v => {
+      if (typeof v === 'string') return [v];
+      if (v && typeof v === 'object') return [first(v.name, v.title, v.label)].filter(Boolean);
+      return [];
+    }).filter(Boolean);
+  }
   if (typeof value === 'string') return value.split(/[,|]/).map(s => s.trim()).filter(Boolean);
   return [];
 }
@@ -35,135 +40,128 @@ function normalizeBool(value) {
   return ['true', '1', 'yes', 'y'].includes(String(value).trim().toLowerCase());
 }
 
-function normalizeHit(hit) {
-  const id = String(first(hit.nsuid, hit.nsuid_txt?.[0], hit.title_id, hit.titleId, hit.id, '') || '');
-  const title = String(first(hit.title, hit.name, hit.formal_name, hit.title_name, 'Untitled') || 'Untitled').trim();
-  const genres = asArray(first(hit.genres, hit.categories?.category, hit.game_categories_txt, hit.game_category, hit.genre));
-  const platform = String(first(hit.system, hit.platform, hit.system_name, hit.platform_name, 'Nintendo Switch') || 'Nintendo Switch');
-  const description = String(first(hit.description, hit.description_html, hit.descriptionHTML, hit.long_description, hit.excerpt, hit.summary, hit.short_description, '') || '').trim();
-  const slug = String(first(hit.slug, hit.url?.split('/').filter(Boolean).pop(), '') || '');
-  const price = Number(first(hit.ca_price, hit.eshop_price, hit.price, hit.sale_price, hit.price_regular_f, 0)) || 0;
-  const releaseDate = first(hit.release_date, hit.releaseDate, hit.pretty_date_s, hit.release_date_on_eshop, hit.release_date_on_eshop_s, null);
-  const image = first(hit.front_box_art, hit.image_url, hit.image, hit.image_url_sq_s, hit.gift_finder_detail_page_image_url_s, hit.image_url_sq, hit.box_art_url, null);
-  const banner = first(hit.hero_banner_url, hit.hero_image_url, hit.banner_url, hit.image_url_wide, null);
-  const url = first(hit.url, slug ? `https://www.nintendo.com/en-ca/store/products/${slug}/` : null, null);
+function normalizeReleaseDate(value) {
+  if (value == null || value === '') return null;
+  if (typeof value === 'number') {
+    const s = String(value);
+    if (/^\d{8}$/.test(s)) return `${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}`;
+  }
+  return String(value);
+}
+
+function normalizeHit(nsuid, hit) {
+  const id = String(first(hit.id, hit.titleId, hit.title_id, hit.nsuid, nsuid, '') || '');
+  const title = String(first(hit.name, hit.title, hit.formal_name, hit.title_name, 'Untitled') || 'Untitled').trim();
+  const genres = asArray(first(hit.category, hit.categories, hit.genres, hit.game_categories_txt, hit.game_category, hit.genre));
+  const description = String(first(hit.description, hit.description_html, hit.descriptionHTML, hit.intro, hit.summary, hit.excerpt, '') || '').trim();
+  const image = first(hit.frontBoxArt, hit.front_box_art, hit.iconUrl, hit.icon_url, hit.image_url_sq_s, hit.image_url_sq, hit.image, null);
+  const banner = first(hit.bannerUrl, hit.banner_url, hit.hero_banner_url, hit.image_url_wide, null);
+  const screenshots = asArray(hit.screenshots);
+  const releaseDate = normalizeReleaseDate(first(hit.releaseDate, hit.release_date, hit.release_date_on_eshop, hit.release_date_on_eshop_s));
+  const platform = 'Nintendo Switch';
+  const url = `https://www.nintendo.com/en-ca/store/products/${encodeURIComponent(title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''))}/`;
+
   return {
     id,
     title,
     description,
     genres,
     platform,
-    price,
+    price: 0,
     currency: 'CAD',
     releaseDate,
     developer: first(hit.developer, hit.developer_name, null),
     publisher: first(hit.publisher, hit.publisher_name, null),
-    players: first(hit.number_of_players, hit.players, hit.players_to ? `${hit.players_from || 1}-${hit.players_to}` : null, null),
+    players: first(hit.numberOfPlayers, hit.number_of_players, hit.players, hit.players_to ? `${hit.players_from || 1}-${hit.players_to}` : null),
     image,
     banner,
+    screenshots,
     url,
+    nsuid: String(first(hit.nsuid, hit.nsuId, nsuid, '') || ''),
     digital: true,
-    available: !normalizeBool(first(hit.is_unavailable, hit.unavailable, false))
+    available: !normalizeBool(first(hit.is_unavailable, hit.unavailable, false)),
+    isDemo: normalizeBool(hit.isDemo ?? hit.is_demo),
+    type: first(hit.type, 'base')
   };
 }
 
-async function fetchIndex(indexName) {
+async function fetchCatalog(url) {
+  console.log(`Downloading ${url} ...`);
+  const data = await jsonFetch(url);
+  if (!data || typeof data !== 'object' || Array.isArray(data)) throw new Error('Catalog response is not an object');
+
   const games = [];
-  let page = 0;
-  let totalPages = Infinity;
-
-  while (page < 100 && page < totalPages) {
-    const params = new URLSearchParams({
-      query: '',
-      hitsPerPage: String(PAGE_SIZE),
-      page: String(page),
-      analytics: 'false',
-      clickAnalytics: 'false',
-      facets: JSON.stringify(['generalFilters','platform','availability','genres','howToShop','franchises','priceRange','esrbRating','playerFilters'])
-    });
-    const body = { requests: [{ indexName, params: params.toString() }] };
-    const data = await jsonFetch(ALGOLIA_HOST, {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        'x-algolia-application-id': ALGOLIA_APP_ID,
-        'x-algolia-api-key': ALGOLIA_KEY
-      },
-      body: JSON.stringify(body)
-    });
-
-    const result = data.results?.[0];
-    if (!result) throw new Error(`Algolia returned no result for ${indexName}`);
-    const hits = result.hits || [];
-    totalPages = Number(result.nbPages || 1);
-    games.push(...hits.map(normalizeHit).filter(g => g.id && g.title));
-    console.log(`${indexName}: page ${page + 1}/${totalPages}, ${hits.length} games, ${games.length} total`);
-
-    if (!hits.length) break;
-    page += 1;
+  for (const [nsuid, hit] of Object.entries(data)) {
+    if (!hit || typeof hit !== 'object') continue;
+    const game = normalizeHit(nsuid, hit);
+    if (!game.id || !game.title) continue;
+    if (game.isDemo) continue;
+    // Keep actual base games/software. DLC and updates are not useful as catalog games.
+    if (['dlc', 'update', 'patch'].includes(String(game.type).toLowerCase())) continue;
+    games.push(game);
   }
 
-  return games;
+  const unique = Array.from(new Map(games.map(g => [g.id, g])).values());
+  console.log(`Catalog source returned ${unique.length} usable digital games.`);
+  return unique;
 }
 
 async function getAllGames() {
-  let best = { games: [], index: null };
-  for (const index of INDEXES) {
+  let lastError = null;
+  for (const url of CATALOG_URLS) {
     try {
-      const games = await fetchIndex(index);
-      if (games.length > best.games.length) best = { games, index };
-      if (games.length >= MIN_GAMES) {
-        console.log(`Using ${index}: ${games.length} catalog entries`);
-        return { games, index };
-      }
-      console.warn(`${index} returned only ${games.length}; trying next catalog source.`);
+      const games = await fetchCatalog(url);
+      if (games.length >= MIN_GAMES) return { games, source: url };
+      console.warn(`${url} returned only ${games.length} usable games; trying fallback.`);
     } catch (err) {
-      console.warn(`${index} unavailable: ${err.message}`);
+      lastError = err;
+      console.warn(`${url} unavailable: ${err.message}`);
     }
   }
-  throw new Error(`No usable Nintendo eShop catalog. Best source ${best.index || 'none'} returned ${best.games.length} entries.`);
+  throw new Error(`No usable Nintendo digital catalog. ${lastError ? lastError.message : 'All sources were too small.'}`);
 }
 
 async function enrichCanadianPrices(games) {
-  const ids = games.map(g => g.id).filter(id => /^\d{10,}$/.test(id));
+  const ids = games.map(g => g.nsuid).filter(id => /^\d{10,}$/.test(id));
+  const totalBatches = Math.ceil(ids.length / 50);
+
   for (let i = 0; i < ids.length; i += 50) {
     const batch = ids.slice(i, i + 50);
     try {
       const data = await jsonFetch(`${PRICE_URL}?country=CA&ids=${batch.join(',')}&lang=en`);
       const byId = new Map((data.prices || []).map(p => [String(p.title_id), p]));
       for (const game of games) {
-        const p = byId.get(game.id);
+        const p = byId.get(game.nsuid);
         const raw = p?.discount_price?.raw_value ?? p?.regular_price?.raw_value;
-        if (raw !== undefined && raw !== null && raw !== '') {
-          game.price = Number(raw) || 0;
-          game.currency = 'CAD';
-        }
+        if (raw !== undefined && raw !== null && raw !== '') game.price = Number(raw) || 0;
+        if (p?.regular_price?.currency) game.currency = p.regular_price.currency;
         if (p?.sales_status) game.salesStatus = p.sales_status;
       }
-      console.log(`Prices: batch ${Math.floor(i / 50) + 1}/${Math.ceil(ids.length / 50)}`);
+      console.log(`Prices: batch ${Math.floor(i / 50) + 1}/${totalBatches}`);
     } catch (err) {
-      console.warn(`Canadian price batch ${i / 50 + 1} skipped: ${err.message}`);
+      console.warn(`Canadian price batch ${Math.floor(i / 50) + 1} skipped: ${err.message}`);
     }
   }
   return games;
 }
 
 async function main() {
-  console.log('Fetching public Nintendo eShop digital catalog...');
+  console.log('Fetching public Nintendo eShop digital catalog from TitleDB...');
   const result = await getAllGames();
   let games = await enrichCanadianPrices(result.games);
   games = Array.from(new Map(games.map(g => [g.id, g])).values());
 
   if (games.length < MIN_GAMES) throw new Error(`Safety check failed: only ${games.length} games found.`);
 
-  const valid = games.filter(g => g.title && g.id && g.image && g.url);
+  const valid = games.filter(g => g.title && g.id && g.image && g.nsuid);
   if (valid.length < MIN_GAMES) throw new Error(`Safety check failed: only ${valid.length} games have required catalog fields.`);
 
+  // Only write after all validation succeeds. A bad upstream source can never wipe the old catalog.
   const output = {
     updatedAt: new Date().toISOString(),
     region: 'CA',
-    platform: 'Nintendo Switch / Switch 2 digital store',
-    source: `Nintendo eShop public catalog (${result.index})`,
+    platform: 'Nintendo Switch digital store',
+    source: `Nintendo Switch TitleDB (${result.source})`,
     games
   };
 
