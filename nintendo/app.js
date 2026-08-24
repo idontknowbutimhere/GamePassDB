@@ -1,62 +1,19 @@
-const state = { games: [], filtered: [], page: 1, size: 48 };
-const el = id => document.getElementById(id);
-const norm = v => String(v ?? '').trim().toLowerCase();
-const genres = g => Array.isArray(g.genres) ? g.genres : (g.genres ? [g.genres] : []);
-const esc = s => String(s ?? '').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
-
-function fillGenres() {
-  const set = new Set();
-  state.games.forEach(g => genres(g).forEach(x => { if (String(x).trim()) set.add(String(x).trim()); }));
-  [...set].sort().forEach(x => el('genre').insertAdjacentHTML('beforeend', `<option>${esc(x)}</option>`));
-}
-
-function apply() {
-  const text = norm(el('search').value);
-  const platform = norm(el('platform').value);
-  const genre = norm(el('genre').value);
-  const price = el('price').value;
-  state.filtered = state.games.filter(g => {
-    if (text && !norm([g.title, g.description, g.developer, g.publisher].join(' ')).includes(text)) return false;
-    if (platform && !norm(g.platform).includes(platform)) return false;
-    if (genre && !genres(g).some(x => norm(x) === genre)) return false;
-    const p = Number(g.price) || 0;
-    if (price === 'free' && p !== 0) return false;
-    if (price === 'under20' && !(p > 0 && p < 20)) return false;
-    if (price === '20to40' && !(p >= 20 && p <= 40)) return false;
-    if (price === 'over40' && p <= 40) return false;
-    return true;
-  });
-  state.page = 1;
-  render();
-}
-
-function render() {
-  const start = (state.page - 1) * state.size;
-  const items = state.filtered.slice(start, start + state.size);
-  const pages = Math.max(1, Math.ceil(state.filtered.length / state.size));
-  el('status').style.display = items.length ? 'none' : 'block';
-  el('games').innerHTML = items.map(g => `<a class='game' href='${g.url || '#'}' target='_blank' rel='noopener'><img loading='lazy' src='${g.image || ''}' alt=''><div class='body'><div class='title'>${esc(g.title)}</div><div class='meta'>${esc(g.platform || 'Nintendo eShop')}</div><div class='price'>${Number(g.price) > 0 ? esc(g.currency || 'CAD') + ' $' + Number(g.price).toFixed(2) : 'Free'}</div></div></a>`).join('');
-  el('page').textContent = `Page ${state.page} / ${pages}`;
-  el('prev').disabled = state.page <= 1;
-  el('next').disabled = state.page >= pages;
-}
-
-async function init() {
-  try {
-    const r = await fetch('./games.json', { cache: 'no-store' });
-    if (!r.ok) throw new Error(r.status);
-    const d = await r.json();
-    state.games = Array.isArray(d.games) ? d.games : d;
-    fillGenres();
-    state.filtered = state.games;
-    render();
-  } catch (e) {
-    el('status').textContent = 'Nintendo catalog is not available yet. Run the updater from GitHub Actions to populate it.';
-    console.error(e);
-  }
-}
-['platform','genre','price'].forEach(id => el(id).addEventListener('change', apply));
-el('search').addEventListener('input', apply);
-el('prev').onclick = () => { if (state.page > 1) { state.page--; render(); } };
-el('next').onclick = () => { if (state.page < Math.ceil(state.filtered.length / state.size)) { state.page++; render(); } };
-init();
+const SUPABASE_URL='https://lbuzooszxkygrvyvhpzm.supabase.co';const SUPABASE_KEY='sb_publishable_kWJWGldsvTjjxKwZaBcq9qA_FkZ4M_H9'.replace('q9','q9');
+let games=[],filtered=[],current=null,sb=null,ratingBusy=false,page=1;const SIZE=48;const $=id=>document.getElementById(id);const norm=v=>String(v??'').trim().toLowerCase();const esc=v=>String(v??'').replace(/[&<>\'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+function arr(v){if(Array.isArray(v))return v.flatMap(x=>typeof x==='string'?[x]:x?.name?[x.name]:[]).filter(Boolean);if(typeof v==='string')return v.split(/[,|]/).map(x=>x.trim()).filter(Boolean);return []}
+function genres(g){return arr(g.genres??g.genre??g.categories??g.game_categories)}
+function platforms(g){let p=arr(g.platforms??g.platform??g.system??g.systems);if(!p.length&&g.nintendoSwitch)p.push('Nintendo Switch');if(!p.length&&g.switch)p.push('Nintendo Switch');if(!p.length&&g.switch2)p.push('Nintendo Switch 2');return p}
+function price(g){let p=Number(g.price);if(Number.isFinite(p))return p;return Number(String(g.price??'').replace(/[^0-9.]/g,''))||0}
+function cover(v){v=String(v??'');return v.startsWith('//')?'https:'+v:v}
+function fillFilters(){const gs=new Set(),ps=new Set();games.forEach(g=>{genres(g).forEach(x=>gs.add(String(x).trim()));platforms(g).forEach(x=>ps.add(String(x).trim()))});$('genre').innerHTML='<option value="">All genres</option>'+[...gs].sort((a,b)=>a.localeCompare(b)).map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');$('platform').innerHTML='<option value="">All platforms</option>'+[...ps].sort((a,b)=>a.localeCompare(b)).map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')}
+function apply(){const q=norm($('search').value),ge=norm($('genre').value),pl=norm($('platform').value),pr=$('price').value;filtered=games.filter(g=>{if(q&&!norm([g.title,g.description,g.developer,g.publisher].join(' ')).includes(q))return false;if(ge&&!genres(g).some(x=>norm(x)===ge))return false;if(pl&&!platforms(g).some(x=>norm(x)===pl||norm(x).includes(pl)||pl.includes(norm(x))))return false;const p=price(g);if(pr==='free'&&p!==0)return false;if(pr==='under20'&&!(p>0&&p<20))return false;if(pr==='20to40'&&!(p>=20&&p<=40))return false;if(pr==='over40'&&p<=40)return false;return true});page=1;render()}
+function render(){const start=(page-1)*SIZE,items=filtered.slice(start,start+SIZE),pages=Math.max(1,Math.ceil(filtered.length/SIZE));$('games').innerHTML=items.map(g=>`<article class="card" data-id="${esc(g.id||g.title)}"><img class="cover" loading="lazy" src="${esc(cover(g.image||g.cover))}" alt=""><div class="card-info"><h2>${esc(g.title)}</h2><div class="muted">${esc(genres(g).join(' · '))}</div><div class="muted">${esc(platforms(g).join(' · ')||'Nintendo eShop')}</div><div class="price">${price(g)>0?esc(g.currency||'CAD')+' $'+price(g).toFixed(2):'Free'}</div></div></article>`).join('');$('empty').hidden=items.length>0;$('page').textContent=`Page ${page} / ${pages}`;$('prev').disabled=page<=1;$('next').disabled=page>=pages;document.querySelectorAll('.card').forEach(x=>x.onclick=()=>open(x.dataset.id))}
+function vid(){let m=document.cookie.match(/(?:^|; )gdb_voter=([^;]+)/),id=m?.[1];if(!id){id=crypto.randomUUID?crypto.randomUUID():Math.random().toString(36)+Date.now();document.cookie='gdb_voter='+encodeURIComponent(id)+'; Max-Age=31536000; Path=/; SameSite=Lax'}return decodeURIComponent(id)}
+async function client(){if(sb)return sb;if(!window.supabase){await new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';s.onload=ok;s.onerror=()=>no(new Error('Could not load the ratings library.'));document.head.append(s)})}sb=window.supabase.createClient(SUPABASE_URL.trim(),SUPABASE_KEY.trim(),{auth:{persistSession:false,autoRefreshToken:false,detectSessionInUrl:false}});return sb}
+async function ratings(){const c=await client(),r=await c.from('ratings').select('game_id,rating,created_at');if(r.error)throw r.error;return r.data||[]}
+function findGame(id){return games.find(g=>String(g.id||g.title)===String(id))}
+async function leaders(){try{const rs=await ratings(),now=Date.now();const make=min=>{const m=new Map();rs.filter(r=>!min||new Date(r.created_at).getTime()>=min).forEach(r=>{const g=findGame(r.game_id);if(!g)return;const id=String(r.game_id),x=m.get(id)||{g,sum:0,n:0};x.sum+=Number(r.rating);x.n++;m.set(id,x)});return [...m.values()].map(x=>({...x,a:x.sum/x.n})).sort((a,b)=>b.a-a.a||b.n-a.n||a.g.title.localeCompare(b.g.title)).slice(0,10)};const html=a=>a.length?a.map((x,i)=>`<div class="rank" data-id="${esc(x.g.id||x.g.title)}"><b>#${i+1}</b><img src="${esc(cover(x.g.image||x.g.cover))}"><div><div class="rname">${esc(x.g.title)}</div><div class="rscore">⭐ ${x.a.toFixed(1)} · ${x.n}</div></div></div>`).join(''):'<span class="muted">No ratings yet.</span>';$('week').innerHTML=html(make(now-604800000));$('day').innerHTML=html(make(now-86400000));document.querySelectorAll('.rank').forEach(x=>x.onclick=()=>open(x.dataset.id))}catch(e){console.error('Leaderboard load failed:',e);$('week').textContent='Ratings unavailable.';$('day').textContent='Ratings unavailable.'}}
+async function open(id){current=findGame(id);if(!current)return;$('dt').textContent=current.title;$('dc').src=cover(current.image||current.cover);$('dd').textContent=current.description||'No description available yet.';$('dg').innerHTML=genres(current).map(g=>`<span class="chip">${esc(g)}</span>`).join('');$('ds').innerHTML=`<b>Platform:</b> ${esc(platforms(current).join(', ')||'Nintendo eShop')} · <b>Price:</b> ${price(current)>0?esc(current.currency||'CAD')+' $'+price(current).toFixed(2):'Free'}${current.releaseDate?' · <b>Release:</b> '+esc(current.releaseDate):''}`;const r=$('rating');r.innerHTML=Array.from({length:11},(_,i)=>`<button data-r="${i}">${i}</button>`).join('');r.querySelectorAll('button').forEach(b=>b.onclick=()=>rate(+b.dataset.r));$('msg').textContent='Choose a rating from 0–10.';$('game').showModal();try{const rs=(await ratings()).filter(x=>String(x.game_id)===String(current.id||current.title)),n=rs.length;$('dr').textContent=n?'⭐ '+(rs.reduce((a,x)=>a+Number(x.rating),0)/n).toFixed(1)+'/10 · '+n+' ratings':'⭐ Not rated yet'}catch(e){$('dr').textContent='Ratings unavailable.'}}
+async function rate(v){if(ratingBusy||!current)return;ratingBusy=true;$('msg').textContent='Submitting…';try{if(!Number.isInteger(v)||v<0||v>10)throw new Error('Rating must be between 0 and 10.');const c=await client(),gid=String(current.id||current.title),voter=vid(),existing=await c.from('ratings').select('id').eq('game_id',gid).eq('voter_id',voter).limit(1);if(existing.error)throw existing.error;let r;if(existing.data?.length)r=await c.from('ratings').update({rating:v}).eq('id',existing.data[0].id).eq('voter_id',voter);else r=await c.from('ratings').insert({game_id:gid,rating:v,voter_id:voter});if(r.error)throw r.error;$('msg').textContent='✓ Rated '+v+'/10';const rs=await ratings(),mine=rs.filter(x=>String(x.game_id)===gid),n=mine.length;$('dr').textContent=n?'⭐ '+(mine.reduce((a,x)=>a+Number(x.rating),0)/n).toFixed(1)+'/10 · '+n+' ratings':'⭐ Not rated yet';leaders()}catch(e){console.error('Rating submission failed:',e);$('msg').textContent='Could not submit rating: '+(e?.message||'Unknown error')}finally{ratingBusy=false}}
+async function load(){try{const r=await fetch('./games.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();games=Array.isArray(d)?d:(d.games||[]);fillFilters();filtered=games;render();leaders()}catch(e){console.error('Catalog load failed:',e);$('empty').hidden=false;$('empty').textContent='Could not load the NintendoDB catalog.'}}
+$('search').oninput=apply;$('genre').onchange=apply;$('platform').onchange=apply;$('price').onchange=apply;$('clear').onclick=()=>{$('search').value='';$('genre').value='';$('platform').value='';$('price').value='';apply()};$('surprise').onclick=()=>{if(filtered.length)open(filtered[Math.floor(Math.random()*filtered.length)].id||filtered[Math.floor(Math.random()*filtered.length)].title)};$('prev').onclick=()=>{if(page>1){page--;render()}};$('next').onclick=()=>{if(page<Math.ceil(filtered.length/SIZE)){page++;render()}};$('close').onclick=()=>$('game').close();load();
