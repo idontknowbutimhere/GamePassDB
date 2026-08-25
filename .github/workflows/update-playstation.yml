@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - 'scripts/update-playstation.js'
+      - 'scripts/enrich-playstation-genres.js'
       - '.github/workflows/update-playstation.yml'
 jobs:
   update:
@@ -19,13 +20,15 @@ jobs:
           node-version: 20
       - name: Build PlayStation catalog
         run: node scripts/update-playstation.js
+      - name: Enrich PlayStation genres
+        run: node scripts/enrich-playstation-genres.js
       - name: Validate catalog
         run: |
-          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('playstation/games.json','utf8'));if(!Array.isArray(d)||d.length<1000)process.exit(1);const required=['id','title','platforms'];for(const k of required){if(!d.slice(0,100).every(x=>x[k]!==undefined))process.exit(1)}console.log('Validated',d.length,'games')"
+          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('playstation/games.json','utf8'));if(!Array.isArray(d)||d.length<1000)throw new Error('Invalid catalog');const required=['id','title','platforms'];for(const k of required){if(!d.slice(0,100).every(x=>x[k]!==undefined))throw new Error('Missing '+k)}const withGenres=d.filter(x=>Array.isArray(x.genres)&&x.genres.length).length;console.log('Validated',d.length,'games;',withGenres,'with genres')"
       - name: Commit catalog
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add playstation/games.json
-          git diff --cached --quiet || git commit -m 'Update PlayStationDB catalog'
+          git diff --cached --quiet || git commit -m 'Update PlayStationDB catalog and genres'
           git push
