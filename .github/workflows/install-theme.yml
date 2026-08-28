@@ -1,0 +1,26 @@
+name: Install Theme Switcher
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/install-theme.yml'
+      - 'scripts/add-theme-switcher.js'
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install theme switcher
+        run: node scripts/add-theme-switcher.js
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html gamepass nintendo playstation steam xbox top100.html
+          git diff --cached --quiet || git commit -m 'Add theme switcher to GameDB pages'
+          git push
