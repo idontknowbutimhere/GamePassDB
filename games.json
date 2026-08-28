@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T18:29:52.969Z",
+  "updatedAt": "2026-08-28T07:53:59.029Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -1143,6 +1143,26 @@
       "status": "active"
     },
     {
+      "id": "9MSVBF0KZFVW",
+      "title": "Blood Dungeon",
+      "cover": "//store-images.s-microsoft.com/image/apps.32680.13820636594696612.89ecbd3c-b2c0-41f3-8114-c05de3a18b22.5721e9d2-88c6-4358-b9d6-2845cbdf8e38",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MSVBF0KZFVW",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Platformer",
+        "Action & adventure",
+        "Other"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9PFRTPRQ569Q",
       "title": "Blue Prince",
       "cover": "//store-images.s-microsoft.com/image/apps.49407.14199207619921587.94d12fa7-4aa4-478f-a501-05a046496ce3.53a1d296-29a7-4e2d-bdd5-d48e334c7d33",
@@ -1968,7 +1988,7 @@
     {
       "id": "C0N22P73QZ60",
       "title": "Dead by Daylight",
-      "cover": "//store-images.s-microsoft.com/image/apps.16719.64366672042187759.733004ed-c696-44cf-98cc-30eddf2375a8.3dd6c96e-e0c3-4a0b-aeb0-810f815a6d37",
+      "cover": "//store-images.s-microsoft.com/image/apps.26358.64366672042187759.89bd4c1b-4d8f-40ca-8c54-de07041e776c.c15ee693-0ff6-4945-963b-ad2295ce7941",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C0N22P73QZ60",
       "tiers": [],
       "platforms": [
@@ -3638,7 +3658,7 @@
     {
       "id": "9MW715J1P29D",
       "title": "FragPunk",
-      "cover": "//store-images.s-microsoft.com/image/apps.60702.13848987134544813.7b30c9e3-5909-4f77-afb6-d69bee0cdff7.0370bd21-9589-41dc-a3ba-c3bfca7ff97d",
+      "cover": "//store-images.s-microsoft.com/image/apps.4169.13848987134544813.d162bf9e-36cf-4556-97b2-4e3906f60e29.c00b62a2-662c-4456-80dd-e5dc2313c55b",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MW715J1P29D",
       "tiers": [],
       "platforms": [
@@ -6271,6 +6291,26 @@
       "status": "active"
     },
     {
+      "id": "9N0QWXC09MPT",
+      "title": "Once Human",
+      "cover": "//store-images.s-microsoft.com/image/apps.26737.13916126641198036.93e1b525-8641-4737-a69b-7287498c268a.dc8a8b1c-9323-4ba2-8bcc-953be8a9c701",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N0QWXC09MPT",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Shooter",
+        "Role playing",
+        "Multi-player Online Battle Arena",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NRCM30L6GRQ",
       "title": "One Lonely Outpost",
       "cover": "//store-images.s-microsoft.com/image/apps.59811.14390018847119191.29453666-331b-4d4a-872c-2620e4ba4254.4851c57f-3371-453c-9f11-0b263ea097f5",
@@ -7154,6 +7194,26 @@
       ],
       "genres": [
         "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9PPBNCXP0096",
+      "title": "Resonance: A Plague Tale Legacy",
+      "cover": "//store-images.s-microsoft.com/image/apps.3115.14332070469741251.b219f2ed-9161-4e36-815d-0a90a76aae89.664db98d-75c1-4f0b-9368-8fe70012133a",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PPBNCXP0096",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing",
+        "Puzzle & trivia"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -8142,7 +8202,7 @@
     {
       "id": "9N4M72L6KGC8",
       "title": "Superball",
-      "cover": "//store-images.s-microsoft.com/image/apps.3492.13984747577958597.275e6c8c-11c1-438a-b606-e1b098193074.b305c3bf-18c5-4357-8809-3b95028c3a70",
+      "cover": "//store-images.s-microsoft.com/image/apps.62003.13984747577958597.78ebdbe9-45c0-4d00-bbd6-0a52d99831d1.f956513a-d205-45ad-9925-64a87122cae3",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N4M72L6KGC8",
       "tiers": [],
       "platforms": [
@@ -12270,7 +12330,7 @@
     {
       "id": "9NMS4SFNBGBH",
       "title": "Dead by Daylight Windows",
-      "cover": "//store-images.s-microsoft.com/image/apps.16719.13756572830160292.a0be61ed-4aae-47f9-8a44-c8be54b53f15.917800ae-51f5-48b3-aa38-cb498fde9b40",
+      "cover": "//store-images.s-microsoft.com/image/apps.57024.13756572830160292.0d9ecfc6-24df-4a81-9122-c427d59c4c3b.f0ad617d-7e00-49e4-b0a7-f08dd26a6b32",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NMS4SFNBGBH",
       "tiers": [],
       "platforms": [
@@ -13400,7 +13460,7 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
