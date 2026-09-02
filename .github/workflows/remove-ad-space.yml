@@ -1,0 +1,65 @@
+name: Remove visual ad space
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  remove-ad-space:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Remove advertisement placeholders
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          changed = []
+          for path in Path('.').rglob('*.html'):
+              if '.git' in path.parts:
+                  continue
+              text = path.read_text(encoding='utf-8')
+              original = text
+
+              # Remove the visual Advertisement / Ad space panel.
+              text = re.sub(
+                  r'<div class="panel ad"><h3>Advertisement</h3><div class="muted">Ad space</div></div>',
+                  '', text
+              )
+
+              # Remove a right-side wrapper that existed only for the ad panel.
+              text = re.sub(
+                  r'<aside class="side right">\s*</aside>',
+                  '', text
+              )
+
+              # Remove the Steam-style right aside when it becomes empty after removing the ad.
+              text = re.sub(
+                  r'<aside class="side right">\s*</aside>',
+                  '', text
+              )
+
+              if text != original:
+                  path.write_text(text, encoding='utf-8')
+                  changed.append(str(path))
+
+          print('Changed:', ', '.join(changed) if changed else 'none')
+          PY
+
+      - name: Commit changes and remove one-shot workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git rm -f .github/workflows/remove-ad-space.yml
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "Remove visual advertisement placeholders"
+          git push
