@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T07:53:59.029Z",
+  "updatedAt": "2026-09-04T01:59:15.478Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -206,7 +206,7 @@
     {
       "id": "9PDC9X7BKZR3",
       "title": "Albion Online",
-      "cover": "//store-images.s-microsoft.com/image/apps.23152.14157015172806022.f8f04f91-6e90-4f62-b45a-4fa839c73465.6d4a6004-44a3-4e31-a8b1-4d60d8542b3b",
+      "cover": "//store-images.s-microsoft.com/image/apps.31519.14157015172806022.a55b35f1-6078-4896-8521-0d5455682f95.88d920a5-f57b-43aa-9dcc-cd4a8ddcb5ef",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PDC9X7BKZR3",
       "tiers": [],
       "platforms": [
@@ -288,25 +288,6 @@
       "genres": [],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9P97ZTRTH25W",
-      "title": "Another Crab's Treasure",
-      "cover": "//store-images.s-microsoft.com/image/apps.38043.14077481160620630.1db41d01-0b54-4154-a1e1-f00cf31fab40.24f86361-82bb-4a28-89ae-12b9e3d32c1d",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P97ZTRTH25W",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Platformer"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -1158,7 +1139,7 @@
         "Action & adventure",
         "Other"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -1944,7 +1925,7 @@
       "genres": [
         "Simulation"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -2225,7 +2206,7 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -2300,6 +2281,25 @@
       ],
       "genres": [
         "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9N3NTDPJCD9Z",
+      "title": "Dice A Million",
+      "cover": "//store-images.s-microsoft.com/image/apps.21152.13999251209706756.a4f74491-71e6-44d1-ae46-e7ac7b8a0832.01c5d2c2-7ec7-4171-92b6-28349ddaca11",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N3NTDPJCD9Z",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Card & board",
+        "Other"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -3709,7 +3709,7 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -4622,25 +4622,6 @@
       "status": "active"
     },
     {
-      "id": "9PF9FQGH89WM",
-      "title": "I Am Your Beast",
-      "cover": "//store-images.s-microsoft.com/image/apps.60991.14208859939056310.d1ec68da-591a-444e-932d-068d9ca0f8b5.250ec9fc-dd03-4467-a400-791de82907a3",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PF9FQGH89WM",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Shooter",
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "C07KJZRH0L7S",
       "title": "Immortals Fenyx Rising™",
       "cover": "//store-images.s-microsoft.com/image/apps.24779.64682799204913125.f407971c-f15c-4acc-99e1-682aec54019d.985e964e-48ec-4ebe-959d-58fdbe158f01",
@@ -4921,7 +4902,7 @@
     {
       "id": "9NCJWHHMVHR0",
       "title": "Keeper",
-      "cover": "//store-images.s-microsoft.com/image/apps.14247.13566978592979529.8c034f7f-7f73-4897-9410-31e1512536ea.6b82459c-abd9-4712-b097-0d1164781ebe",
+      "cover": "//store-images.s-microsoft.com/image/apps.44400.13566978592979529.a309a78d-6446-4646-b4cf-5f86cff39735.4294039d-21f3-4d7d-9443-6cda909325bb",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NCJWHHMVHR0",
       "tiers": [],
       "platforms": [
@@ -5827,6 +5808,25 @@
       "status": "active"
     },
     {
+      "id": "9NDJX252Q5BW",
+      "title": "Moonlighter 2: The Endless Vault",
+      "cover": "//store-images.s-microsoft.com/image/apps.46867.13613495733795404.958a29ae-aca4-4c3f-a15c-62c6c57d4d68.1166dd10-7833-4820-898b-e9e9e8ad81dc",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NDJX252Q5BW",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9N7271QN4SGB",
       "title": "Mortal Kombat™ 1",
       "cover": "//store-images.s-microsoft.com/image/apps.15385.14007497573636681.4ee0da90-8866-4e78-bc18-31395aa61837.794c9932-4346-4da4-86ed-5e5c1110a544",
@@ -5898,7 +5898,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -6026,25 +6026,6 @@
       "genres": [
         "Racing & flying",
         "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NC781DK18GN",
-      "title": "Neon Abyss",
-      "cover": "//store-images.s-microsoft.com/image/apps.19066.13568911399767367.40f48bf2-3e0d-4d5e-82ae-91d8c14bd585.765f2152-e955-4466-9a50-86202059f6cf",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NC781DK18GN",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Platformer",
-        "Shooter"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -6308,25 +6289,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NRCM30L6GRQ",
-      "title": "One Lonely Outpost",
-      "cover": "//store-images.s-microsoft.com/image/apps.59811.14390018847119191.29453666-331b-4d4a-872c-2620e4ba4254.4851c57f-3371-453c-9f11-0b263ea097f5",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NRCM30L6GRQ",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Simulation",
-        "Role playing"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -7517,6 +7479,29 @@
       "status": "active"
     },
     {
+      "id": "9N51NR4GX891",
+      "title": "Shelldiver",
+      "cover": "//store-images.s-microsoft.com/image/apps.1292.13976576036437000.15d2217e-0f3f-430d-bd96-a7159bbf5985.21ad7a97-9737-45b2-915b-0cf6a29694b2",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N51NR4GX891",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure",
+        "Family & kids",
+        "Platformer",
+        "Simulation",
+        "Other"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9N0WDPMXNHWN",
       "title": "Shift At Midnight",
       "cover": "//store-images.s-microsoft.com/image/apps.57921.13913179094391197.48e0c780-4669-4067-951d-a9b01b9fc923.5a76e43f-115e-43b9-b2ae-67d6b6119442",
@@ -7754,6 +7739,25 @@
       "status": "active"
     },
     {
+      "id": "9PPKR9N31BW6",
+      "title": "SpeedRunners 2: King of Speed",
+      "cover": "//store-images.s-microsoft.com/image/apps.34223.14327242010981927.a5495c37-2e09-4b3f-82a1-e015a8eb734a.ba1ba654-43f4-494c-af69-2f04015448e2",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PPKR9N31BW6",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Platformer",
+        "Racing & flying"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NG5L58FD3X5",
       "title": "Spiritfarer®: Farewell Edition",
       "cover": "//store-images.s-microsoft.com/image/apps.25623.13581632098060782.9aea914f-fc5f-474f-a052-eac22427e863.e0e90c3e-1d1b-42e8-8b26-feef9d36a235",
@@ -7770,7 +7774,7 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -8255,7 +8259,7 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -9042,23 +9046,6 @@
       "status": "active"
     },
     {
-      "id": "C261457LCNMJ",
-      "title": "The Witcher 3: Wild Hunt – Complete Edition",
-      "cover": "//store-images.s-microsoft.com/image/apps.53717.65858607118306853.39ed2a08-df0d-4ae1-aee0-c66ffb783a34.80ba72da-abfb-4af6-81f2-a443d12fb870",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C261457LCNMJ",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Role playing"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "BXBJQ1932138",
       "title": "theHunter: Call of the Wild™",
       "cover": "//store-images.s-microsoft.com/image/apps.31673.63553167684393025.1b31f51e-c4c6-49b1-bf61-a2e65ea14c73.150d2a5d-49a6-4724-8e53-cb908f866746",
@@ -9382,7 +9369,7 @@
       ],
       "genres": [],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -10265,7 +10252,7 @@
     {
       "id": "9N11JM7F5CXK",
       "title": "World of Tanks: HEAT",
-      "cover": "//store-images.s-microsoft.com/image/apps.17977.13914660851585642.f8c5ba4d-158e-487c-852f-a22c6ed534bc.0872fce5-18aa-4604-9b99-2eee413fe40b",
+      "cover": "//store-images.s-microsoft.com/image/apps.14297.13914660851585642.fe38acd5-d659-41ed-9bbf-feab6fa3d9c7.a1a8176a-7527-4528-9e63-74328094a01c",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N11JM7F5CXK",
       "tiers": [],
       "platforms": [
@@ -10374,8 +10361,8 @@
     },
     {
       "id": "9N3KQH8183GD",
-      "title": "Young Suns (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.41484.14000938598007723.1c20633c-9e09-40dc-b4c0-9b7443ea3118.639959d7-9aef-463e-b4c8-cc9a6fdb4c6b",
+      "title": "Young Suns",
+      "cover": "//store-images.s-microsoft.com/image/apps.57792.14000938598007723.bdd09231-8f55-4ab1-9908-7d3679c5e743.e5a0689c-427c-4d07-8779-8b077b23e70f",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N3KQH8183GD",
       "tiers": [],
       "platforms": [
@@ -12220,7 +12207,7 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -12324,7 +12311,7 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -12360,7 +12347,7 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -12448,25 +12435,6 @@
       "genres": [
         "Action & adventure",
         "Role playing"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9N3NTDPJCD9Z",
-      "title": "Dice A Million",
-      "cover": "//store-images.s-microsoft.com/image/apps.21152.13999251209706756.a4f74491-71e6-44d1-ae46-e7ac7b8a0832.01c5d2c2-7ec7-4171-92b6-28349ddaca11",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N3NTDPJCD9Z",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Card & board",
-        "Other"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -12824,7 +12792,7 @@
     },
     {
       "id": "9P82LXD5RH31",
-      "title": "FOR HONOR",
+      "title": "For Honor Standard",
       "cover": "//store-images.s-microsoft.com/image/apps.25646.13664541971149542.2f5fbe40-bf98-4cd6-8d48-94e08f070c43.6d276a88-3831-4398-aefe-e6bcac845ddf",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P82LXD5RH31",
       "tiers": [],
@@ -13428,25 +13396,6 @@
       "status": "active"
     },
     {
-      "id": "9NDJX252Q5BW",
-      "title": "Moonlighter 2: The Endless Vault (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.58095.13613495733795404.f608471a-3b5d-40c6-8d16-e83de47f4af8.84aec49a-0733-4264-a14d-9f4f735539b1",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NDJX252Q5BW",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Role playing"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "9N2FJQC9NTX6",
       "title": "NBA 2K26 Standard Edition (Windows PC)",
       "cover": "//store-images.s-microsoft.com/image/apps.23652.13957745975285029.52df9602-ccd8-4a0d-873f-5731652c7052.96b7a071-ff3c-4629-9cf6-9b37098e28fa",
@@ -13458,25 +13407,6 @@
       ],
       "genres": [
         "Sports"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
-      "id": "9PLWSGHFQ4PS",
-      "title": "Neon Abyss",
-      "cover": "//store-images.s-microsoft.com/image/apps.19066.14309576365758777.173ab21c-81bd-4a31-b5cc-0d6495ab6a15.3d8b62bb-f4d2-49b4-a1c2-4812e7199420",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PLWSGHFQ4PS",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Platformer",
-        "Shooter"
       ],
       "indie": false,
       "leavingSoon": true,
@@ -14969,6 +14899,118 @@
       "indie": false,
       "leavingSoon": false,
       "status": "active"
+    },
+    {
+      "id": "9P97ZTRTH25W",
+      "title": "Another Crab's Treasure",
+      "cover": "//store-images.s-microsoft.com/image/apps.38043.14077481160620630.1db41d01-0b54-4154-a1e1-f00cf31fab40.24f86361-82bb-4a28-89ae-12b9e3d32c1d",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P97ZTRTH25W",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Platformer"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PF9FQGH89WM",
+      "title": "I Am Your Beast",
+      "cover": "//store-images.s-microsoft.com/image/apps.60991.14208859939056310.d1ec68da-591a-444e-932d-068d9ca0f8b5.250ec9fc-dd03-4467-a400-791de82907a3",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PF9FQGH89WM",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NC781DK18GN",
+      "title": "Neon Abyss",
+      "cover": "//store-images.s-microsoft.com/image/apps.19066.13568911399767367.40f48bf2-3e0d-4d5e-82ae-91d8c14bd585.765f2152-e955-4466-9a50-86202059f6cf",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NC781DK18GN",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Platformer",
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NRCM30L6GRQ",
+      "title": "One Lonely Outpost",
+      "cover": "//store-images.s-microsoft.com/image/apps.59811.14390018847119191.29453666-331b-4d4a-872c-2620e4ba4254.4851c57f-3371-453c-9f11-0b263ea097f5",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NRCM30L6GRQ",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation",
+        "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "C261457LCNMJ",
+      "title": "The Witcher 3: Wild Hunt – Complete Edition",
+      "cover": "//store-images.s-microsoft.com/image/apps.53717.65858607118306853.39ed2a08-df0d-4ae1-aee0-c66ffb783a34.80ba72da-abfb-4af6-81f2-a443d12fb870",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C261457LCNMJ",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PLWSGHFQ4PS",
+      "title": "Neon Abyss",
+      "cover": "//store-images.s-microsoft.com/image/apps.19066.14309576365758777.173ab21c-81bd-4a31-b5cc-0d6495ab6a15.3d8b62bb-f4d2-49b4-a1c2-4812e7199420",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PLWSGHFQ4PS",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Platformer",
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
     }
   ]
 }
