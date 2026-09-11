@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T01:59:15.478Z",
+  "updatedAt": "2026-09-11T02:02:55.866Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -2744,7 +2744,7 @@
     },
     {
       "id": "9NK13T4QFPQW",
-      "title": "EA SPORTS FC™ 26 Xbox One",
+      "title": "EA SPORTS FC™ 26 XBOX One",
       "cover": "//store-images.s-microsoft.com/image/apps.10782.13665948255535452.c62f2600-0a85-4be2-b5a3-4453b231bb70.31935413-8ff9-41fa-a5e8-b8a6eb8775c9",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NK13T4QFPQW",
       "tiers": [],
@@ -2762,7 +2762,7 @@
     },
     {
       "id": "9P9FTXPKQ35P",
-      "title": "EA SPORTS FC™ 26 Xbox Series X|S",
+      "title": "EA SPORTS FC™ 26 XBOX Series X|S",
       "cover": "//store-images.s-microsoft.com/image/apps.10782.14143997528953872.6dedfcb1-25c9-4700-a587-b5e8d2190c68.12c48214-554d-4f98-a995-c19b9101d1aa",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P9FTXPKQ35P",
       "tiers": [],
@@ -4000,7 +4000,7 @@
     {
       "id": "9PF2ZS4XB4JH",
       "title": "GOALS",
-      "cover": "//store-images.s-microsoft.com/image/apps.44880.14212860962709000.df32da00-c18c-45f6-a4b4-4e82dfd43691.073a50f4-6e48-4577-b1f2-e91e46c968ee",
+      "cover": "//store-images.s-microsoft.com/image/apps.10349.14212860962709000.7d0349ee-2f9e-4a67-90da-e62696fef7df.b8302153-0bf0-458e-a4ae-4ccfdc0a5213",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PF2ZS4XB4JH",
       "tiers": [],
       "platforms": [
@@ -5688,7 +5688,7 @@
         "Role playing",
         "Fighting"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5934,42 +5934,6 @@
         "Fighting",
         "Multi-player Online Battle Arena",
         "Other"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9PP9PFSCJTWR",
-      "title": "NBA 2K26 for Xbox One",
-      "cover": "//store-images.s-microsoft.com/image/apps.23652.14332530460749170.64ca41ff-99bb-414a-b819-ac6c0303cecb.2ff46473-a6f8-49eb-ab03-fbd7fedf4393",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PP9PFSCJTWR",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Sports"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NFKCJNBR34N",
-      "title": "NBA 2K26 for Xbox Series X|S",
-      "cover": "//store-images.s-microsoft.com/image/apps.23652.13597880418237927.1db3ecc3-d73b-4573-a4d1-d16bd9922438.69561e2d-167c-4608-b5f0-287c10e2e5d5",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NFKCJNBR34N",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Sports"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -7497,7 +7461,7 @@
         "Simulation",
         "Other"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -7613,7 +7577,7 @@
     {
       "id": "9NV8W1KJSQLL",
       "title": "SMITE 2 (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.49965.14402893629943553.362bf74c-1912-4b56-af34-2a4f02642352.bf763d73-d99b-48f4-8e65-fab6e6ecb0b0",
+      "cover": "//store-images.s-microsoft.com/image/apps.7730.14402893629943553.4ce4ac4a-6ead-40b7-84e1-cf013cdf1bd0.f6ba881d-045a-41c8-96e6-8a4cbecd1e30",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NV8W1KJSQLL",
       "tiers": [],
       "platforms": [
@@ -8900,6 +8864,26 @@
       "status": "active"
     },
     {
+      "id": "9N034X5G08B7",
+      "title": "The Royal Writ",
+      "cover": "//store-images.s-microsoft.com/image/apps.20206.13929128993190644.5fdad478-5d9a-4e47-b2a4-acc499d07c78.87b72de9-0d97-4e33-9dd0-d85784eb761c",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N034X5G08B7",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Strategy",
+        "Card & board",
+        "Simulation"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NPGPDCXWJQ7",
       "title": "The Settlers®: New Allies",
       "cover": "//store-images.s-microsoft.com/image/apps.42926.13977733522491696.6fc8f63b-9fd7-4153-9b1f-efc78cf2301b.8ce72d81-c256-4c2d-9406-64146a408cc9",
@@ -9672,6 +9656,24 @@
       "status": "active"
     },
     {
+      "id": "9NSM674QVLBS",
+      "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+      "cover": "//store-images.s-microsoft.com/image/apps.4785.14360936962313275.d2dd0342-a5b1-4e46-bd2a-9de7360ee291.605b9a5b-6b36-460e-9675-d7e9ad499773",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NSM674QVLBS",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NJ5WV40PD08",
       "title": "Visions of Mana",
       "cover": "//store-images.s-microsoft.com/image/apps.38758.13682791436862455.fd616451-bc9e-4d12-b724-a0f613e579be.f2f0d7e2-8d7d-4aeb-8582-e16db8121630",
@@ -10271,7 +10273,7 @@
     {
       "id": "C1ZT6N30L1WH",
       "title": "World of Warships: Legends",
-      "cover": "//store-images.s-microsoft.com/image/apps.37618.65694988112101034.315588c9-f4fb-4605-b06d-bd525b01ce5f.ca73cfb6-0e4e-486f-a966-73508483b417",
+      "cover": "//store-images.s-microsoft.com/image/apps.15161.65694988112101034.63b3705a-17e4-4e7b-b45a-a3aa58f7a4fc.a900d566-737d-4c84-a3f2-16916236f4e8",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C1ZT6N30L1WH",
       "tiers": [],
       "platforms": [
@@ -10384,7 +10386,7 @@
     {
       "id": "9N4X0WFZ2STM",
       "title": "Zenless Zone Zero",
-      "cover": "//store-images.s-microsoft.com/image/apps.64374.13974579424110118.a7c4bc1b-04b3-4177-85c0-1252f18d6f9c.1a231651-8df6-4613-8c7e-8a455b0c81fc",
+      "cover": "//store-images.s-microsoft.com/image/apps.22806.13974579424110118.c5a91c87-b857-4a17-add3-fc6ba76c3f74.681170dd-5c61-42ed-b68e-f25aa46d0e5c",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N4X0WFZ2STM",
       "tiers": [],
       "platforms": [
@@ -10635,6 +10637,21 @@
       "genres": [
         "Racing & flying"
       ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9N863WLSHZGV",
+      "title": "Call of Duty®: Black Ops Cold War - Cross-Gen Bundle",
+      "cover": "//store-images.s-microsoft.com/image/apps.32755.14055557765519709.a446e4ab-5a5d-459e-854a-d4a158048dd0.f7ef5c8e-04fd-4c07-bf19-c536eaa6f2fe",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N863WLSHZGV",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [],
       "indie": false,
       "leavingSoon": false,
       "status": "active"
@@ -12057,6 +12074,23 @@
       "status": "active"
     },
     {
+      "id": "9N72SFQ24KW8",
+      "title": "Call of Duty®: Black Ops Cold War (Windows)",
+      "cover": "//store-images.s-microsoft.com/image/apps.25992.14006772409173009.275a9108-bec7-47d8-b889-1be3519a0aa3.3640f220-1ab0-4402-a31b-6d474b51f810",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N72SFQ24KW8",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NMPDV49K4TX",
       "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
       "cover": "//store-images.s-microsoft.com/image/apps.50528.13754207406549189.cd8c44dd-5d70-4cac-9ae7-2f630b4a1996.ff92f67e-8112-4555-bf44-3a89f589b98a",
@@ -13393,23 +13427,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9N2FJQC9NTX6",
-      "title": "NBA 2K26 Standard Edition (Windows PC)",
-      "cover": "//store-images.s-microsoft.com/image/apps.23652.13957745975285029.52df9602-ccd8-4a0d-873f-5731652c7052.96b7a071-ff3c-4629-9cf6-9b37098e28fa",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N2FJQC9NTX6",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Sports"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -14899,6 +14916,59 @@
       "indie": false,
       "leavingSoon": false,
       "status": "active"
+    },
+    {
+      "id": "9PP9PFSCJTWR",
+      "title": "NBA 2K26 for Xbox One",
+      "cover": "//store-images.s-microsoft.com/image/apps.23652.14332530460749170.64ca41ff-99bb-414a-b819-ac6c0303cecb.2ff46473-a6f8-49eb-ab03-fbd7fedf4393",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PP9PFSCJTWR",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Sports"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NFKCJNBR34N",
+      "title": "NBA 2K26 for Xbox Series X|S",
+      "cover": "//store-images.s-microsoft.com/image/apps.23652.13597880418237927.1db3ecc3-d73b-4573-a4d1-d16bd9922438.69561e2d-167c-4608-b5f0-287c10e2e5d5",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NFKCJNBR34N",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Sports"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9N2FJQC9NTX6",
+      "title": "NBA 2K26 Standard Edition (Windows PC)",
+      "cover": "//store-images.s-microsoft.com/image/apps.23652.13957745975285029.52df9602-ccd8-4a0d-873f-5731652c7052.96b7a071-ff3c-4629-9cf6-9b37098e28fa",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N2FJQC9NTX6",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Sports"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
     },
     {
       "id": "9P97ZTRTH25W",
