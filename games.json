@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T02:02:55.866Z",
+  "updatedAt": "2026-09-18T02:11:14.086Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -254,6 +254,24 @@
         "Action & adventure"
       ],
       "indie": true,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9PK8PHLCQDF6",
+      "title": "Aniimo",
+      "cover": "//store-images.s-microsoft.com/image/apps.33654.14271146495264987.c32913b7-6895-4338-ad19-54121ee5a1e9.8fd7e7b5-86e6-4a76-873b-32af6bd3cd47",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PK8PHLCQDF6",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing"
+      ],
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -657,7 +675,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -1139,7 +1157,7 @@
         "Action & adventure",
         "Other"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -1407,7 +1425,7 @@
     {
       "id": "9NNFG8BQRCXL",
       "title": "Call of Duty®: Warzone™",
-      "cover": "//store-images.s-microsoft.com/image/apps.32046.13739535057760905.cd3d6e45-3ccc-4b13-80a5-0568cb1692ae.0a0c8972-422f-43f7-9079-f668009f7596",
+      "cover": "//store-images.s-microsoft.com/image/apps.61500.13739535057760905.ee63b998-143e-4256-bd0e-3e78d667ab11.31188761-50b5-4ec9-91f4-ec4f1a8b5503",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NNFG8BQRCXL",
       "tiers": [],
       "platforms": [
@@ -1603,24 +1621,6 @@
         "Strategy",
         "Card & board",
         "Simulation"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NNRCR6MBNDR",
-      "title": "Commandos: Origins",
-      "cover": "//store-images.s-microsoft.com/image/apps.50462.13737393634442056.0e44fc6f-e14b-46fe-b0b4-5f9ff152b330.104a062e-7a2a-477e-8f83-0bc9a7682659",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NNRCR6MBNDR",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Strategy"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -1823,24 +1823,6 @@
       "status": "active"
     },
     {
-      "id": "9PPN49GPNH5M",
-      "title": "Cricket 24",
-      "cover": "//store-images.s-microsoft.com/image/apps.50552.14321256981626354.2afb74cd-a673-4baa-9f08-c8891ca682c4.c2ac524b-965e-4117-9888-6b651b057007",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PPN49GPNH5M",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Sports"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "9N6JF50HZFW9",
       "title": "Cricket 26 - The Official Game of the Ashes",
       "cover": "//store-images.s-microsoft.com/image/apps.44311.14013085416782408.e98ee06f-ac83-4b7e-91fa-fefedfe1c305.2538404c-c204-494a-abdd-375f61a8f8ea",
@@ -1889,23 +1871,6 @@
       ],
       "genres": [
         "Racing & flying"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "BX3M8L83BBRW",
-      "title": "Cyberpunk 2077",
-      "cover": "//store-images.s-microsoft.com/image/apps.47379.63407868131364914.bcaa868c-407e-42c2-baeb-48a3c9f29b54.89bb995b-b066-4a53-9fe4-0260ce07e894",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BX3M8L83BBRW",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Role playing"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -1980,25 +1945,6 @@
       "genres": [
         "Action & adventure",
         "Other"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "BQSCNS1T8PHQ",
-      "title": "Dead Cells",
-      "cover": "//store-images.s-microsoft.com/image/apps.33704.68724117649475771.eac68952-84aa-42f0-875b-09de4c2ee208.c6483868-0337-4d5f-bc1f-36132804e3d7",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BQSCNS1T8PHQ",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Platformer"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -2188,25 +2134,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9PHGQPRBBSXK",
-      "title": "Deep Rock Galactic: Survivor",
-      "cover": "//store-images.s-microsoft.com/image/apps.1572.14236455618786574.5b48af66-d01f-435c-addc-832c8e12d278.d0715fbf-2db2-4abc-a902-7f10122efa52",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PHGQPRBBSXK",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Shooter"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -3194,7 +3121,7 @@
     {
       "id": "BS6WJ2L56B10",
       "title": "Fallout 76",
-      "cover": "//store-images.s-microsoft.com/image/apps.27487.70143269474194625.c68f14d3-e520-43ff-a1bc-8de449b5cf7c.20ccb406-af50-4f68-96fa-58255675459c",
+      "cover": "//store-images.s-microsoft.com/image/apps.32675.70143269474194625.b0e8b744-cb24-48cd-9498-108cc064643f.8f726167-1f33-4d48-910a-2b00822b4ecc",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BS6WJ2L56B10",
       "tiers": [],
       "platforms": [
@@ -3692,24 +3619,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9N0KN24FWP6B",
-      "title": "Frostpunk 2",
-      "cover": "//store-images.s-microsoft.com/image/apps.4430.13923668312910701.01edfea1-db44-49e5-8fd9-8f546040b4b7.9bb1a96f-07fb-4b50-9506-21ef028813fc",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N0KN24FWP6B",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Strategy"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -4918,6 +4827,26 @@
       "status": "active"
     },
     {
+      "id": "9NXSNQR7CM1Q",
+      "title": "Kernel Hearts",
+      "cover": "//store-images.s-microsoft.com/image/apps.21502.14493835367297887.3d2ad750-4d36-4684-b869-351a4f2e7062.3f9f2883-857e-40ff-a44d-8aefcb6db8f6",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NXSNQR7CM1Q",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing",
+        "Other"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9MXHL3TT792F",
       "title": "KILL IT WITH FIRE! 2",
       "cover": "//store-images.s-microsoft.com/image/apps.30617.13889690924508162.9345444b-8806-473d-9690-5adb9e55317b.5183b21d-d24d-4cbe-9aa6-4c16e0033151",
@@ -5199,7 +5128,7 @@
         "Family & kids",
         "Simulation"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5260,7 +5189,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -5822,7 +5751,7 @@
         "Action & adventure",
         "Role playing"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5880,25 +5809,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9PG8TV30NN9H",
-      "title": "MULLET MADJACK",
-      "cover": "//store-images.s-microsoft.com/image/apps.25799.14185273107843338.c1763a2c-a5bb-46ee-ade7-841a3c40c249.4a1f92fc-067e-4ebd-b515-736f59cfcd7a",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PG8TV30NN9H",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Shooter",
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -7298,6 +7208,26 @@
       "status": "active"
     },
     {
+      "id": "9P402RWR63H4",
+      "title": "RuneScape: Dragonwilds",
+      "cover": "//store-images.s-microsoft.com/image/apps.19279.14598963835318421.d3340a04-fc78-4b06-9abb-2849494504b3.db648883-647c-4b89-9427-69507858a55f",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P402RWR63H4",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing",
+        "Other"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9P3PL76N0KWZ",
       "title": "Rush: A DisneyPixar Adventure",
       "cover": "//store-images.s-microsoft.com/image/apps.57888.14538559069860396.c1df57fa-56a6-43cb-88ca-d1a4e32a2f52.b9ddfb4a-9df5-47aa-96f0-6e7a6f1dc28a",
@@ -7443,6 +7373,26 @@
       "status": "active"
     },
     {
+      "id": "9PK0DZ68LGC0",
+      "title": "Shape of Dreams",
+      "cover": "//store-images.s-microsoft.com/image/apps.64297.14272457971400341.9e426def-5803-4abc-8dd4-76b9f9ab9f3d.91c496d2-789c-40fd-a35b-0dfa785817a6",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PK0DZ68LGC0",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Strategy",
+        "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9N51NR4GX891",
       "title": "Shelldiver",
       "cover": "//store-images.s-microsoft.com/image/apps.1292.13976576036437000.15d2217e-0f3f-430d-bd96-a7159bbf5985.21ad7a97-9737-45b2-915b-0cf6a29694b2",
@@ -7499,7 +7449,7 @@
         "Fighting"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -7717,28 +7667,8 @@
         "Platformer",
         "Racing & flying"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NG5L58FD3X5",
-      "title": "Spiritfarer®: Farewell Edition",
-      "cover": "//store-images.s-microsoft.com/image/apps.25623.13581632098060782.9aea914f-fc5f-474f-a052-eac22427e863.e0e90c3e-1d1b-42e8-8b26-feef9d36a235",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NG5L58FD3X5",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Platformer",
-        "Simulation"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -8067,7 +7997,7 @@
         "Action & adventure",
         "Other"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -8207,26 +8137,6 @@
       "status": "active"
     },
     {
-      "id": "9NVR4ZQKNBSB",
-      "title": "Superliminal",
-      "cover": "//store-images.s-microsoft.com/image/apps.31620.14393569011623061.24d2b16b-20df-48f4-b265-623d2c0e948a.c3577c03-647c-443c-94bc-fa43a7f08bba",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NVR4ZQKNBSB",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Puzzle & trivia",
-        "Shooter"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9NR0GCBSLDW4",
       "title": "Supermarket Simulator",
       "cover": "//store-images.s-microsoft.com/image/apps.63656.13763814357241001.e01392b6-0898-4953-8acf-030f03590bbb.afb78fab-c656-4ed4-a4a4-3aca6f24fae0",
@@ -8259,7 +8169,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -8320,6 +8230,24 @@
       "status": "active"
     },
     {
+      "id": "9P9GX5D8H9DW",
+      "title": "TCG Card Shop Simulator",
+      "cover": "//store-images.s-microsoft.com/image/apps.64640.14143053245725704.14ebe58d-2f1e-46da-9224-f0da06983250.531a6e82-4e61-4f27-9dbb-46c1d6f94f7c",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P9GX5D8H9DW",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "indie": true,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NF83PRZK6K3",
       "title": "Tell Me Why: Chapters 1-3",
       "cover": "//store-images.s-microsoft.com/image/apps.21560.13599353568798630.567fc0f9-a81e-456c-a9ee-55bb0bb153b5.d9345421-5f4f-4105-9a46-8116ee72535a",
@@ -8372,7 +8300,7 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -8841,7 +8769,7 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9337,23 +9265,8 @@
         "Racing & flying",
         "Simulation"
       ],
-      "indie": true,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9N9FR8CSZP56",
-      "title": "Train Sim World® 5: Standard Edition",
-      "cover": "//store-images.s-microsoft.com/image/apps.40169.13533673129408975.95f4b180-e431-4714-922e-b555f8c6879d.9433236d-417c-4930-9bb0-16ebc5cf6be1",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N9FR8CSZP56",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [],
       "indie": false,
-      "leavingSoon": true,
+      "leavingSoon": false,
       "status": "active"
     },
     {
@@ -9748,7 +9661,7 @@
     {
       "id": "BX1DTCBD1HXJ",
       "title": "War Thunder",
-      "cover": "//store-images.s-microsoft.com/image/apps.4307.63381296256995371.c90350dc-f7ef-4c1a-a158-a8de2f5a7725.ad06d202-b4d4-452e-abca-bebb22a08dbb",
+      "cover": "//store-images.s-microsoft.com/image/apps.30829.63381296256995371.9e10cdbd-1881-4099-9f20-0b0885c216a7.cea534d7-08cd-4f3f-9bed-765c2c2534cc",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BX1DTCBD1HXJ",
       "tiers": [],
       "platforms": [
@@ -10955,7 +10868,7 @@
     {
       "id": "BT5P2X999VH2",
       "title": "Fortnite",
-      "cover": "//store-images.s-microsoft.com/image/apps.19309.70702278257994163.7867c110-12f5-414d-88b4-e851aea24391.e7460671-6dd2-47d7-af59-71118b6d060c",
+      "cover": "//store-images.s-microsoft.com/image/apps.8083.70702278257994163.7f7e49d8-bf13-4838-8f72-548542e51d08.a1739f68-9454-40eb-ba60-81ec2d35e413",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BT5P2X999VH2",
       "tiers": [],
       "platforms": [
@@ -11374,24 +11287,6 @@
       "status": "active"
     },
     {
-      "id": "9P9GX5D8H9DW",
-      "title": "TCG Card Shop Simulator (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.64640.14143053245725704.14ebe58d-2f1e-46da-9224-f0da06983250.531a6e82-4e61-4f27-9dbb-46c1d6f94f7c",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P9GX5D8H9DW",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Simulation"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "C0X2HNVH08FB",
       "title": "Titanfall™ 2",
       "cover": "//store-images.s-microsoft.com/image/apps.25984.65123785197113223.0191c6ed-9ff7-488b-b8cc-c338d3886461.8f235e4d-8c5a-46f3-b9ee-5c817f3f7a56",
@@ -11448,7 +11343,7 @@
     {
       "id": "9N1NLJK9SKRN",
       "title": "VALORANT",
-      "cover": "//store-images.s-microsoft.com/image/apps.52657.13898029070941789.3b9f6846-9549-48fd-86cb-b4ed0bd62a55.99c4eceb-d9fa-4213-a6d1-619bd1ec794b",
+      "cover": "//store-images.s-microsoft.com/image/apps.24285.13898029070941789.8d58b251-455c-4993-a1fd-1d77e8261eaf.f83375e3-5886-4708-888a-8d37fbb998f5",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N1NLJK9SKRN",
       "tiers": [],
       "platforms": [
@@ -12227,24 +12122,6 @@
       "status": "active"
     },
     {
-      "id": "9PDH7X3J5CZT",
-      "title": "Commandos: Origins (Win)",
-      "cover": "//store-images.s-microsoft.com/image/apps.50462.13737393634442056.0e44fc6f-e14b-46fe-b0b4-5f9ff152b330.104a062e-7a2a-477e-8f83-0bc9a7682659",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PDH7X3J5CZT",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Strategy"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9P7LVXNVQ6K7",
       "title": "Control Ultimate Edition",
       "cover": "//store-images.s-microsoft.com/image/apps.3830.14105328782956010.49f773af-c1ba-43ab-a4d2-d9b330f79b47.a6dc6161-010f-47b3-b5c5-db0f5b3b7323",
@@ -12332,23 +12209,6 @@
       "status": "active"
     },
     {
-      "id": "9NKF2SZ630ZH",
-      "title": "Cricket 24: The Official Game Of The Ashes",
-      "cover": "//store-images.s-microsoft.com/image/apps.22369.13662804336614394.63dd49dd-f93b-4b67-b597-bace2d4550c2.d43b3619-c31e-41f2-9f53-e8b110203433",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKF2SZ630ZH",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Sports"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9NMS4SFNBGBH",
       "title": "Dead by Daylight Windows",
       "cover": "//store-images.s-microsoft.com/image/apps.57024.13756572830160292.0d9ecfc6-24df-4a81-9122-c427d59c4c3b.f0ad617d-7e00-49e4-b0a7-f08dd26a6b32",
@@ -12364,24 +12224,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NKVX66J0ZSK",
-      "title": "Dead Cells",
-      "cover": "//store-images.s-microsoft.com/image/apps.33704.68724117649475771.eac68952-84aa-42f0-875b-09de4c2ee208.c6483868-0337-4d5f-bc1f-36132804e3d7",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKVX66J0ZSK",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Platformer"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -12615,7 +12457,7 @@
     {
       "id": "9NKGNMNK3K3Z",
       "title": "Fallout 76 (PC)",
-      "cover": "//store-images.s-microsoft.com/image/apps.27487.13657086471689364.e50bcd74-5ff2-4070-837d-ba5caf050abc.e408f800-1db7-4f25-b978-25724f367e91",
+      "cover": "//store-images.s-microsoft.com/image/apps.32675.13657086471689364.8f674de7-1bef-4801-8dbc-109dbe27b897.6ce291f2-7d07-44e5-96ff-13d996b0c30c",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKGNMNK3K3Z",
       "tiers": [],
       "platforms": [
@@ -13142,7 +12984,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -13215,7 +13057,7 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -14589,7 +14431,7 @@
     {
       "id": "9NKCCHCFTHV2",
       "title": "VALORANT PC",
-      "cover": "//store-images.s-microsoft.com/image/apps.52657.13663857844271189.41debf59-13e2-4cf9-a53f-e10086983497.f889d591-c0c6-4119-a3a4-7014f74cda4d",
+      "cover": "//store-images.s-microsoft.com/image/apps.24285.13663857844271189.42ac3116-ce9d-40e2-939f-ca94e72c04a8.bc2c8a77-f251-47c2-908a-6b9d61b7f479",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKCCHCFTHV2",
       "tiers": [],
       "platforms": [
@@ -14916,6 +14758,242 @@
       "indie": false,
       "leavingSoon": false,
       "status": "active"
+    },
+    {
+      "id": "9NNRCR6MBNDR",
+      "title": "Commandos: Origins",
+      "cover": "//store-images.s-microsoft.com/image/apps.50462.13737393634442056.0e44fc6f-e14b-46fe-b0b4-5f9ff152b330.104a062e-7a2a-477e-8f83-0bc9a7682659",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NNRCR6MBNDR",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PPN49GPNH5M",
+      "title": "Cricket 24",
+      "cover": "//store-images.s-microsoft.com/image/apps.50552.14321256981626354.2afb74cd-a673-4baa-9f08-c8891ca682c4.c2ac524b-965e-4117-9888-6b651b057007",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PPN49GPNH5M",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Sports"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "BX3M8L83BBRW",
+      "title": "Cyberpunk 2077",
+      "cover": "//store-images.s-microsoft.com/image/apps.47379.63407868131364914.bcaa868c-407e-42c2-baeb-48a3c9f29b54.89bb995b-b066-4a53-9fe4-0260ce07e894",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BX3M8L83BBRW",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "BQSCNS1T8PHQ",
+      "title": "Dead Cells",
+      "cover": "//store-images.s-microsoft.com/image/apps.33704.68724117649475771.eac68952-84aa-42f0-875b-09de4c2ee208.c6483868-0337-4d5f-bc1f-36132804e3d7",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BQSCNS1T8PHQ",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Platformer"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PHGQPRBBSXK",
+      "title": "Deep Rock Galactic: Survivor",
+      "cover": "//store-images.s-microsoft.com/image/apps.1572.14236455618786574.5b48af66-d01f-435c-addc-832c8e12d278.d0715fbf-2db2-4abc-a902-7f10122efa52",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PHGQPRBBSXK",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9N0KN24FWP6B",
+      "title": "Frostpunk 2",
+      "cover": "//store-images.s-microsoft.com/image/apps.4430.13923668312910701.01edfea1-db44-49e5-8fd9-8f546040b4b7.9bb1a96f-07fb-4b50-9506-21ef028813fc",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N0KN24FWP6B",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PG8TV30NN9H",
+      "title": "MULLET MADJACK",
+      "cover": "//store-images.s-microsoft.com/image/apps.25799.14185273107843338.c1763a2c-a5bb-46ee-ade7-841a3c40c249.4a1f92fc-067e-4ebd-b515-736f59cfcd7a",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PG8TV30NN9H",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NG5L58FD3X5",
+      "title": "Spiritfarer®: Farewell Edition",
+      "cover": "//store-images.s-microsoft.com/image/apps.25623.13581632098060782.9aea914f-fc5f-474f-a052-eac22427e863.e0e90c3e-1d1b-42e8-8b26-feef9d36a235",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NG5L58FD3X5",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Platformer",
+        "Simulation"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NVR4ZQKNBSB",
+      "title": "Superliminal",
+      "cover": "//store-images.s-microsoft.com/image/apps.31620.14393569011623061.24d2b16b-20df-48f4-b265-623d2c0e948a.c3577c03-647c-443c-94bc-fa43a7f08bba",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NVR4ZQKNBSB",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Puzzle & trivia",
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9N9FR8CSZP56",
+      "title": "Train Sim World® 5: Standard Edition",
+      "cover": "//store-images.s-microsoft.com/image/apps.40169.13533673129408975.95f4b180-e431-4714-922e-b555f8c6879d.9433236d-417c-4930-9bb0-16ebc5cf6be1",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N9FR8CSZP56",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PDH7X3J5CZT",
+      "title": "Commandos: Origins (Win)",
+      "cover": "//store-images.s-microsoft.com/image/apps.50462.13737393634442056.0e44fc6f-e14b-46fe-b0b4-5f9ff152b330.104a062e-7a2a-477e-8f83-0bc9a7682659",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PDH7X3J5CZT",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NKF2SZ630ZH",
+      "title": "Cricket 24: The Official Game Of The Ashes",
+      "cover": "//store-images.s-microsoft.com/image/apps.22369.13662804336614394.63dd49dd-f93b-4b67-b597-bace2d4550c2.d43b3619-c31e-41f2-9f53-e8b110203433",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKF2SZ630ZH",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Sports"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NKVX66J0ZSK",
+      "title": "Dead Cells",
+      "cover": "//store-images.s-microsoft.com/image/apps.33704.68724117649475771.eac68952-84aa-42f0-875b-09de4c2ee208.c6483868-0337-4d5f-bc1f-36132804e3d7",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKVX66J0ZSK",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Platformer"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
     },
     {
       "id": "9PP9PFSCJTWR",
