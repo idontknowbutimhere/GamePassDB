@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T02:11:14.086Z",
+  "updatedAt": "2026-09-25T02:29:45.751Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -725,7 +725,7 @@
         "Strategy",
         "Card & board"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -2632,6 +2632,26 @@
       "status": "active"
     },
     {
+      "id": "9PJ6FV3130QZ",
+      "title": "Dune: Awakening",
+      "cover": "//store-images.s-microsoft.com/image/apps.58998.14221973547534254.c9400a22-a0eb-4428-bc72-11e2270ad849.fcbce16e-22b4-4a1a-ae75-75fa207548b5",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PJ6FV3130QZ",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing",
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9N436FQM30HX",
       "title": "EA SPORTS FC™ 25 Xbox One",
       "cover": "//store-images.s-microsoft.com/image/apps.10380.13990860711580305.7d016ca5-2501-4843-b9f8-be6dad355631.4145696a-16ec-4c1d-bf05-e81bb5f9d30d",
@@ -2671,7 +2691,7 @@
     },
     {
       "id": "9NK13T4QFPQW",
-      "title": "EA SPORTS FC™ 26 XBOX One",
+      "title": "EA SPORTS FC™ 26 Xbox One",
       "cover": "//store-images.s-microsoft.com/image/apps.10782.13665948255535452.c62f2600-0a85-4be2-b5a3-4453b231bb70.31935413-8ff9-41fa-a5e8-b8a6eb8775c9",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NK13T4QFPQW",
       "tiers": [],
@@ -2689,7 +2709,7 @@
     },
     {
       "id": "9P9FTXPKQ35P",
-      "title": "EA SPORTS FC™ 26 XBOX Series X|S",
+      "title": "EA SPORTS FC™ 26 Xbox Series X|S",
       "cover": "//store-images.s-microsoft.com/image/apps.10782.14143997528953872.6dedfcb1-25c9-4700-a587-b5e8d2190c68.12c48214-554d-4f98-a995-c19b9101d1aa",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P9FTXPKQ35P",
       "tiers": [],
@@ -5128,7 +5148,7 @@
         "Family & kids",
         "Simulation"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5245,6 +5265,25 @@
         "Action & adventure",
         "Shooter",
         "Platformer"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9N944N1WP67T",
+      "title": "Mad King Redemption",
+      "cover": "//store-images.s-microsoft.com/image/apps.56038.13544556109351948.9c4c33b4-f6ce-4d2c-ac5f-3aa565d08d7d.42b5ee39-b724-4340-b34e-39af9df10075",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N944N1WP67T",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Fighting"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -5751,7 +5790,7 @@
         "Action & adventure",
         "Role playing"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -6925,7 +6964,7 @@
     {
       "id": "9N5K7HWXL4Q6",
       "title": "REMATCH",
-      "cover": "//store-images.s-microsoft.com/image/apps.56880.14036668029170653.4554f7c2-4515-49d2-8ebb-f9d385d870e2.8eed1f1e-64bd-423a-bf04-52ef4d89248a",
+      "cover": "//store-images.s-microsoft.com/image/apps.23695.14036668029170653.6510dadb-d349-4a75-b762-95e6550fdd9b.550f1e51-e03b-4027-969c-bf934ee2597c",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N5K7HWXL4Q6",
       "tiers": [],
       "platforms": [
@@ -7411,7 +7450,7 @@
         "Simulation",
         "Other"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -7527,7 +7566,7 @@
     {
       "id": "9NV8W1KJSQLL",
       "title": "SMITE 2 (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.7730.14402893629943553.4ce4ac4a-6ead-40b7-84e1-cf013cdf1bd0.f6ba881d-045a-41c8-96e6-8a4cbecd1e30",
+      "cover": "//store-images.s-microsoft.com/image/apps.63837.14402893629943553.7b95ed71-bdc1-4a75-bf6b-3e3bde680340.c72fb2d0-fe76-4138-9b8e-36162910bbc0",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NV8W1KJSQLL",
       "tiers": [],
       "platforms": [
@@ -7667,7 +7706,7 @@
         "Platformer",
         "Racing & flying"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9265,7 +9304,7 @@
         "Racing & flying",
         "Simulation"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9903,6 +9942,26 @@
       "status": "active"
     },
     {
+      "id": "9PLH7R84GJWP",
+      "title": "Well Dweller",
+      "cover": "//store-images.s-microsoft.com/image/apps.40917.14313416011451880.0dc13654-082f-4832-844b-343ef39821bf.85739feb-1ce4-4fed-bc5a-cc6e3f5fb96a",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PLH7R84GJWP",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Platformer",
+        "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NGCFDHR2MV3",
       "title": "Wheel World",
       "cover": "//store-images.s-microsoft.com/image/apps.15368.13648167123945660.0abed91b-bdc3-4159-bfec-9e1ba1ec545f.1c4cf44d-3271-4033-8cdb-a4265b3bacdb",
@@ -10167,7 +10226,7 @@
     {
       "id": "9N11JM7F5CXK",
       "title": "World of Tanks: HEAT",
-      "cover": "//store-images.s-microsoft.com/image/apps.14297.13914660851585642.fe38acd5-d659-41ed-9bbf-feab6fa3d9c7.a1a8176a-7527-4528-9e63-74328094a01c",
+      "cover": "//store-images.s-microsoft.com/image/apps.28387.13914660851585642.a21c2c87-a21a-4263-9436-669b54cfa894.7bd00d59-6fb9-4b0a-b3d2-eed534f2e0c1",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N11JM7F5CXK",
       "tiers": [],
       "platforms": [
@@ -11202,7 +11261,7 @@
     {
       "id": "C125W9BG2K0V",
       "title": "Rocket League®",
-      "cover": "//store-images.s-microsoft.com/image/apps.62884.65187692735347017.6779cc69-c491-4e54-8aee-77ef6d129aea.8495fe9e-4ded-40c0-9f0d-468b534b7b54",
+      "cover": "//store-images.s-microsoft.com/image/apps.6066.65187692735347017.3990a461-2db8-41ef-8bf8-33d50ff2e82a.7bb9a856-df77-4e8b-a605-7863390a7aa0",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C125W9BG2K0V",
       "tiers": [],
       "platforms": [
