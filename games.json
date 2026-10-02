@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T02:29:45.751Z",
+  "updatedAt": "2026-10-02T03:07:59.489Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -657,25 +657,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NC4WDL5KZBL",
-      "title": "Atomfall",
-      "cover": "//store-images.s-microsoft.com/image/apps.34329.13575061151050973.cebfa75f-b2f4-4dde-99fa-c709bab904af.9b26f97c-19cc-4602-8f8d-27a7ab70c8b0",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NC4WDL5KZBL",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Shooter",
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -2898,7 +2879,7 @@
     {
       "id": "9NHKL695M9F2",
       "title": "Enlisted",
-      "cover": "//store-images.s-microsoft.com/image/apps.4889.13628462776883363.4ce215b9-ddc3-4532-97df-f15c3a95e667.139b95cc-4784-4af1-823e-0c46920ce025",
+      "cover": "//store-images.s-microsoft.com/image/apps.61345.13628462776883363.b5671ab7-c80f-40e6-93ba-83e5efc0e1a5.29102d0c-f57a-415d-ab4d-98abb74ad700",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NHKL695M9F2",
       "tiers": [],
       "platforms": [
@@ -2917,7 +2898,7 @@
     {
       "id": "9PF432CVQBXT",
       "title": "Enlisted Xbox One",
-      "cover": "//store-images.s-microsoft.com/image/apps.4889.13628462776883363.4ce215b9-ddc3-4532-97df-f15c3a95e667.139b95cc-4784-4af1-823e-0c46920ce025",
+      "cover": "//store-images.s-microsoft.com/image/apps.61345.14212477956808574.da26f75d-69b4-4507-87ab-5c4d257304d3.80e17e30-f652-4151-a6a1-cad72d9d35b7",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PF432CVQBXT",
       "tiers": [],
       "platforms": [
@@ -4422,7 +4403,7 @@
     {
       "id": "9MT5NJ5W7B8Z",
       "title": "Hogwarts Legacy",
-      "cover": "//store-images.s-microsoft.com/image/apps.6642.13814785456466922.0fef76f8-710d-4aca-b42f-c45e536f8d2b.012a86fe-8506-4e46-8e5a-1ec47e011f62",
+      "cover": "//store-images.s-microsoft.com/image/apps.11179.13814785456466922.4e78e496-4e8c-4f2c-93df-55ea1fa48e05.0d64da1c-8197-4d17-ba47-9e7494b62f6e",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MT5NJ5W7B8Z",
       "tiers": [],
       "platforms": [
@@ -4441,7 +4422,7 @@
     {
       "id": "9NK4NTBFWW81",
       "title": "Hogwarts Legacy Xbox One Version",
-      "cover": "//store-images.s-microsoft.com/image/apps.6642.13668282042107954.990e31ce-5b94-4058-beec-37b32e211c05.46dc11ff-dcf6-425c-8aaf-5b474edd9def",
+      "cover": "//store-images.s-microsoft.com/image/apps.11179.13668282042107954.874f4821-1931-4173-aee3-0eed5c78ce55.5e9896f6-415e-4233-89da-d05cb61e48a6",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NK4NTBFWW81",
       "tiers": [],
       "platforms": [
@@ -5009,23 +4990,6 @@
       "status": "active"
     },
     {
-      "id": "BX7XFZ51XTW8",
-      "title": "Lara Croft and the Guardian of Light",
-      "cover": "//store-images.s-microsoft.com/image/apps.7455.63534390885266689.ca30eabf-228a-44d6-850d-48cfca22564f.c6172d93-f082-4dc4-9a7f-7ae96f2799ce",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BX7XFZ51XTW8",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "C3553MB4P5TT",
       "title": "Lara Croft and the Temple of Osiris",
       "cover": "//store-images.s-microsoft.com/image/apps.28930.66406861093311956.5a3a6cc5-ae0d-478d-aa71-eeec71b3768a.9075a65b-ad79-49b1-8aaf-6fb3bb771bb3",
@@ -5169,47 +5133,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "C1H74N0TR8KT",
-      "title": "Little Nightmares II Enhanced Edition",
-      "cover": "//store-images.s-microsoft.com/image/apps.1273.64860558234786024.c6d17f3a-2d73-46e6-8a1e-c828e528d51f.c0546c16-c1b2-4f91-921f-762c88c3ab54",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C1H74N0TR8KT",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Platformer"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9N3M5D5ZSW34",
-      "title": "Little Rocket Lab",
-      "cover": "//store-images.s-microsoft.com/image/apps.32936.14000344005974621.9729934f-27d2-4900-8aa2-53049eb44202.5ca80ddb-fffd-4d9b-9fde-76a41b9f9201",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N3M5D5ZSW34",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Simulation",
-        "Role playing",
-        "Strategy",
-        "Family & kids",
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -5565,6 +5488,21 @@
       "status": "active"
     },
     {
+      "id": "9PM3J18QM4Q3",
+      "title": "Minecraft Dungeons II",
+      "cover": "//store-images.s-microsoft.com/image/apps.26573.14305479850136392.1d44bfb9-b43e-4fae-a421-d6f972529d66.fd3f91b2-3de0-4920-a853-4f5725b2495f",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PM3J18QM4Q3",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NF0D13RPX5L",
       "title": "Minecraft Legends",
       "cover": "//store-images.s-microsoft.com/image/apps.18880.13695729085627777.1297136a-f273-41f1-947f-59044c848c55.b17bae54-318a-4560-85b1-ac4f9b1e5c1c",
@@ -5682,7 +5620,7 @@
     },
     {
       "id": "9P0RGJND5SR0",
-      "title": "MONOPOLY® Madness",
+      "title": "Monopoly Madness",
       "cover": "//store-images.s-microsoft.com/image/apps.35409.14525699525425613.9329bf2d-2490-4f7b-bf0f-cdbaa75d45b4.addb5bfa-936f-4cb1-a823-87d71ecfebb6",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P0RGJND5SR0",
       "tiers": [],
@@ -7473,25 +7411,6 @@
       "status": "active"
     },
     {
-      "id": "9P7PF6ZP3958",
-      "title": "Sifu",
-      "cover": "//store-images.s-microsoft.com/image/apps.14154.14108092972231485.130f8f79-218a-4318-83ee-72f0213be0dd.51a702bd-7750-456c-b538-dc31b25c4f1f",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P7PF6ZP3958",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Fighting"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "BNKDKQXMXRR2",
       "title": "Skate 3",
       "cover": "//store-images.s-microsoft.com/image/apps.18720.68005754082254855.39795a60-73cf-4461-87d9-7f112c30c43c.46888afa-996b-4016-b5b4-c2e0b78171e2",
@@ -7612,26 +7531,6 @@
         "Other",
         "Simulation",
         "Family & kids"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9N221ZTFGQB0",
-      "title": "SOPA - Tale of the Stolen Potato",
-      "cover": "//store-images.s-microsoft.com/image/apps.45399.13960509830993635.c8e589d4-58bf-48a0-94b9-7be5647c6cf2.3a36e99d-25c5-4a37-8d16-025e9d1a8fde",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N221ZTFGQB0",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Other",
-        "Family & kids",
-        "Action & adventure"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -8194,24 +8093,6 @@
       "status": "active"
     },
     {
-      "id": "9MWDJRQ1BXTC",
-      "title": "SWORN",
-      "cover": "//store-images.s-microsoft.com/image/apps.64072.13511316360139765.c27c733b-7cf6-4671-a04c-5a2fcb95b0f0.9e92bee3-e2bf-4b07-9382-3f8347455466",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MWDJRQ1BXTC",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9NBLHDB0WLHZ",
       "title": "Symphonia 𝄞",
       "cover": "//store-images.s-microsoft.com/image/apps.1651.13510847361693800.60401b82-c495-4eb5-9aae-6b84c459941e.d9b56173-9197-4b3b-8202-8d7da7528278",
@@ -8319,27 +8200,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9MW1V43D3VZN",
-      "title": "Terminull Brigade™",
-      "cover": "//store-images.s-microsoft.com/image/apps.27991.13852618521586125.794367d4-7c0a-4882-abf5-d6a6cb1acacb.38253108-4809-44fe-8aef-d42ca967c44d",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MW1V43D3VZN",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Shooter",
-        "Action & adventure",
-        "Other",
-        "Role playing"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -10117,7 +9977,7 @@
     {
       "id": "BSXDD75Q561F",
       "title": "Wolfenstein 3D",
-      "cover": "//store-images.s-microsoft.com/image/apps.26169.69996971058496124.2c12fbbb-b1fd-4ae1-b929-d0155904a243.cc46ae40-61c3-4243-94ea-788ebd8ab67f",
+      "cover": "//store-images.s-microsoft.com/image/apps.53556.14103068553133050.2db8938c-844e-4b8f-bb62-aca2ce562342.be454e36-958e-43ec-a1de-de65a69e2cae",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BSXDD75Q561F",
       "tiers": [],
       "platforms": [
@@ -10318,7 +10178,7 @@
     {
       "id": "9P41GS5W1C6L",
       "title": "Wuthering Waves",
-      "cover": "//store-images.s-microsoft.com/image/apps.60003.14597666972638877.55b60d16-e509-4234-9639-bf718c9d3da9.8af49ba9-303d-4b15-bd23-ebc7e47279fb",
+      "cover": "//store-images.s-microsoft.com/image/apps.41355.14597666972638877.5bceb6f8-6cdc-4d7b-bf47-6857fe6c0434.7ed514f5-984b-48f8-9420-0aff88f34e7f",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P41GS5W1C6L",
       "tiers": [],
       "platforms": [
@@ -10927,7 +10787,7 @@
     {
       "id": "BT5P2X999VH2",
       "title": "Fortnite",
-      "cover": "//store-images.s-microsoft.com/image/apps.8083.70702278257994163.7f7e49d8-bf13-4838-8f72-548542e51d08.a1739f68-9454-40eb-ba60-81ec2d35e413",
+      "cover": "//store-images.s-microsoft.com/image/apps.17283.70702278257994163.6d75301b-59c3-4a73-b70c-5901ae9cbb44.bd4108fb-c5af-4a9a-90c5-9a25a46d76a1",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BT5P2X999VH2",
       "tiers": [],
       "platforms": [
@@ -13029,24 +12889,6 @@
       "status": "active"
     },
     {
-      "id": "9NS37Q75LBCG",
-      "title": "Lara Croft and the Guardian of Light (PC)",
-      "cover": "//store-images.s-microsoft.com/image/apps.30416.14375628118106119.0b332df6-8930-4796-a54f-b6a7fba77404.9411324e-666c-4897-a8b9-db7cbe7cae69",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NS37Q75LBCG",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9PB301R051CQ",
       "title": "League of Legends",
       "cover": "//store-images.s-microsoft.com/image/apps.18996.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.caf661a7-e0b3-492d-b91b-63627e47283e",
@@ -13098,25 +12940,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9PBM67RXX3V8",
-      "title": "Little Nightmares II Enhanced Edition - Windows",
-      "cover": "//store-images.s-microsoft.com/image/apps.29670.14120603671422983.276bdb7c-80c3-44c3-a0a2-c6f4510ef9af.73fd1948-9741-42f4-89a8-3c6d093d797d",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PBM67RXX3V8",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Platformer"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -13280,21 +13103,6 @@
       "status": "active"
     },
     {
-      "id": "9NVH8SJNX20S",
-      "title": "MONOPOLY 2024",
-      "cover": "//store-images.s-microsoft.com/image/apps.19874.14398698669674983.cc5a91f2-0bac-41fb-b41c-5530163b4e44.e2197124-85ca-4841-99b4-e940a729482c",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NVH8SJNX20S",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "9MTP0GJ0Q3MG",
       "title": "MONOPOLY Madness",
       "cover": "//store-images.s-microsoft.com/image/apps.35409.13808779927576771.54f3b0bb-d5c4-4718-83d8-f32cd140e1c8.da81a781-0861-4998-8268-e4b97aeac80e",
@@ -13326,6 +13134,21 @@
         "Role playing",
         "Strategy"
       ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9NVH8SJNX20S",
+      "title": "NEW MONOPOLY®",
+      "cover": "//store-images.s-microsoft.com/image/apps.64235.14413018653132681.2d76bec8-c25a-469e-9cf1-eaaa965332ec.caaf0b02-181d-4f13-b640-5e572719e02c",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NVH8SJNX20S",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [],
       "indie": false,
       "leavingSoon": false,
       "status": "active"
@@ -14817,6 +14640,198 @@
       "indie": false,
       "leavingSoon": false,
       "status": "active"
+    },
+    {
+      "id": "9NC4WDL5KZBL",
+      "title": "Atomfall",
+      "cover": "//store-images.s-microsoft.com/image/apps.34329.13575061151050973.cebfa75f-b2f4-4dde-99fa-c709bab904af.9b26f97c-19cc-4602-8f8d-27a7ab70c8b0",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NC4WDL5KZBL",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "BX7XFZ51XTW8",
+      "title": "Lara Croft and the Guardian of Light",
+      "cover": "//store-images.s-microsoft.com/image/apps.7455.63534390885266689.ca30eabf-228a-44d6-850d-48cfca22564f.c6172d93-f082-4dc4-9a7f-7ae96f2799ce",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BX7XFZ51XTW8",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "C1H74N0TR8KT",
+      "title": "Little Nightmares II Enhanced Edition",
+      "cover": "//store-images.s-microsoft.com/image/apps.1273.64860558234786024.c6d17f3a-2d73-46e6-8a1e-c828e528d51f.c0546c16-c1b2-4f91-921f-762c88c3ab54",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C1H74N0TR8KT",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Platformer"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9N3M5D5ZSW34",
+      "title": "Little Rocket Lab",
+      "cover": "//store-images.s-microsoft.com/image/apps.32936.14000344005974621.9729934f-27d2-4900-8aa2-53049eb44202.5ca80ddb-fffd-4d9b-9fde-76a41b9f9201",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N3M5D5ZSW34",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation",
+        "Role playing",
+        "Strategy",
+        "Family & kids",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9P7PF6ZP3958",
+      "title": "Sifu",
+      "cover": "//store-images.s-microsoft.com/image/apps.14154.14108092972231485.130f8f79-218a-4318-83ee-72f0213be0dd.51a702bd-7750-456c-b538-dc31b25c4f1f",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P7PF6ZP3958",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Fighting"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9N221ZTFGQB0",
+      "title": "SOPA - Tale of the Stolen Potato",
+      "cover": "//store-images.s-microsoft.com/image/apps.45399.13960509830993635.c8e589d4-58bf-48a0-94b9-7be5647c6cf2.3a36e99d-25c5-4a37-8d16-025e9d1a8fde",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N221ZTFGQB0",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Other",
+        "Family & kids",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9MWDJRQ1BXTC",
+      "title": "SWORN",
+      "cover": "//store-images.s-microsoft.com/image/apps.64072.13511316360139765.c27c733b-7cf6-4671-a04c-5a2fcb95b0f0.9e92bee3-e2bf-4b07-9382-3f8347455466",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MWDJRQ1BXTC",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9MW1V43D3VZN",
+      "title": "Terminull Brigade™",
+      "cover": "//store-images.s-microsoft.com/image/apps.27991.13852618521586125.794367d4-7c0a-4882-abf5-d6a6cb1acacb.38253108-4809-44fe-8aef-d42ca967c44d",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MW1V43D3VZN",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure",
+        "Other",
+        "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NS37Q75LBCG",
+      "title": "Lara Croft and the Guardian of Light (PC)",
+      "cover": "//store-images.s-microsoft.com/image/apps.30416.14375628118106119.0b332df6-8930-4796-a54f-b6a7fba77404.9411324e-666c-4897-a8b9-db7cbe7cae69",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NS37Q75LBCG",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PBM67RXX3V8",
+      "title": "Little Nightmares II Enhanced Edition - Windows",
+      "cover": "//store-images.s-microsoft.com/image/apps.29670.14120603671422983.276bdb7c-80c3-44c3-a0a2-c6f4510ef9af.73fd1948-9741-42f4-89a8-3c6d093d797d",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PBM67RXX3V8",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Platformer"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
     },
     {
       "id": "9NNRCR6MBNDR",
