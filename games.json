@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T03:07:59.489Z",
+  "updatedAt": "2026-10-09T03:39:09.637Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -295,7 +295,7 @@
     },
     {
       "id": "9PHKWCSZ0SQJ",
-      "title": "Anno 1800™ Console Edition",
+      "title": "Anno 1800",
       "cover": "//store-images.s-microsoft.com/image/apps.52642.13903974859798407.fe1b6a24-4577-41e3-92da-76a2503642b9.06c98722-1c79-4f04-81fd-3e72cb2ee0ba",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PHKWCSZ0SQJ",
       "tiers": [],
@@ -1565,7 +1565,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -1836,7 +1836,7 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -1915,7 +1915,7 @@
     {
       "id": "C0N22P73QZ60",
       "title": "Dead by Daylight",
-      "cover": "//store-images.s-microsoft.com/image/apps.26358.64366672042187759.89bd4c1b-4d8f-40ca-8c54-de07041e776c.c15ee693-0ff6-4945-963b-ad2295ce7941",
+      "cover": "//store-images.s-microsoft.com/image/apps.46191.64366672042187759.099a5916-8b59-4db9-9ba3-146ee8e5afbb.96ba18fa-312c-4fc2-ba88-eb59eab37888",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C0N22P73QZ60",
       "tiers": [],
       "platforms": [
@@ -2355,7 +2355,7 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -2837,6 +2837,25 @@
         "Action & adventure",
         "Role playing",
         "Card & board"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9N72DFC6GL91",
+      "title": "Echo Weaver",
+      "cover": "//store-images.s-microsoft.com/image/apps.10430.14007070537305664.23c6e561-edd5-44ed-a3ad-86b6c1a5c1c1.e3ee97c9-cd7d-44f4-9171-b07a3c8daaab",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N72DFC6GL91",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Platformer"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -3539,6 +3558,24 @@
       "status": "active"
     },
     {
+      "id": "9NFB47H2SDRX",
+      "title": "Forever Ago",
+      "cover": "//store-images.s-microsoft.com/image/apps.32369.13602461240998233.6f87298c-1315-45ca-95cb-f70de3689fc6.f3660ec0-09b3-43fa-ae60-bb898e75b5ee",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NFB47H2SDRX",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NKX70BBCDRN",
       "title": "Forza Horizon 5 Standard Edition",
       "cover": "//store-images.s-microsoft.com/image/apps.49800.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.9ac09d39-064d-466c-81ca-2f1b6f0b95c5",
@@ -3757,6 +3794,25 @@
       ],
       "genres": [
         "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9N4PT8HGCDHQ",
+      "title": "Gears of War: E-Day",
+      "cover": "//store-images.s-microsoft.com/image/apps.58579.13978914104035031.46ab30c4-87b3-48d6-9e4a-ed44b301b17a.0c0f53d8-d3af-4c48-a1a6-22b31c4ec463",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N4PT8HGCDHQ",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -5488,21 +5544,6 @@
       "status": "active"
     },
     {
-      "id": "9PM3J18QM4Q3",
-      "title": "Minecraft Dungeons II",
-      "cover": "//store-images.s-microsoft.com/image/apps.26573.14305479850136392.1d44bfb9-b43e-4fae-a421-d6f972529d66.fd3f91b2-3de0-4920-a853-4f5725b2495f",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PM3J18QM4Q3",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "9NF0D13RPX5L",
       "title": "Minecraft Legends",
       "cover": "//store-images.s-microsoft.com/image/apps.18880.13695729085627777.1297136a-f273-41f1-947f-59044c848c55.b17bae54-318a-4560-85b1-ac4f9b1e5c1c",
@@ -5809,7 +5850,7 @@
     {
       "id": "9P8SQQJ5T94B",
       "title": "NARAKA: BLADEPOINT",
-      "cover": "//store-images.s-microsoft.com/image/apps.40921.14085855469646025.41616b04-2f86-4370-acdd-c02f787b88cc.44cd311b-87dd-4296-b1f3-f0d4c73bb1e8",
+      "cover": "//store-images.s-microsoft.com/image/apps.21810.14085855469646025.79385fad-0738-4130-a98b-b6f34ec818c6.6a601f64-8784-4963-af2b-fbeb7cebefd5",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P8SQQJ5T94B",
       "tiers": [],
       "platforms": [
@@ -5877,6 +5918,26 @@
       "genres": [
         "Racing & flying",
         "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9P5QV5XX8S9H",
+      "title": "Neon Abyss 2",
+      "cover": "//store-images.s-microsoft.com/image/apps.11563.14568732908027610.68635d5d-3a83-401c-989b-7640ee69ed9c.34d576fc-b83b-46ab-939e-a06d96e8f02c",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P5QV5XX8S9H",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Platformer",
+        "Action & adventure",
+        "Shooter"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -6253,7 +6314,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -7485,7 +7546,7 @@
     {
       "id": "9NV8W1KJSQLL",
       "title": "SMITE 2 (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.63837.14402893629943553.7b95ed71-bdc1-4a75-bf6b-3e3bde680340.c72fb2d0-fe76-4138-9b8e-36162910bbc0",
+      "cover": "//store-images.s-microsoft.com/image/apps.25253.14402893629943553.54fbd0de-7e4f-448e-93c6-1ad78c0a967a.3bd1beb4-cbc8-4159-9f66-48c6fb2f4159",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NV8W1KJSQLL",
       "tiers": [],
       "platforms": [
@@ -8051,7 +8112,7 @@
         "Multi-player Online Battle Arena"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -8152,7 +8213,7 @@
     {
       "id": "9P9GX5D8H9DW",
       "title": "TCG Card Shop Simulator",
-      "cover": "//store-images.s-microsoft.com/image/apps.64640.14143053245725704.14ebe58d-2f1e-46da-9224-f0da06983250.531a6e82-4e61-4f27-9dbb-46c1d6f94f7c",
+      "cover": "//store-images.s-microsoft.com/image/apps.58237.13937399101571368.d7ea1ad6-8d5d-4b4d-a570-efed308de865.26b2bdaf-a722-4b21-bb40-d7dfdb82b2a9",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P9GX5D8H9DW",
       "tiers": [],
       "platforms": [
@@ -8332,7 +8393,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -10068,7 +10129,7 @@
     {
       "id": "C57L9GR0HHB7",
       "title": "World of Tanks Modern Armor",
-      "cover": "//store-images.s-microsoft.com/image/apps.50747.67082279703731056.70780ed5-0f1c-4406-ad81-b5de60c2500e.d57120f5-5621-482a-8ac2-b9b479ed0c68",
+      "cover": "//store-images.s-microsoft.com/image/apps.56441.67082279703731056.6e3bd00c-6996-4fb3-aaff-b5a1ec4229ca.e30bf06c-1657-4b9c-8c20-f83420c09d4e",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C57L9GR0HHB7",
       "tiers": [],
       "platforms": [
@@ -10105,7 +10166,7 @@
     {
       "id": "C1ZT6N30L1WH",
       "title": "World of Warships: Legends",
-      "cover": "//store-images.s-microsoft.com/image/apps.15161.65694988112101034.63b3705a-17e4-4e7b-b45a-a3aa58f7a4fc.a900d566-737d-4c84-a3f2-16916236f4e8",
+      "cover": "//store-images.s-microsoft.com/image/apps.60607.65694988112101034.15f749ea-0c2c-4a1d-a997-35665ae27acf.24b4045e-7d64-4463-a2f1-6649df3a878e",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C1ZT6N30L1WH",
       "tiers": [],
       "platforms": [
@@ -10912,6 +10973,21 @@
       "status": "active"
     },
     {
+      "id": "9PM3J18QM4Q3",
+      "title": "Minecraft Dungeons II",
+      "cover": "//store-images.s-microsoft.com/image/apps.26573.14305479850136392.1d44bfb9-b43e-4fae-a421-d6f972529d66.fd3f91b2-3de0-4920-a853-4f5725b2495f",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PM3J18QM4Q3",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NQ19C36R0VD",
       "title": "Minecraft Preview",
       "cover": "//store-images.s-microsoft.com/image/apps.27876.13783157071567687.ff7d68e1-4f0d-4876-b0f7-2bb5d9c0fdea.73450068-a76d-459f-9887-a24f7e805097",
@@ -11020,7 +11096,7 @@
     {
       "id": "C1C4DZJPBC2V",
       "title": "Overwatch®",
-      "cover": "//store-images.s-microsoft.com/image/apps.47151.14548245473193065.9c82be1a-823e-414c-80e7-be1aa2cecce1.dcee3fc6-0b79-488d-a428-3acdf879e6e3",
+      "cover": "//store-images.s-microsoft.com/image/apps.1998.14548245473193065.3d2dbc10-d879-4882-a2bb-cf42a6790f66.4d665574-275b-45ec-9674-3485cf253a8c",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C1C4DZJPBC2V",
       "tiers": [],
       "platforms": [
@@ -11365,7 +11441,7 @@
         "Role playing"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -11456,7 +11532,7 @@
     },
     {
       "id": "9P1VNX9Z03N5",
-      "title": "Anno 1800™",
+      "title": "Anno 1800",
       "cover": "//store-images.s-microsoft.com/image/apps.39903.14560706864397031.06afa3fb-7b74-40b6-aa11-c213f11bfec6.17b409b5-94eb-4a5d-ad8d-b4dd24ebd1c9",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P1VNX9Z03N5",
       "tiers": [],
@@ -12130,7 +12206,7 @@
     {
       "id": "9NMS4SFNBGBH",
       "title": "Dead by Daylight Windows",
-      "cover": "//store-images.s-microsoft.com/image/apps.57024.13756572830160292.0d9ecfc6-24df-4a81-9122-c427d59c4c3b.f0ad617d-7e00-49e4-b0a7-f08dd26a6b32",
+      "cover": "//store-images.s-microsoft.com/image/apps.35959.13756572830160292.e0bc9919-a49f-4230-b3b0-ec9eb93969b8.9f5402c2-ab24-433f-b30b-ef9d6c2d66f7",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NMS4SFNBGBH",
       "tiers": [],
       "platforms": [
@@ -12319,7 +12395,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -13169,7 +13245,7 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -13228,7 +13304,7 @@
     {
       "id": "9P36DQX6W9CS",
       "title": "Overwatch® PC",
-      "cover": "//store-images.s-microsoft.com/image/apps.47151.14548245473193065.9c82be1a-823e-414c-80e7-be1aa2cecce1.dcee3fc6-0b79-488d-a428-3acdf879e6e3",
+      "cover": "//store-images.s-microsoft.com/image/apps.1998.14548245473193065.3d2dbc10-d879-4882-a2bb-cf42a6790f66.4d665574-275b-45ec-9674-3485cf253a8c",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P36DQX6W9CS",
       "tiers": [],
       "platforms": [
