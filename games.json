@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T03:39:09.637Z",
+  "updatedAt": "2026-10-16T02:14:10.970Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -706,7 +706,7 @@
         "Strategy",
         "Card & board"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -904,6 +904,21 @@
       "genres": [
         "Shooter"
       ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9P2FF14JZLL3",
+      "title": "Battlefield™ 6",
+      "cover": "//store-images.s-microsoft.com/image/apps.65490.14559138935406168.e7f01a08-ebf9-41d8-88ba-39fb1a148711.c65ba007-7378-497e-b934-101230f24e82",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P2FF14JZLL3",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [],
       "indie": false,
       "leavingSoon": false,
       "status": "active"
@@ -1175,6 +1190,25 @@
       "genres": [
         "Family & kids",
         "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9NQVHHW88XW9",
+      "title": "Bluey's Happy Snaps",
+      "cover": "//store-images.s-microsoft.com/image/apps.35599.13762188493241252.c9eed3d4-2711-40bb-b507-e4c31d9fe3e1.010ff7ff-e206-4830-ad42-9734bafe87c8",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NQVHHW88XW9",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Family & kids"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -1471,6 +1505,25 @@
       "genres": [
         "Racing & flying",
         "Simulation"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9PKZRN4RJRC9",
+      "title": "Chained Beasts",
+      "cover": "//store-images.s-microsoft.com/image/apps.60883.14257629622536824.7ae5f381-bcdf-4fa8-b97f-cc953530aeb5.cd3cfc9c-7767-44a0-a2a5-4d89e5f1b4bc",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PKZRN4RJRC9",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Fighting"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -2094,6 +2147,25 @@
       "genres": [
         "Action & adventure",
         "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9PPF72ZH6RP8",
+      "title": "Deep Dish Dungeon",
+      "cover": "//store-images.s-microsoft.com/image/apps.42452.14326063685133853.939b1741-3671-493b-b12d-2c262722c883.895b973c-6205-405e-be6d-00ace2e16503",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PPF72ZH6RP8",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Strategy",
+        "Action & adventure"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -3571,7 +3643,7 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -4528,7 +4600,7 @@
         "Action & adventure",
         "Platformer"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5168,7 +5240,7 @@
         "Family & kids",
         "Simulation"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5939,7 +6011,7 @@
         "Action & adventure",
         "Shooter"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -6794,7 +6866,7 @@
     {
       "id": "9P9446P7D9TZ",
       "title": "Quarantine Zone: The Last Check",
-      "cover": "//store-images.s-microsoft.com/image/apps.64417.14075645230645496.92f4d4d6-ef85-4ef3-b4c4-345d84f35480.01ae191a-7900-4093-98cd-22b8e1c407e1",
+      "cover": "//store-images.s-microsoft.com/image/apps.46966.14075645230645496.c0a12691-ed46-4232-b7fd-f8ee8018a9d3.dfa3deb8-7116-48db-8b78-4605c3aa2094",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P9446P7D9TZ",
       "tiers": [],
       "platforms": [
@@ -6868,7 +6940,7 @@
     {
       "id": "C26K4DVGR45B",
       "title": "Rayman Legends",
-      "cover": "//store-images.s-microsoft.com/image/apps.25053.65843946604617087.4d3f1eaa-9f9b-4884-8da5-69d3fa77479f.c8e55bec-d1f6-4fe4-b3fa-13ac1e79814f",
+      "cover": "//store-images.s-microsoft.com/image/apps.29344.65843946604617087.28c97e95-1438-4c02-aee4-66f02ec0e029.1f5224a7-58e0-4bee-86c3-b0772ac70ebb",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C26K4DVGR45B",
       "tiers": [],
       "platforms": [
@@ -8729,7 +8801,7 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9465,6 +9537,26 @@
       "genres": [
         "Action & adventure",
         "Puzzle & trivia"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9P861V1542BL",
+      "title": "Valor Mortis",
+      "cover": "//store-images.s-microsoft.com/image/apps.6950.14098465670758705.ee77a872-5740-4661-bec6-399c86db9b2c.57a42d9a-98d4-4d4d-98fd-56200c024d29",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P861V1542BL",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing",
+        "Shooter"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -11798,23 +11890,6 @@
       "status": "active"
     },
     {
-      "id": "9N0QFT016SGV",
-      "title": "Assassin’s Creed Chronicles: India",
-      "cover": "//store-images.s-microsoft.com/image/apps.33447.13916503054786009.154bb28b-8729-4712-8c24-34d746f0c6b9.3906fcfc-8f0b-410d-a789-3234764a1dc8",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N0QFT016SGV",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "9NVZ03XT8S2P",
       "title": "Assassin’s Creed IV Black Flag - Gold Edition",
       "cover": "//store-images.s-microsoft.com/image/apps.46338.13940090142368898.8299cde5-c41c-4157-9f91-9b62c239a7c3.03fae3b1-22c6-45ba-a38d-0d343e2a0372",
@@ -13232,7 +13307,7 @@
     {
       "id": "9NBNFBQ546DT",
       "title": "Nova Roma (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.64389.13514288515095406.3f7236b5-ddee-4494-adf3-12dbe4be4e57.5b73e318-a3d6-4ce1-a529-ebc6265a69ae",
+      "cover": "//store-images.s-microsoft.com/image/apps.38629.13514288515095406.cc3ca34d-704c-41f1-84c0-f3bbe3ce82ac.70ae0d17-df02-41a3-9cbd-a9c87176c566",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NBNFBQ546DT",
       "tiers": [],
       "platforms": [
@@ -14133,7 +14208,7 @@
     },
     {
       "id": "9NQV7C0G1040",
-      "title": "theHunter: Call of the Wild™ - Windows 10",
+      "title": "theHunter: Call of the Wild™",
       "cover": "//store-images.s-microsoft.com/image/apps.2768.13762125458177399.e3dc12bf-b35c-48a4-ae96-9cd3eda2895e.2b2888bb-89cd-4575-819d-cacd12368ccf",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NQV7C0G1040",
       "tiers": [],
@@ -14309,23 +14384,6 @@
       ],
       "genres": [
         "Racing & flying"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9PG0ZSTFBL1T",
-      "title": "TRIALS OF THE BLOOD DRAGON",
-      "cover": "//store-images.s-microsoft.com/image/apps.24854.14190127076086840.f3bec8cd-e217-49cb-9e54-8581edf2a9ce.a29863d8-9eb2-4177-b8f0-0eda06d2d9b9",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PG0ZSTFBL1T",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Platformer"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -14646,7 +14704,7 @@
     {
       "id": "9NK9K07FDPJV",
       "title": "World of Warships",
-      "cover": "//store-images.s-microsoft.com/image/apps.32122.13660342589962425.2996ae9a-7a25-4f2c-b39b-82e0ebf11032.dc5a564a-271a-4d21-a59a-e133cb13084d",
+      "cover": "//store-images.s-microsoft.com/image/apps.5355.13660342589962425.6455870f-14f6-40c6-8297-921ec3889341.b8c1aaa2-488e-481e-a1da-be13117b9acf",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NK9K07FDPJV",
       "tiers": [],
       "platforms": [
@@ -14716,6 +14774,40 @@
       "indie": false,
       "leavingSoon": false,
       "status": "active"
+    },
+    {
+      "id": "9N0QFT016SGV",
+      "title": "Assassin’s Creed Chronicles: India",
+      "cover": "//store-images.s-microsoft.com/image/apps.33447.13916503054786009.154bb28b-8729-4712-8c24-34d746f0c6b9.3906fcfc-8f0b-410d-a789-3234764a1dc8",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N0QFT016SGV",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PG0ZSTFBL1T",
+      "title": "TRIALS OF THE BLOOD DRAGON",
+      "cover": "//store-images.s-microsoft.com/image/apps.24854.14190127076086840.f3bec8cd-e217-49cb-9e54-8581edf2a9ce.a29863d8-9eb2-4177-b8f0-0eda06d2d9b9",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PG0ZSTFBL1T",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Platformer"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
     },
     {
       "id": "9NC4WDL5KZBL",
