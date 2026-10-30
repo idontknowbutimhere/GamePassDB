@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T02:32:13.922Z",
+  "updatedAt": "2026-10-30T03:31:13.164Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -241,7 +241,7 @@
     {
       "id": "9PK8PHLCQDF6",
       "title": "Aniimo",
-      "cover": "//store-images.s-microsoft.com/image/apps.33654.14271146495264987.c32913b7-6895-4338-ad19-54121ee5a1e9.8fd7e7b5-86e6-4a76-873b-32af6bd3cd47",
+      "cover": "//store-images.s-microsoft.com/image/apps.24411.14271146495264987.389490b9-697a-4878-87fc-ab69dd3499a6.7f065786-fc9f-4285-a789-0813a431232e",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PK8PHLCQDF6",
       "tiers": [],
       "platforms": [
@@ -687,7 +687,7 @@
         "Strategy",
         "Card & board"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -1912,7 +1912,7 @@
     {
       "id": "C0N22P73QZ60",
       "title": "Dead by Daylight",
-      "cover": "//store-images.s-microsoft.com/image/apps.46191.64366672042187759.099a5916-8b59-4db9-9ba3-146ee8e5afbb.96ba18fa-312c-4fc2-ba88-eb59eab37888",
+      "cover": "//store-images.s-microsoft.com/image/apps.16719.64366672042187759.733004ed-c696-44cf-98cc-30eddf2375a8.3dd6c96e-e0c3-4a0b-aeb0-810f815a6d37",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C0N22P73QZ60",
       "tiers": [],
       "platforms": [
@@ -2353,7 +2353,7 @@
         "Family & kids",
         "Puzzle & trivia"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -3446,6 +3446,25 @@
       "status": "active"
     },
     {
+      "id": "9NRQVQ7ZRM7Z",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "cover": "//store-images.s-microsoft.com/image/apps.50920.14378305291947412.8d8cbc22-0457-455b-807c-34822c76e54f.91e88811-dea2-4b9e-b0f8-ccebbb29f2aa",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NRQVQ7ZRM7Z",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Role playing",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NBZ7Z3JRXQ8",
       "title": "Firefighting Simulator - The Squad",
       "cover": "//store-images.s-microsoft.com/image/apps.37983.13574093128038227.7f017f9d-a7e7-46d3-ac09-ad5cece1a687.d4771ae5-9b57-4a43-8021-142acfe2e595",
@@ -3500,7 +3519,7 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -3621,7 +3640,7 @@
     {
       "id": "9MW715J1P29D",
       "title": "FragPunk",
-      "cover": "//store-images.s-microsoft.com/image/apps.4169.13848987134544813.d162bf9e-36cf-4556-97b2-4e3906f60e29.c00b62a2-662c-4456-80dd-e5dc2313c55b",
+      "cover": "//store-images.s-microsoft.com/image/apps.16868.13848987134544813.7c1bc445-ee84-4289-ab2e-4ee6990764e8.3e3a1229-cf14-4c88-af69-ef4ea095b75a",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MW715J1P29D",
       "tiers": [],
       "platforms": [
@@ -5809,6 +5828,24 @@
       "status": "active"
     },
     {
+      "id": "9MVNCSJ14754",
+      "title": "Mouthwashing",
+      "cover": "//store-images.s-microsoft.com/image/apps.53631.13855544626090177.00f10a03-a204-4b92-893c-87ea3db07631.14702d75-4bb9-45eb-ab3e-1aa7bec2490b",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MVNCSJ14754",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9P88K6NQW12H",
       "title": "Moving Out 2",
       "cover": "//store-images.s-microsoft.com/image/apps.52583.14092419520193072.64e53d99-3172-4ca7-856b-dd313b69b944.e83589b5-de0e-470f-80a6-21ea4709fe39",
@@ -6184,7 +6221,7 @@
     {
       "id": "9N0QWXC09MPT",
       "title": "Once Human",
-      "cover": "//store-images.s-microsoft.com/image/apps.26737.13916126641198036.93e1b525-8641-4737-a69b-7287498c268a.dc8a8b1c-9323-4ba2-8bcc-953be8a9c701",
+      "cover": "//store-images.s-microsoft.com/image/apps.6246.13916126641198036.09cb027a-0db0-4ac0-8459-ee6b87dc11cc.41b67786-ad5b-43c9-acbb-7ea6151faf32",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N0QWXC09MPT",
       "tiers": [],
       "platforms": [
@@ -6592,6 +6629,25 @@
       "status": "active"
     },
     {
+      "id": "9PGSDFM3JD85",
+      "title": "Plants vs. Zombies™: Replanted",
+      "cover": "//store-images.s-microsoft.com/image/apps.44024.14249493036313298.22c0dae5-4fa6-41f8-a5bd-bfdfcb3e98a0.e9d9cbb7-341e-49bc-9f14-09919dbaae4e",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PGSDFM3JD85",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Strategy",
+        "Family & kids"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9P2HHT3VS7MP",
       "title": "PlateUp!",
       "cover": "//store-images.s-microsoft.com/image/apps.48410.14557765520174668.1718d940-8154-42aa-b7e5-83e812dac193.f1a624fb-49fc-4a85-bf8c-bcdf7c8ad2ae",
@@ -6941,7 +6997,7 @@
     {
       "id": "9N5K7HWXL4Q6",
       "title": "REMATCH",
-      "cover": "//store-images.s-microsoft.com/image/apps.23695.14036668029170653.6510dadb-d349-4a75-b762-95e6550fdd9b.550f1e51-e03b-4027-969c-bf934ee2597c",
+      "cover": "//store-images.s-microsoft.com/image/apps.51500.14036668029170653.97838000-87b6-4a56-9c79-e4eddcea3b6f.af638a10-8481-45d3-9a46-0be4a02a01d5",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N5K7HWXL4Q6",
       "tiers": [],
       "platforms": [
@@ -7290,6 +7346,27 @@
         "Xbox"
       ],
       "genres": [],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9NK039GWVTVC",
+      "title": "Scramble Knights Online (Game Preview)",
+      "cover": "//store-images.s-microsoft.com/image/apps.4371.13666925911831228.39a643d8-0904-4270-b0a3-7b063f9c1c1d.2a4489c3-fa20-45ec-a31a-bdd0ae8e1d4f",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NK039GWVTVC",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing",
+        "Multi-player Online Battle Arena",
+        "Other"
+      ],
       "indie": false,
       "leavingSoon": false,
       "status": "active"
@@ -8261,6 +8338,24 @@
       "status": "active"
     },
     {
+      "id": "9PKFL1XJT73S",
+      "title": "Terrible Lizards",
+      "cover": "//store-images.s-microsoft.com/image/apps.39250.14263508046410977.85ca9e89-ec54-4c85-9c49-0ce9abe3f1fd.9aafbae6-8834-48f7-b413-2e0e49f377b9",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PKFL1XJT73S",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9N0P25WJHM8C",
       "title": "The Alters",
       "cover": "//store-images.s-microsoft.com/image/apps.7753.13917104365848520.a4bd4730-c578-4118-a439-d16f88dde25a.b8d20204-e6cf-4c18-a714-53e1fbb53591",
@@ -8707,6 +8802,25 @@
         "Strategy",
         "Card & board",
         "Simulation"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9PNRLJNDPP4G",
+      "title": "The Séance of Blake Manor",
+      "cover": "//store-images.s-microsoft.com/image/apps.16621.14338899831126037.225accb3-8e9c-4c00-a01b-619f2e44276d.56c0b677-c7a4-41bb-ba89-862d2a38f74d",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PNRLJNDPP4G",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Puzzle & trivia"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -11299,7 +11413,7 @@
     {
       "id": "9N1NLJK9SKRN",
       "title": "VALORANT",
-      "cover": "//store-images.s-microsoft.com/image/apps.24285.13898029070941789.8d58b251-455c-4993-a1fd-1d77e8261eaf.f83375e3-5886-4708-888a-8d37fbb998f5",
+      "cover": "//store-images.s-microsoft.com/image/apps.43432.13898029070941789.b9070612-bb75-4081-8f05-4acaf8e47425.19aed1bf-e497-497c-8140-1e0c100cba49",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N1NLJK9SKRN",
       "tiers": [],
       "platforms": [
@@ -11370,7 +11484,7 @@
     {
       "id": "9NNM7PKZN3JF",
       "title": "9 Kings (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.37106.13735777332261166.5394db02-c668-41cb-a4ca-b8088edda9f3.acc6db61-934b-417f-8c9f-189d5944d361",
+      "cover": "//store-images.s-microsoft.com/image/apps.35509.13735777332261166.046c4476-2fdb-4636-af17-eba2edfec19a.b42db9c9-6f64-4b73-87f2-50f1121929ce",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NNM7PKZN3JF",
       "tiers": [],
       "platforms": [
@@ -12150,7 +12264,7 @@
     {
       "id": "9NMS4SFNBGBH",
       "title": "Dead by Daylight Windows",
-      "cover": "//store-images.s-microsoft.com/image/apps.35959.13756572830160292.e0bc9919-a49f-4230-b3b0-ec9eb93969b8.9f5402c2-ab24-433f-b30b-ef9d6c2d66f7",
+      "cover": "//store-images.s-microsoft.com/image/apps.16719.13756572830160292.a0be61ed-4aae-47f9-8a44-c8be54b53f15.917800ae-51f5-48b3-aa38-cb498fde9b40",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NMS4SFNBGBH",
       "tiers": [],
       "platforms": [
@@ -12583,7 +12697,7 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -14278,7 +14392,7 @@
     {
       "id": "9NKCCHCFTHV2",
       "title": "VALORANT PC",
-      "cover": "//store-images.s-microsoft.com/image/apps.24285.13663857844271189.42ac3116-ce9d-40e2-939f-ca94e72c04a8.bc2c8a77-f251-47c2-908a-6b9d61b7f479",
+      "cover": "//store-images.s-microsoft.com/image/apps.43432.13663857844271189.005b5800-25c5-439e-8a6e-fdb02b928900.96ac9b34-3c66-40bf-a23c-7251edc524dc",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKCCHCFTHV2",
       "tiers": [],
       "platforms": [
