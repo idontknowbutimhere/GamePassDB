@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T03:31:13.164Z",
+  "updatedAt": "2026-11-06T04:11:28.867Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -19,7 +19,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -687,7 +687,7 @@
         "Strategy",
         "Card & board"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -819,7 +819,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -1873,24 +1873,6 @@
       "status": "active"
     },
     {
-      "id": "9NKK6CX54183",
-      "title": "Day of the Tentacle Remastered",
-      "cover": "//store-images.s-microsoft.com/image/apps.45089.13659998887820416.ac97c487-e49c-4236-a48f-681c4095040e.9f593142-562b-48e6-9ab5-20ea48887200",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKK6CX54183",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "BSR9NLHVF1KL",
       "title": "DayZ",
       "cover": "//store-images.s-microsoft.com/image/apps.23097.69886306496288395.9ec42146-6037-4440-b5c7-3a44e5213cc3.0e09163e-a6c4-40f6-9fe1-24a6b4685c64",
@@ -2019,25 +2001,6 @@
       "status": "active"
     },
     {
-      "id": "9MXWL7VJ2SJW",
-      "title": "Dead Static Drive",
-      "cover": "//store-images.s-microsoft.com/image/apps.5403.13882054236358572.6bfd2436-1337-41ff-8bba-a695d6c3d9e9.dda501bf-b544-4d26-a7dd-abbe3ad6d733",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MXWL7VJ2SJW",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Role playing"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9PD9SZGNCMDZ",
       "title": "Death Howl",
       "cover": "//store-images.s-microsoft.com/image/apps.29706.14153289927843166.5079f8ec-a171-48c2-871c-d91520b81fb5.fed6f715-9dfd-45c4-8eb4-5bf699911281",
@@ -2111,26 +2074,8 @@
         "Strategy",
         "Action & adventure"
       ],
-      "indie": true,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NHFVWX1V7QJ",
-      "title": "Deep Rock Galactic",
-      "cover": "//store-images.s-microsoft.com/image/apps.64496.13626568325427111.acf8bd0b-a403-422a-bfd4-5262a9b59ec2.a4caf3fb-c53b-4424-91a6-f6db3488a3c1",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NHFVWX1V7QJ",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Shooter"
-      ],
       "indie": false,
-      "leavingSoon": true,
+      "leavingSoon": false,
       "status": "active"
     },
     {
@@ -2353,7 +2298,7 @@
         "Family & kids",
         "Puzzle & trivia"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -2567,7 +2512,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -2951,6 +2896,25 @@
       "status": "active"
     },
     {
+      "id": "9P743P6195Q5",
+      "title": "Escape Academy 2: Back 2 School",
+      "cover": "//store-images.s-microsoft.com/image/apps.32075.14607328992338706.a7a9f492-6e2c-4b94-ab21-d3b4889e76fe.303a41a4-14bb-4486-a564-6e3cc7dbf83a",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P743P6195Q5",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Puzzle & trivia",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NKBDN695GTT",
       "title": "Escape Simulator",
       "cover": "//store-images.s-microsoft.com/image/apps.29956.13664214776061696.8d553cf7-207c-4c4e-a6ab-1d01994f6200.84701540-eb46-4f3b-bf30-5a50aad652b9",
@@ -3192,24 +3156,6 @@
       "status": "active"
     },
     {
-      "id": "BV2ZVP7PJZWL",
-      "title": "Far Cry 3 Classic Edition",
-      "cover": "//store-images.s-microsoft.com/image/apps.33719.71220804959101191.bad88979-60b4-40b4-af6d-182d4534c987.ecf3220f-0497-4cf1-9cee-d46d9d86ecc3",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BV2ZVP7PJZWL",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Shooter"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "BV6BRSLFJW3W",
       "title": "FAR CRY PRIMAL",
       "cover": "//store-images.s-microsoft.com/image/apps.64306.14079505688681780.9ec50825-311f-45ea-ad4f-9e9011ea0aaa.473ceee0-ea6e-4be1-bbd8-a21e0adbaaf7",
@@ -3269,6 +3215,24 @@
       "title": "Far Cry® New Dawn",
       "cover": "//store-images.s-microsoft.com/image/apps.64306.64841033704503268.bc0de57e-6dcd-40b5-b35e-f9f46b4ec1ae.f10b3597-c0ec-428e-9266-d457abfd1d56",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C1DDW4PRF6K5",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "BV2ZVP7PJZWL",
+      "title": "FARCRY 3 Classic Edition",
+      "cover": "//store-images.s-microsoft.com/image/apps.33719.71220804959101191.bad88979-60b4-40b4-af6d-182d4534c987.ecf3220f-0497-4cf1-9cee-d46d9d86ecc3",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BV2ZVP7PJZWL",
       "tiers": [],
       "platforms": [
         "PC",
@@ -3481,6 +3445,24 @@
         "Strategy"
       ],
       "indie": false,
+      "leavingSoon": true,
+      "status": "active"
+    },
+    {
+      "id": "9N8RKWJT32L4",
+      "title": "Firefighting Simulator: Ignite",
+      "cover": "//store-images.s-microsoft.com/image/apps.32408.14039390486448903.600abc2c-9f2a-489a-8d46-0eefc0946576.cabef57c-c072-408a-a400-ef040fd8bca9",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N8RKWJT32L4",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -3640,7 +3622,7 @@
     {
       "id": "9MW715J1P29D",
       "title": "FragPunk",
-      "cover": "//store-images.s-microsoft.com/image/apps.16868.13848987134544813.7c1bc445-ee84-4289-ab2e-4ee6990764e8.3e3a1229-cf14-4c88-af69-ef4ea095b75a",
+      "cover": "//store-images.s-microsoft.com/image/apps.25465.13848987134544813.b9397189-e630-434e-b4ea-da4764f01b90.c8470771-5d33-4194-9c26-0745775b3361",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MW715J1P29D",
       "tiers": [],
       "platforms": [
@@ -3674,24 +3656,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9P3ZRGNQVC7D",
-      "title": "Full Throttle Remastered",
-      "cover": "//store-images.s-microsoft.com/image/apps.39265.14598891268352765.09cb1dd7-f055-4038-983d-2721763eedbe.0e1db341-dc19-4da2-8a23-cc7a3476ee6b",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P3ZRGNQVC7D",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -4059,6 +4023,26 @@
       "status": "active"
     },
     {
+      "id": "9PBG4MTM3JJC",
+      "title": "GRAVHOUNDS (Game Preview)",
+      "cover": "//store-images.s-microsoft.com/image/apps.40166.14119486704236036.abde8f1d-835f-498a-a443-5a7c4d6c7932.b6227c5c-14b9-457f-b75f-e717dcd817f6",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PBG4MTM3JJC",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure",
+        "Strategy"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9N36BLQF3FX6",
       "title": "Great God Grove",
       "cover": "//store-images.s-microsoft.com/image/apps.49217.13938047926882205.478db89a-539b-4b20-956d-db969f740012.51327afc-1102-47d8-8243-0a7e592ceb44",
@@ -4074,7 +4058,7 @@
         "Puzzle & trivia"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -4938,23 +4922,6 @@
       "status": "active"
     },
     {
-      "id": "C2HDBXXNXT7R",
-      "title": "Killer Instinct 2 Classic",
-      "cover": "//store-images.s-microsoft.com/image/apps.17299.65463263160410826.32af279f-0076-458e-ba46-c16a05825701.7fe0102c-6b51-4bc4-8304-738fc5fc2e28",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C2HDBXXNXT7R",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Fighting"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "BX8FPDDRCLWT",
       "title": "Killer Instinct Classic",
       "cover": "//store-images.s-microsoft.com/image/apps.59042.63528887622500676.fdc76197-5251-4a9e-9ec7-94e0c39fc502.4078a423-25ac-4e93-b8d7-5d87dd2f8178",
@@ -5063,23 +5030,6 @@
       "status": "active"
     },
     {
-      "id": "C3553MB4P5TT",
-      "title": "Lara Croft and the Temple of Osiris",
-      "cover": "//store-images.s-microsoft.com/image/apps.28930.66406861093311956.5a3a6cc5-ae0d-478d-aa71-eeec71b3768a.9075a65b-ad79-49b1-8aaf-6fb3bb771bb3",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C3553MB4P5TT",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9P2S2QVRB97N",
       "title": "Legend of Mana",
       "cover": "//store-images.s-microsoft.com/image/apps.48887.14556235508309133.ebb6dc1c-004f-4bb2-8ce7-f545c53b97d2.a687bfc3-c900-4f53-8b7f-d6db8207d4e3",
@@ -5097,23 +5047,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "BRMKDCZT0C4L",
-      "title": "LEGO® Star Wars™: The Skywalker Saga",
-      "cover": "//store-images.s-microsoft.com/image/apps.15663.69776162813131649.c3b28bba-c81b-49e6-8333-6c1ce8e9222a.73b33586-cd57-4e89-bf80-b88ccd21d330",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BRMKDCZT0C4L",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -5768,7 +5701,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -5841,7 +5774,7 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5877,6 +5810,49 @@
       ],
       "genres": [
         "Family & kids"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9N74KFV7253H",
+      "title": "MySims™",
+      "cover": "//store-images.s-microsoft.com/image/apps.60612.14005579857467322.9c4802f5-cf2d-4d79-93bf-b33cd7d45331.e9ab6f16-67a2-4818-a235-000490801ab1",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N74KFV7253H",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Simulation",
+        "Action & adventure",
+        "Family & kids",
+        "Other",
+        "Classics"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9N8RS7CW8CGL",
+      "title": "MySims™ Kingdom",
+      "cover": "//store-images.s-microsoft.com/image/apps.39038.14039526998713941.72b547b4-f64a-4bb8-95bd-1caa549f1df5.d479a5d0-2b40-4cc5-9ed3-acfb4d37de04",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N8RS7CW8CGL",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation",
+        "Action & adventure",
+        "Family & kids",
+        "Other",
+        "Classics"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -5974,7 +5950,7 @@
         "Action & adventure",
         "Shooter"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -6499,7 +6475,7 @@
         "Family & kids"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -6533,6 +6509,24 @@
       ],
       "genres": [
         "Role playing",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9MW4MFG0192L",
+      "title": "PIT OF GOBLIN",
+      "cover": "//store-images.s-microsoft.com/image/apps.9831.13846192334895629.23a9d00d-834c-4fd7-abe1-41b8b885b3ee.6ec243d5-63f7-4a8a-bf58-7a0bd6fcd318",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MW4MFG0192L",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
         "Action & adventure"
       ],
       "indie": false,
@@ -6680,7 +6674,7 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -6971,7 +6965,7 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -7601,7 +7595,7 @@
     {
       "id": "9NV8W1KJSQLL",
       "title": "SMITE 2 (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.25253.14402893629943553.54fbd0de-7e4f-448e-93c6-1ad78c0a967a.3bd1beb4-cbc8-4159-9f66-48c6fb2f4159",
+      "cover": "//store-images.s-microsoft.com/image/apps.62277.14402893629943553.6e6c7d04-2186-4859-a2b8-45f1f1799a2e.8d2666eb-bd71-4d2b-be65-e0c1ace35c98",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NV8W1KJSQLL",
       "tiers": [],
       "platforms": [
@@ -8822,7 +8816,7 @@
         "Action & adventure",
         "Puzzle & trivia"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9187,7 +9181,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -9674,6 +9668,25 @@
       "status": "active"
     },
     {
+      "id": "9N9K5QP9G3GL",
+      "title": "VOID/BREAKER",
+      "cover": "//store-images.s-microsoft.com/image/apps.8077.13536036111571877.6e9314d2-c36f-4ec9-ad65-425453b390bd.43f1c606-e026-4cd5-8eab-759d0b1b550e",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N9K5QP9G3GL",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NQMVR9WL9FW",
       "title": "Voidtrain",
       "cover": "//store-images.s-microsoft.com/image/apps.39088.13766638199955298.30c51e02-5250-4a92-bce6-4ed56d85cf3c.f1f44049-4041-4fc5-a260-21a575b7ca31",
@@ -9790,25 +9803,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9NWQ686JB33G",
-      "title": "Wartales",
-      "cover": "//store-images.s-microsoft.com/image/apps.55567.14440655325358467.0a9794a6-3645-4db4-a85e-c611d041111a.85dd1ece-9871-428e-bdef-f545c2c8425e",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NWQ686JB33G",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Role playing",
-        "Strategy"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -10013,24 +10007,6 @@
       "status": "active"
     },
     {
-      "id": "9N6VS1BMZ3BW",
-      "title": "Wildgate",
-      "cover": "//store-images.s-microsoft.com/image/apps.38613.14011062654467580.dba38bbf-80c3-4aba-afd1-78d46abb6970.4d84c881-27c2-4b19-a64d-e13604baf39e",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N6VS1BMZ3BW",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Shooter"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9P1ZW5K4S44V",
       "title": "Winds of Arcana: Ruination",
       "cover": "//store-images.s-microsoft.com/image/apps.59789.14497336054391205.e20795ca-b6c4-4cdd-bb14-d194bfc5a17b.d9cea65c-260e-4ad4-bc13-2ab91249933c",
@@ -10066,7 +10042,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -10222,7 +10198,7 @@
     {
       "id": "9N11JM7F5CXK",
       "title": "World of Tanks: HEAT",
-      "cover": "//store-images.s-microsoft.com/image/apps.46446.13914660851585642.bf740845-6b4f-4219-8754-f267907650cd.86215b6f-798f-45e3-bcde-737ebc123907",
+      "cover": "//store-images.s-microsoft.com/image/apps.28387.13914660851585642.a21c2c87-a21a-4263-9436-669b54cfa894.7bd00d59-6fb9-4b0a-b3d2-eed534f2e0c1",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N11JM7F5CXK",
       "tiers": [],
       "platforms": [
@@ -10241,7 +10217,7 @@
     {
       "id": "C1ZT6N30L1WH",
       "title": "World of Warships: Legends",
-      "cover": "//store-images.s-microsoft.com/image/apps.60607.65694988112101034.15f749ea-0c2c-4a1d-a997-35665ae27acf.24b4045e-7d64-4463-a2f1-6649df3a878e",
+      "cover": "//store-images.s-microsoft.com/image/apps.58624.65694988112101034.0e2e9b4c-f10e-4538-ab3d-5efb48eaa044.ebfac970-41f8-4252-a1ae-17d5e1993994",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C1ZT6N30L1WH",
       "tiers": [],
       "platforms": [
@@ -10923,7 +10899,7 @@
     {
       "id": "BT5P2X999VH2",
       "title": "Fortnite",
-      "cover": "//store-images.s-microsoft.com/image/apps.17283.70702278257994163.6d75301b-59c3-4a73-b70c-5901ae9cbb44.bd4108fb-c5af-4a9a-90c5-9a25a46d76a1",
+      "cover": "//store-images.s-microsoft.com/image/apps.52548.70702278257994163.f7265b8a-f10e-49c4-8115-73c4d800af63.a0e057ff-c216-4206-a6b9-65bfc7d54fb0",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BT5P2X999VH2",
       "tiers": [],
       "platforms": [
@@ -10935,7 +10911,9 @@
         "Other",
         "Shooter",
         "Simulation",
-        "Strategy"
+        "Strategy",
+        "Music",
+        "Tools"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -10953,6 +10931,23 @@
       ],
       "genres": [
         "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "C2HDBXXNXT7R",
+      "title": "Killer Instinct 2 Classic",
+      "cover": "//store-images.s-microsoft.com/image/apps.17299.65463263160410826.32af279f-0076-458e-ba46-c16a05825701.7fe0102c-6b51-4bc4-8304-738fc5fc2e28",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C2HDBXXNXT7R",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Fighting"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -12701,6 +12696,25 @@
       "status": "active"
     },
     {
+      "id": "9N4NKMXDZCX6",
+      "title": "Football Manager 27",
+      "cover": "//store-images.s-microsoft.com/image/apps.47586.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.40797f8e-48ea-47e2-aab8-9ea6e13f5a79",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N4NKMXDZCX6",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation",
+        "Sports"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9P82LXD5RH31",
       "title": "For Honor Standard",
       "cover": "//store-images.s-microsoft.com/image/apps.25646.13664541971149542.2f5fbe40-bf98-4cd6-8d48-94e08f070c43.6d276a88-3831-4398-aefe-e6bcac845ddf",
@@ -14118,23 +14132,6 @@
       "status": "active"
     },
     {
-      "id": "9P1WJCK9B8S6",
-      "title": "The Rogue Prince of Persia™",
-      "cover": "//store-images.s-microsoft.com/image/apps.44243.14503626044492977.7208f0d9-85c4-4e8b-ae05-bd4b875bf1b3.2f032f23-1ee7-4b0c-9709-c9a11ca6de6f",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P1WJCK9B8S6",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "9N10HHMXFFC5",
       "title": "The Settlers: New Allies",
       "cover": "//store-images.s-microsoft.com/image/apps.42926.13911218403200220.38c225dc-b069-4b42-bcf8-d9b6ddb0e7e1.2dfcbe0a-447a-4a8d-b0e4-eb5577c29b33",
@@ -14408,25 +14405,6 @@
       "status": "active"
     },
     {
-      "id": "9N9K5QP9G3GL",
-      "title": "VOID/BREAKER (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.20544.13536036111571877.589d3b26-235b-491c-b54b-52bb688c551a.75e42099-ab23-4790-9d28-58ea2fa9077d",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N9K5QP9G3GL",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Shooter",
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "9PK7TLLPD7GV",
       "title": "Warcraft® I: Remastered",
       "cover": "//store-images.s-microsoft.com/image/apps.54102.14267313816668525.394c8705-96a8-43cb-854c-caa239116f88.7e607f42-194f-48a8-a4c9-155d942817e6",
@@ -14649,7 +14627,7 @@
     {
       "id": "9NK9K07FDPJV",
       "title": "World of Warships",
-      "cover": "//store-images.s-microsoft.com/image/apps.5355.13660342589962425.6455870f-14f6-40c6-8297-921ec3889341.b8c1aaa2-488e-481e-a1da-be13117b9acf",
+      "cover": "//store-images.s-microsoft.com/image/apps.24728.13660342589962425.83c35c19-74e3-4695-9f5e-d36d0fcd1705.d32f03d7-3c2e-4a7c-9399-971eb467f09f",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NK9K07FDPJV",
       "tiers": [],
       "platforms": [
@@ -14681,7 +14659,7 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -14719,6 +14697,167 @@
       "indie": false,
       "leavingSoon": false,
       "status": "active"
+    },
+    {
+      "id": "9NKK6CX54183",
+      "title": "Day of the Tentacle Remastered",
+      "cover": "//store-images.s-microsoft.com/image/apps.45089.13659998887820416.ac97c487-e49c-4236-a48f-681c4095040e.9f593142-562b-48e6-9ab5-20ea48887200",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NKK6CX54183",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9MXWL7VJ2SJW",
+      "title": "Dead Static Drive",
+      "cover": "//store-images.s-microsoft.com/image/apps.5403.13882054236358572.6bfd2436-1337-41ff-8bba-a695d6c3d9e9.dda501bf-b544-4d26-a7dd-abbe3ad6d733",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MXWL7VJ2SJW",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Role playing"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NHFVWX1V7QJ",
+      "title": "Deep Rock Galactic",
+      "cover": "//store-images.s-microsoft.com/image/apps.64496.13626568325427111.acf8bd0b-a403-422a-bfd4-5262a9b59ec2.a4caf3fb-c53b-4424-91a6-f6db3488a3c1",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NHFVWX1V7QJ",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9P3ZRGNQVC7D",
+      "title": "Full Throttle Remastered",
+      "cover": "//store-images.s-microsoft.com/image/apps.39265.14598891268352765.09cb1dd7-f055-4038-983d-2721763eedbe.0e1db341-dc19-4da2-8a23-cc7a3476ee6b",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P3ZRGNQVC7D",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "C3553MB4P5TT",
+      "title": "Lara Croft and the Temple of Osiris",
+      "cover": "//store-images.s-microsoft.com/image/apps.28930.66406861093311956.5a3a6cc5-ae0d-478d-aa71-eeec71b3768a.9075a65b-ad79-49b1-8aaf-6fb3bb771bb3",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C3553MB4P5TT",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "BRMKDCZT0C4L",
+      "title": "LEGO® Star Wars™: The Skywalker Saga",
+      "cover": "//store-images.s-microsoft.com/image/apps.15663.69776162813131649.c3b28bba-c81b-49e6-8333-6c1ce8e9222a.73b33586-cd57-4e89-bf80-b88ccd21d330",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BRMKDCZT0C4L",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NWQ686JB33G",
+      "title": "Wartales",
+      "cover": "//store-images.s-microsoft.com/image/apps.55567.14440655325358467.0a9794a6-3645-4db4-a85e-c611d041111a.85dd1ece-9871-428e-bdef-f545c2c8425e",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NWQ686JB33G",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Role playing",
+        "Strategy"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9N6VS1BMZ3BW",
+      "title": "Wildgate",
+      "cover": "//store-images.s-microsoft.com/image/apps.38613.14011062654467580.dba38bbf-80c3-4aba-afd1-78d46abb6970.4d84c881-27c2-4b19-a64d-e13604baf39e",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N6VS1BMZ3BW",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9P1WJCK9B8S6",
+      "title": "The Rogue Prince of Persia™",
+      "cover": "//store-images.s-microsoft.com/image/apps.44243.14503626044492977.7208f0d9-85c4-4e8b-ae05-bd4b875bf1b3.2f032f23-1ee7-4b0c-9709-c9a11ca6de6f",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P1WJCK9B8S6",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
     },
     {
       "id": "9ND0JVB184XL",
