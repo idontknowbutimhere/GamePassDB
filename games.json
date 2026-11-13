@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T04:11:28.867Z",
+  "updatedAt": "2026-11-13T04:04:56.989Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -428,7 +428,8 @@
         "Xbox"
       ],
       "genres": [
-        "Action & adventure"
+        "Action & adventure",
+        "Role playing"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -583,7 +584,8 @@
         "Xbox"
       ],
       "genres": [
-        "Action & adventure"
+        "Action & adventure",
+        "Classics"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -687,7 +689,7 @@
         "Strategy",
         "Card & board"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -1421,7 +1423,7 @@
     {
       "id": "9NNFG8BQRCXL",
       "title": "Call of Duty®: Warzone™",
-      "cover": "//store-images.s-microsoft.com/image/apps.61500.13739535057760905.ee63b998-143e-4256-bd0e-3e78d667ab11.31188761-50b5-4ec9-91f4-ec4f1a8b5503",
+      "cover": "//store-images.s-microsoft.com/image/apps.56274.13739535057760905.64d1d264-ebf5-48f6-a5d3-2ac9c96b636b.787de075-0bde-451b-a3f1-3123e78bc327",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NNFG8BQRCXL",
       "tiers": [],
       "platforms": [
@@ -2910,7 +2912,7 @@
         "Puzzle & trivia",
         "Action & adventure"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -3486,10 +3488,10 @@
       "status": "active"
     },
     {
-      "id": "9NMNZ4CK59DM",
-      "title": "Football Manager 26 Console",
-      "cover": "//store-images.s-microsoft.com/image/apps.63033.13754609462095808.6e939a74-099e-490d-b009-02e7105155bd.6e09f097-e938-4a50-85b4-6e14b4800029",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NMNZ4CK59DM",
+      "id": "9N5DDTDLTWCL",
+      "title": "Football Manager 27 Console",
+      "cover": "//store-images.s-microsoft.com/image/apps.33382.14035709193149319.c0b48782-5397-43ae-95b7-be2ecd468b49.f531ab0a-2ff2-42b3-9b12-e108b709763d",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N5DDTDLTWCL",
       "tiers": [],
       "platforms": [
         "PC",
@@ -3501,7 +3503,7 @@
         "Sports"
       ],
       "indie": false,
-      "leavingSoon": true,
+      "leavingSoon": false,
       "status": "active"
     },
     {
@@ -3569,6 +3571,29 @@
       ],
       "genres": [
         "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "BT5P2X999VH2",
+      "title": "Fortnite",
+      "cover": "//store-images.s-microsoft.com/image/apps.52548.70702278257994163.f7265b8a-f10e-49c4-8115-73c4d800af63.a0e057ff-c216-4206-a6b9-65bfc7d54fb0",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BT5P2X999VH2",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Other",
+        "Shooter",
+        "Simulation",
+        "Strategy",
+        "Music",
+        "Tools"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -4017,6 +4042,24 @@
         "Action & adventure",
         "Classics",
         "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "BTHC2G28X9H4",
+      "title": "Grabbed by the Ghoulies™",
+      "cover": "//store-images.s-microsoft.com/image/apps.59433.70863828853700397.56ab1f4a-a316-4055-8172-52200337d56f.d0e37ded-a86f-4757-9ed4-1f68d310e177",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BTHC2G28X9H4",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -4534,6 +4577,25 @@
       "status": "active"
     },
     {
+      "id": "9P1S707BPW6W",
+      "title": "Hope in the City",
+      "cover": "//store-images.s-microsoft.com/image/apps.18291.14501332661010356.1878bbae-b86e-4579-a4ee-b6e5b6f9498a.006155a7-c92b-46e3-8067-ae5260091bde",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P1S707BPW6W",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Puzzle & trivia"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9NBFGKQLMV33",
       "title": "House Flipper",
       "cover": "//store-images.s-microsoft.com/image/apps.37810.13518543789452586.33e180bb-4f0b-4a39-b1c8-cde6206c1eb3.10ce0025-264d-4dfc-bf77-75601b68ec7e",
@@ -4770,6 +4832,25 @@
       "status": "active"
     },
     {
+      "id": "9MTGCZ84M503",
+      "title": "John Carpenter's Toxic Commando",
+      "cover": "//store-images.s-microsoft.com/image/apps.29766.13813225504277272.60187aa7-cee5-4670-9406-da8555a77e6d.c837b95c-ea53-45ca-8a1d-e10bea8f2ff1",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MTGCZ84M503",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "C1ZWH2BZ9TSF",
       "title": "Joy Ride Turbo",
       "cover": "//store-images.s-microsoft.com/image/apps.46148.65697580773346286.de1a7dea-d35c-459d-a15c-a737811ee00f.81763cd8-510b-439f-8393-ef687850226c",
@@ -4957,7 +5038,7 @@
     {
       "id": "9MW53ZKZH168",
       "title": "Kiln",
-      "cover": "//store-images.s-microsoft.com/image/apps.8202.13846114870355423.c6d5bbc2-3a52-4589-8bbf-606749aa483c.212d1263-476d-49c3-972d-3bc343d29dc0",
+      "cover": "//store-images.s-microsoft.com/image/apps.48716.13846114870355423.e43ee5b3-300f-4323-b45f-d8368f69215d.b91169a5-fc95-467b-998b-0635ba722f98",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MW53ZKZH168",
       "tiers": [],
       "platforms": [
@@ -4966,7 +5047,8 @@
         "Cloud"
       ],
       "genres": [
-        "Action & adventure"
+        "Action & adventure",
+        "Fighting"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -5572,7 +5654,7 @@
     {
       "id": "9P8X6TVW9ZW8",
       "title": "Mistfall Hunter",
-      "cover": "//store-images.s-microsoft.com/image/apps.46876.14079456565345641.e3e3713f-53d2-4829-9bd5-395a291216ac.cc590df2-b04c-4c5a-9ac2-7446c5c83b6f",
+      "cover": "//store-images.s-microsoft.com/image/apps.1812.14079456565345641.6e8f7d58-d469-40c4-827b-64e8dcbdeb18.c5036d3e-caf8-4aff-b693-3e1f93ea2ec8",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P8X6TVW9ZW8",
       "tiers": [],
       "platforms": [
@@ -6529,7 +6611,7 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -8241,6 +8323,26 @@
       "status": "active"
     },
     {
+      "id": "9NRBW3FJSJWT",
+      "title": "TANUKI: Pon's Summer",
+      "cover": "//store-images.s-microsoft.com/image/apps.55068.14390224744653316.b8cfc87d-5763-4e3b-9506-f6dc3b4f7735.9e7b7cab-1918-46f7-a5a7-258279566820",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NRBW3FJSJWT",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Family & kids",
+        "Platformer"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9P9GX5D8H9DW",
       "title": "TCG Card Shop Simulator",
       "cover": "//store-images.s-microsoft.com/image/apps.58237.13937399101571368.d7ea1ad6-8d5d-4b4d-a570-efed308de865.26b2bdaf-a722-4b21-bb40-d7dfdb82b2a9",
@@ -8502,7 +8604,8 @@
       "tiers": [],
       "platforms": [
         "PC",
-        "Xbox"
+        "Xbox",
+        "Cloud"
       ],
       "genres": [
         "Role playing"
@@ -8816,7 +8919,7 @@
         "Action & adventure",
         "Puzzle & trivia"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -8981,6 +9084,24 @@
         "Shooter",
         "Simulation",
         "Sports",
+        "Strategy"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9NWWL1CBWFCG",
+      "title": "Thronefall",
+      "cover": "//store-images.s-microsoft.com/image/apps.6680.14441309410256211.99377474-23f3-49c1-b8b5-99ac2efbc206.679c84e1-8453-4a86-a0d9-73938d5be9ad",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NWWL1CBWFCG",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
         "Strategy"
       ],
       "indie": false,
@@ -9199,7 +9320,7 @@
         "Fighting",
         "Simulation"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9274,7 +9395,7 @@
         "Racing & flying",
         "Simulation"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9682,7 +9803,7 @@
         "Shooter",
         "Action & adventure"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9709,7 +9830,7 @@
     {
       "id": "BX1DTCBD1HXJ",
       "title": "War Thunder",
-      "cover": "//store-images.s-microsoft.com/image/apps.30829.63381296256995371.9e10cdbd-1881-4099-9f20-0b0885c216a7.cea534d7-08cd-4f3f-9bed-765c2c2534cc",
+      "cover": "//store-images.s-microsoft.com/image/apps.31569.63381296256995371.63fd92c7-ca2f-4730-a89d-ce2b9c6e5a2b.74335df6-275b-4eab-9f85-3553275f2c77",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BX1DTCBD1HXJ",
       "tiers": [],
       "platforms": [
@@ -9782,6 +9903,24 @@
         "Shooter"
       ],
       "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9MZZWGTF7V65",
+      "title": "Warhammer Survivors",
+      "cover": "//store-images.s-microsoft.com/image/apps.63012.13865289401901694.ec4fd4fe-95aa-4110-a6b3-96d9a78df1a3.0a17bc32-56e3-46a1-8aae-d4edfc5689e8",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MZZWGTF7V65",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -10237,8 +10376,8 @@
     },
     {
       "id": "9PLCL2VB2SC0",
-      "title": "World War Z: Aftermath",
-      "cover": "//store-images.s-microsoft.com/image/apps.52097.14315814591543581.e259272c-6394-43a0-9fcb-744c0a35683f.74727990-a7ec-4dbd-8bc9-29b0b83eebee",
+      "title": "World War Z: Year 1 Edition",
+      "cover": "//store-images.s-microsoft.com/image/apps.11303.14315814591543581.7abfbd86-71c6-4582-a8ef-26d2cba60921.fd262ff0-3854-4d0d-b014-2d434eb6a2ca",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PLCL2VB2SC0",
       "tiers": [],
       "platforms": [
@@ -10290,7 +10429,7 @@
     {
       "id": "9P41GS5W1C6L",
       "title": "Wuthering Waves",
-      "cover": "//store-images.s-microsoft.com/image/apps.41355.14597666972638877.5bceb6f8-6cdc-4d7b-bf47-6857fe6c0434.7ed514f5-984b-48f8-9420-0aff88f34e7f",
+      "cover": "//store-images.s-microsoft.com/image/apps.892.14597666972638877.997ecdaf-86da-490b-9c6a-bb00a16ac10c.22e253a7-e520-4052-80f1-986412b0a6c1",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P41GS5W1C6L",
       "tiers": [],
       "platforms": [
@@ -10897,29 +11036,6 @@
       "status": "active"
     },
     {
-      "id": "BT5P2X999VH2",
-      "title": "Fortnite",
-      "cover": "//store-images.s-microsoft.com/image/apps.52548.70702278257994163.f7265b8a-f10e-49c4-8115-73c4d800af63.a0e057ff-c216-4206-a6b9-65bfc7d54fb0",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BT5P2X999VH2",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Other",
-        "Shooter",
-        "Simulation",
-        "Strategy",
-        "Music",
-        "Tools"
-      ],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
       "id": "BZ910SG8ML8X",
       "title": "Heavy Weapon",
       "cover": "//store-images.s-microsoft.com/image/apps.395.64123032034140827.c6168420-6a8f-4a04-b63b-69f7e2a6f5d8.8e16477c-538b-4b1c-914a-bbca892ea709",
@@ -11478,8 +11594,8 @@
     },
     {
       "id": "9NNM7PKZN3JF",
-      "title": "9 Kings (Game Preview)",
-      "cover": "//store-images.s-microsoft.com/image/apps.35509.13735777332261166.046c4476-2fdb-4636-af17-eba2edfec19a.b42db9c9-6f64-4b73-87f2-50f1121929ce",
+      "title": "9 Kings",
+      "cover": "//store-images.s-microsoft.com/image/apps.59638.13735777332261166.ccc1adb2-25e3-4d4c-82ac-c5a7a8061a9f.ce3dc6c1-ae4a-4e2d-adfc-a1449dc8667f",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NNM7PKZN3JF",
       "tiers": [],
       "platforms": [
@@ -11489,7 +11605,8 @@
       ],
       "genres": [
         "Strategy",
-        "Role playing"
+        "Role playing",
+        "Card & board"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -11658,7 +11775,7 @@
       ],
       "genres": [
         "Action & adventure",
-        "Role playing"
+        "Classics"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -11676,7 +11793,7 @@
       ],
       "genres": [
         "Action & adventure",
-        "Role playing"
+        "Classics"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -11760,8 +11877,7 @@
       ],
       "genres": [
         "Action & adventure",
-        "Classics",
-        "Role playing"
+        "Classics"
       ],
       "indie": false,
       "leavingSoon": false,
@@ -12677,25 +12793,6 @@
       "status": "active"
     },
     {
-      "id": "9PD0Z90216RJ",
-      "title": "Football Manager 26",
-      "cover": "//store-images.s-microsoft.com/image/apps.16795.14159410862978133.08a7ac44-5c17-4c0d-a8d6-c3e247e74fcb.a9467371-4bb3-44ec-b989-4ed9a79314e9",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PD0Z90216RJ",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Simulation",
-        "Sports"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9N4NKMXDZCX6",
       "title": "Football Manager 27",
       "cover": "//store-images.s-microsoft.com/image/apps.47586.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.40797f8e-48ea-47e2-aab8-9ea6e13f5a79",
@@ -13158,6 +13255,23 @@
       "genres": [
         "Card & board",
         "Classics",
+        "Puzzle & trivia"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9WZDNCRFHV60",
+      "title": "Microsoft Sudoku",
+      "cover": "//store-images.s-microsoft.com/image/apps.33703.9007199266248115.9cbeff43-bb4e-48be-abec-06ddec39f69e.c5690b38-509d-45a5-b5a3-0bdf1d0e74ec",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9WZDNCRFHV60",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
         "Puzzle & trivia"
       ],
       "indie": false,
@@ -14132,6 +14246,21 @@
       "status": "active"
     },
     {
+      "id": "9NCQ70MVCK24",
+      "title": "The Rogue Prince of Persia™",
+      "cover": "//store-images.s-microsoft.com/image/apps.44243.14620929402526007.656881f4-d1bd-48f8-9226-dedf1c328133.13ec49a5-44ec-478b-84a0-f6590987e1d1",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NCQ70MVCK24",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9N10HHMXFFC5",
       "title": "The Settlers: New Allies",
       "cover": "//store-images.s-microsoft.com/image/apps.42926.13911218403200220.38c225dc-b069-4b42-bcf8-d9b6ddb0e7e1.2dfcbe0a-447a-4a8d-b0e4-eb5577c29b33",
@@ -14697,6 +14826,44 @@
       "indie": false,
       "leavingSoon": false,
       "status": "active"
+    },
+    {
+      "id": "9NMNZ4CK59DM",
+      "title": "Football Manager 26 Console",
+      "cover": "//store-images.s-microsoft.com/image/apps.63033.13754609462095808.6e939a74-099e-490d-b009-02e7105155bd.6e09f097-e938-4a50-85b4-6e14b4800029",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NMNZ4CK59DM",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation",
+        "Sports"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PD0Z90216RJ",
+      "title": "Football Manager 26",
+      "cover": "//store-images.s-microsoft.com/image/apps.16795.14159410862978133.08a7ac44-5c17-4c0d-a8d6-c3e247e74fcb.a9467371-4bb3-44ec-b989-4ed9a79314e9",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PD0Z90216RJ",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation",
+        "Sports"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
     },
     {
       "id": "9NKK6CX54183",
