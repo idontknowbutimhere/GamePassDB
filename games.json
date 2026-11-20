@@ -1,27 +1,9 @@
 {
-  "updatedAt": "2026-11-13T04:04:56.989Z",
+  "updatedAt": "2026-11-20T04:54:23.946Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
   "games": [
-    {
-      "id": "9NPDN9R45JX4",
-      "title": "1000xRESIST",
-      "cover": "//store-images.s-microsoft.com/image/apps.42712.13724740810259939.b66dd818-9d75-4097-b510-7e4f8f43131a.ac32cda4-2fd9-4049-a090-966d3ace3e22",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NPDN9R45JX4",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
     {
       "id": "9P8LR42PTRGJ",
       "title": "33 Immortals",
@@ -714,7 +696,7 @@
     {
       "id": "9MWXF3SRD7QN",
       "title": "BALL x PIT",
-      "cover": "//store-images.s-microsoft.com/image/apps.65421.13835016463632115.666396b5-f6e8-4a0a-ae87-81ee6b77084a.9ca9b47c-fe5e-416f-b0d8-585389838713",
+      "cover": "//store-images.s-microsoft.com/image/apps.41615.13835016463632115.a5cef575-d953-487b-9311-f25cca59bc7c.3fc8dbfb-f70e-4591-a04a-f75028587427",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9MWXF3SRD7QN",
       "tiers": [],
       "platforms": [
@@ -747,7 +729,7 @@
         "Other"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -803,25 +785,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9N21ZCV0JW6V",
-      "title": "Barbie™ Horse Trails",
-      "cover": "//store-images.s-microsoft.com/image/apps.59736.13960600887743581.ba328299-e217-4554-95d0-597345e02b27.619fb50f-5c70-4233-b504-e5e7fdee4a5d",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N21ZCV0JW6V",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Family & kids",
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -1218,7 +1181,7 @@
     {
       "id": "C3B1V55CDL0C",
       "title": "Brawlhalla",
-      "cover": "//store-images.s-microsoft.com/image/apps.55045.13891464908023063.a2b61e88-13f6-441b-9e30-86dbd5d67e01.2b2358ef-ce4a-4ec4-bc0d-d5173d8c3e45",
+      "cover": "//store-images.s-microsoft.com/image/apps.40855.65958767407690020.98622844-3c98-4c9a-8967-6c15ee09f981.3dd74b10-70e4-419f-a91f-4c72fb9dd2af",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C3B1V55CDL0C",
       "tiers": [],
       "platforms": [
@@ -1508,7 +1471,7 @@
         "Action & adventure",
         "Fighting"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -2500,24 +2463,6 @@
       "status": "active"
     },
     {
-      "id": "BX03760D0QGN",
-      "title": "DRAGON BALL XENOVERSE 2",
-      "cover": "//store-images.s-microsoft.com/image/apps.32513.63336639312113079.ceb7d6d9-5c03-4721-ab3f-09019902f961.e4eb532e-0d8b-41c0-ac6a-dbeb6ff4e9dd",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BX03760D0QGN",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9NFQ1XMXDLN6",
       "title": "DreamWorks Gabby’s Dollhouse: Ready to Party",
       "cover": "//store-images.s-microsoft.com/image/apps.45016.13590480699430465.de074dfc-1014-4172-8fa7-28ca36b25c57.3428b717-e279-4ae0-9def-5996aadb743e",
@@ -2534,7 +2479,7 @@
         "Platformer"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -3431,26 +3376,6 @@
       "status": "active"
     },
     {
-      "id": "9NBZ7Z3JRXQ8",
-      "title": "Firefighting Simulator - The Squad",
-      "cover": "//store-images.s-microsoft.com/image/apps.37983.13574093128038227.7f017f9d-a7e7-46d3-ac09-ad5cece1a687.d4771ae5-9b57-4a43-8021-142acfe2e595",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NBZ7Z3JRXQ8",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Simulation",
-        "Strategy"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9N8RKWJT32L4",
       "title": "Firefighting Simulator: Ignite",
       "cover": "//store-images.s-microsoft.com/image/apps.32408.14039390486448903.600abc2c-9f2a-489a-8d46-0eefc0946576.cabef57c-c072-408a-a400-ef040fd8bca9",
@@ -3909,7 +3834,7 @@
         "Shooter"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -3990,7 +3915,7 @@
     {
       "id": "9NMB4T25W817",
       "title": "Goat Simulator 3",
-      "cover": "//store-images.s-microsoft.com/image/apps.47149.13691300234764634.6bd09c5e-3ea8-4ca5-9bd9-98e21eb55d43.22b4756b-4e8e-43dd-99b3-f86402687874",
+      "cover": "//store-images.s-microsoft.com/image/apps.38438.13691300234764634.9df58869-5b63-4949-9867-599eb0b0c79d.4582fbba-735b-4bf1-8678-41f7537ff4bf",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NMB4T25W817",
       "tiers": [],
       "platforms": [
@@ -4010,7 +3935,7 @@
     {
       "id": "9NL3468NRPBG",
       "title": "Goat Simulator 3: Xbox One Edition",
-      "cover": "//store-images.s-microsoft.com/image/apps.47149.13719917860433649.aae29470-5649-4ad1-abf1-81f29d7c6bc8.8143a4c0-41a8-4b4c-9c97-94c4e223eec4",
+      "cover": "//store-images.s-microsoft.com/image/apps.38438.13719917860433649.8239cf63-0e5a-4cc1-afde-9d04991920d2.732ea8ec-a2fe-4a7f-95f9-bc23006a6258",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NL3468NRPBG",
       "tiers": [],
       "platforms": [
@@ -4083,25 +4008,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9N36BLQF3FX6",
-      "title": "Great God Grove",
-      "cover": "//store-images.s-microsoft.com/image/apps.49217.13938047926882205.478db89a-539b-4b20-956d-db969f740012.51327afc-1102-47d8-8243-0a7e592ceb44",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N36BLQF3FX6",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Puzzle & trivia"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -4999,7 +4905,7 @@
         "Action & adventure"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -5200,7 +5106,7 @@
         "Family & kids",
         "Simulation"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5769,24 +5675,6 @@
       "status": "active"
     },
     {
-      "id": "9P8XJRLCLH2P",
-      "title": "Moonlighter",
-      "cover": "//store-images.s-microsoft.com/image/apps.27309.14078999020725962.f9f4d516-290a-4fec-820e-f71d575013d8.781a4a00-3d6d-477f-987a-a7b734ab1fd1",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P8XJRLCLH2P",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9NDJX252Q5BW",
       "title": "Moonlighter 2: The Endless Vault",
       "cover": "//store-images.s-microsoft.com/image/apps.46867.13613495733795404.958a29ae-aca4-4c3f-a15c-62c6c57d4d68.1166dd10-7833-4820-898b-e9e9e8ad81dc",
@@ -5856,7 +5744,7 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -5876,7 +5764,7 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -6279,7 +6167,7 @@
     {
       "id": "9N0QWXC09MPT",
       "title": "Once Human",
-      "cover": "//store-images.s-microsoft.com/image/apps.6246.13916126641198036.09cb027a-0db0-4ac0-8459-ee6b87dc11cc.41b67786-ad5b-43c9-acbb-7ea6151faf32",
+      "cover": "//store-images.s-microsoft.com/image/apps.17259.13916126641198036.7e5a4785-388f-47fb-b99e-33d1a78b811a.4b270173-ed40-4d92-9b17-05fd926d9aef",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N0QWXC09MPT",
       "tiers": [],
       "platforms": [
@@ -6406,6 +6294,26 @@
         "Role playing"
       ],
       "indie": true,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
+      "id": "9N3P3TRJGWV0",
+      "title": "PAW Patrol™: Dino World",
+      "cover": "//store-images.s-microsoft.com/image/apps.23698.14003155671712527.e2286374-c296-44cb-8b6c-1bb5b97b583a.6e26181c-b9e8-4402-8d4b-77f3dcadcd79",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N3P3TRJGWV0",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Family & kids",
+        "Action & adventure",
+        "Platformer"
+      ],
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -6541,26 +6449,6 @@
       "status": "active"
     },
     {
-      "id": "9NRHQLZX3900",
-      "title": "Pigeon Simulator",
-      "cover": "//store-images.s-microsoft.com/image/apps.63629.14382953481681867.8b1ccf01-d587-4b7f-afbc-ee46cb87b3d4.69ed27fb-c1a2-4c19-a803-a9f289039e26",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NRHQLZX3900",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Simulation",
-        "Family & kids"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9PJD2KMX7TZ6",
       "title": "Pillars of Eternity II: Deadfire - Ultimate Edition",
       "cover": "//store-images.s-microsoft.com/image/apps.61424.14218490899188575.a8c726f9-aa48-4378-bee2-0dffc21a7089.af88412e-ac16-457c-9332-9db6d9b912bf",
@@ -6611,7 +6499,7 @@
       "genres": [
         "Action & adventure"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -6739,24 +6627,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9P0NPLQ9P1DB",
-      "title": "Police Simulator: Patrol Officers",
-      "cover": "//store-images.s-microsoft.com/image/apps.26366.14523320294659833.0e9cb134-00a8-4d23-9793-93834d8d61ef.9b9e6bbe-69b3-4cd9-8509-3de264dfc1a2",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P0NPLQ9P1DB",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Simulation"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -7028,26 +6898,6 @@
       ],
       "indie": false,
       "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "9P81K2C8RBF4",
-      "title": "Relic Hunters Legend",
-      "cover": "//store-images.s-microsoft.com/image/apps.37208.14097016447581693.ee94877f-b509-44d9-abed-33614d4bfc2b.bc2320d7-e0dd-4e46-91d9-33b920008b14",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P81K2C8RBF4",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Role playing",
-        "Action & adventure",
-        "Shooter"
-      ],
-      "indie": false,
-      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -7871,7 +7721,7 @@
         "Racing & flying"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -8338,7 +8188,7 @@
         "Family & kids",
         "Platformer"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -8738,7 +8588,7 @@
     {
       "id": "9P8FBXKMCLWC",
       "title": "The First Descendant",
-      "cover": "//store-images.s-microsoft.com/image/apps.25250.14088967971354578.6905da5e-eaf6-4f51-aabc-e221a5476323.f1a617e3-f1f9-4e8f-86e7-96d2c3182edf",
+      "cover": "//store-images.s-microsoft.com/image/apps.62129.14088967971354578.21f9976e-3fb0-4fe0-89fd-e7a4a3274e5d.64035029-25d5-4634-ac10-81ac3078037b",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P8FBXKMCLWC",
       "tiers": [],
       "platforms": [
@@ -9104,7 +8954,7 @@
       "genres": [
         "Strategy"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9287,25 +9137,6 @@
       "status": "active"
     },
     {
-      "id": "9PHTX5QZ035T",
-      "title": "Total Chaos",
-      "cover": "//store-images.s-microsoft.com/image/apps.28442.14224411830682092.a75ca261-09af-4d3c-9aa3-170861aaf880.9b048914-2a7a-4761-92ad-b34030a60d61",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PHTX5QZ035T",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Shooter",
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9PC4RWP34M2D",
       "title": "Totally Accurate Battle Simulator",
       "cover": "//store-images.s-microsoft.com/image/apps.44329.14176345306313891.79ca8837-5397-4838-85b6-4a8a9720856c.ee70365f-2fde-4714-a069-8c43500ef3bc",
@@ -9320,7 +9151,7 @@
         "Fighting",
         "Simulation"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9342,7 +9173,7 @@
         "Simulation"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -9803,7 +9634,7 @@
         "Shooter",
         "Action & adventure"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -10165,26 +9996,6 @@
       "status": "active"
     },
     {
-      "id": "9ND3HTTQ0GKB",
-      "title": "Winter Burrow",
-      "cover": "//store-images.s-microsoft.com/image/apps.17059.13551922362408999.6a1ab142-ad0f-4a13-b0ba-9fcbb7182271.7ccb83f6-23a8-4dc2-af72-26b158ad9746",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9ND3HTTQ0GKB",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Simulation",
-        "Other",
-        "Action & adventure"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9N9X9PC8V9CP",
       "title": "Wo Long: Fallen Dynasty",
       "cover": "//store-images.s-microsoft.com/image/apps.35756.13524128328401524.c8089ad9-5e75-4246-83e8-2dac88f04afd.c15772fe-d979-45ea-8d13-c81c5a30e4fa",
@@ -10385,24 +10196,6 @@
         "Xbox"
       ],
       "genres": [],
-      "indie": false,
-      "leavingSoon": false,
-      "status": "active"
-    },
-    {
-      "id": "BRJNRZ9N734V",
-      "title": "Wreckfest",
-      "cover": "//store-images.s-microsoft.com/image/apps.62864.69762792333465121.4086c71f-fab9-4c14-b959-3e77164a74cf.20973bfd-77f7-41d0-8e0a-7cb51d9f8add",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BRJNRZ9N734V",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Racing & flying"
-      ],
       "indie": false,
       "leavingSoon": false,
       "status": "active"
@@ -11678,7 +11471,7 @@
         "Strategy"
       ],
       "indie": false,
-      "leavingSoon": false,
+      "leavingSoon": true,
       "status": "active"
     },
     {
@@ -12866,7 +12659,7 @@
     {
       "id": "9PDS2N82QNXG",
       "title": "Goat Simulator 3: Windows Edition",
-      "cover": "//store-images.s-microsoft.com/image/apps.47149.14148334348309617.d7ab70e3-9d1d-4489-b8b9-a2b9be7054bb.b1519ab1-017b-4c25-a2d8-2cb283a46821",
+      "cover": "//store-images.s-microsoft.com/image/apps.38438.14148334348309617.3cafe4a3-45e4-4621-afd6-e10feca03d19.34c1614e-1c5a-4e9b-abf5-06c6adb5cb66",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PDS2N82QNXG",
       "tiers": [],
       "platforms": [
@@ -14773,25 +14566,6 @@
       "status": "active"
     },
     {
-      "id": "9NG06CSMM97P",
-      "title": "Wreckfest",
-      "cover": "//store-images.s-microsoft.com/image/apps.62864.13589258961846020.5e95ec4c-44cb-4b39-8217-927890b74c94.2db605c4-0ddc-4af6-a7fe-27fa24741872",
-      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NG06CSMM97P",
-      "tiers": [],
-      "platforms": [
-        "PC",
-        "Xbox",
-        "Cloud"
-      ],
-      "genres": [
-        "Action & adventure",
-        "Racing & flying"
-      ],
-      "indie": false,
-      "leavingSoon": true,
-      "status": "active"
-    },
-    {
       "id": "9N6WN0ZHZQ6W",
       "title": "WUCHANG: Fallen Feathers",
       "cover": "//store-images.s-microsoft.com/image/apps.44761.13783945394833991.9c211df2-6d91-4ddb-8a9b-d22dd17d57de.2d4b818f-ca01-45f0-b255-54b665c38ac6",
@@ -14826,6 +14600,252 @@
       "indie": false,
       "leavingSoon": false,
       "status": "active"
+    },
+    {
+      "id": "9NPDN9R45JX4",
+      "title": "1000xRESIST",
+      "cover": "//store-images.s-microsoft.com/image/apps.42712.13724740810259939.b66dd818-9d75-4097-b510-7e4f8f43131a.ac32cda4-2fd9-4049-a090-966d3ace3e22",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NPDN9R45JX4",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9N21ZCV0JW6V",
+      "title": "Barbie™ Horse Trails",
+      "cover": "//store-images.s-microsoft.com/image/apps.59736.13960600887743581.ba328299-e217-4554-95d0-597345e02b27.619fb50f-5c70-4233-b504-e5e7fdee4a5d",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N21ZCV0JW6V",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Family & kids",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "BX03760D0QGN",
+      "title": "DRAGON BALL XENOVERSE 2",
+      "cover": "//store-images.s-microsoft.com/image/apps.32513.63336639312113079.ceb7d6d9-5c03-4721-ab3f-09019902f961.e4eb532e-0d8b-41c0-ac6a-dbeb6ff4e9dd",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BX03760D0QGN",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NBZ7Z3JRXQ8",
+      "title": "Firefighting Simulator - The Squad",
+      "cover": "//store-images.s-microsoft.com/image/apps.37983.13574093128038227.7f017f9d-a7e7-46d3-ac09-ad5cece1a687.d4771ae5-9b57-4a43-8021-142acfe2e595",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NBZ7Z3JRXQ8",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Simulation",
+        "Strategy"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9N36BLQF3FX6",
+      "title": "Great God Grove",
+      "cover": "//store-images.s-microsoft.com/image/apps.49217.13938047926882205.478db89a-539b-4b20-956d-db969f740012.51327afc-1102-47d8-8243-0a7e592ceb44",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9N36BLQF3FX6",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Puzzle & trivia"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9P8XJRLCLH2P",
+      "title": "Moonlighter",
+      "cover": "//store-images.s-microsoft.com/image/apps.27309.14078999020725962.f9f4d516-290a-4fec-820e-f71d575013d8.781a4a00-3d6d-477f-987a-a7b734ab1fd1",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P8XJRLCLH2P",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NRHQLZX3900",
+      "title": "Pigeon Simulator",
+      "cover": "//store-images.s-microsoft.com/image/apps.63629.14382953481681867.8b1ccf01-d587-4b7f-afbc-ee46cb87b3d4.69ed27fb-c1a2-4c19-a803-a9f289039e26",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NRHQLZX3900",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Simulation",
+        "Family & kids"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9P0NPLQ9P1DB",
+      "title": "Police Simulator: Patrol Officers",
+      "cover": "//store-images.s-microsoft.com/image/apps.26366.14523320294659833.0e9cb134-00a8-4d23-9793-93834d8d61ef.9b9e6bbe-69b3-4cd9-8509-3de264dfc1a2",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P0NPLQ9P1DB",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9P81K2C8RBF4",
+      "title": "Relic Hunters Legend",
+      "cover": "//store-images.s-microsoft.com/image/apps.37208.14097016447581693.ee94877f-b509-44d9-abed-33614d4bfc2b.bc2320d7-e0dd-4e46-91d9-33b920008b14",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9P81K2C8RBF4",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Role playing",
+        "Action & adventure",
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9PHTX5QZ035T",
+      "title": "Total Chaos",
+      "cover": "//store-images.s-microsoft.com/image/apps.28442.14224411830682092.a75ca261-09af-4d3c-9aa3-170861aaf880.9b048914-2a7a-4761-92ad-b34030a60d61",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9PHTX5QZ035T",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9ND3HTTQ0GKB",
+      "title": "Winter Burrow",
+      "cover": "//store-images.s-microsoft.com/image/apps.17059.13551922362408999.6a1ab142-ad0f-4a13-b0ba-9fcbb7182271.7ccb83f6-23a8-4dc2-af72-26b158ad9746",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9ND3HTTQ0GKB",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Simulation",
+        "Other",
+        "Action & adventure"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "BRJNRZ9N734V",
+      "title": "Wreckfest",
+      "cover": "//store-images.s-microsoft.com/image/apps.62864.69762792333465121.4086c71f-fab9-4c14-b959-3e77164a74cf.20973bfd-77f7-41d0-8e0a-7cb51d9f8add",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/BRJNRZ9N734V",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Racing & flying"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
+    },
+    {
+      "id": "9NG06CSMM97P",
+      "title": "Wreckfest",
+      "cover": "//store-images.s-microsoft.com/image/apps.62864.13589258961846020.5e95ec4c-44cb-4b39-8217-927890b74c94.2db605c4-0ddc-4af6-a7fe-27fa24741872",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NG06CSMM97P",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Action & adventure",
+        "Racing & flying"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "removed"
     },
     {
       "id": "9NMNZ4CK59DM",
