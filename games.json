@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T04:54:23.946Z",
+  "updatedAt": "2026-11-27T05:50:59.629Z",
   "source": "Microsoft Xbox Game Pass catalog APIs + official ID@Xbox collection",
   "market": "CA",
   "language": "en-ca",
@@ -671,7 +671,7 @@
         "Strategy",
         "Card & board"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -1859,7 +1859,7 @@
     {
       "id": "C0N22P73QZ60",
       "title": "Dead by Daylight",
-      "cover": "//store-images.s-microsoft.com/image/apps.16719.64366672042187759.733004ed-c696-44cf-98cc-30eddf2375a8.3dd6c96e-e0c3-4a0b-aeb0-810f815a6d37",
+      "cover": "//store-images.s-microsoft.com/image/apps.57090.64366672042187759.cbefda5a-be6e-404b-9026-557d1b27e814.975f8da6-86b1-44f6-b167-632b7e56b869",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/C0N22P73QZ60",
       "tiers": [],
       "platforms": [
@@ -2857,7 +2857,7 @@
         "Puzzle & trivia",
         "Action & adventure"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -7542,6 +7542,24 @@
       "status": "active"
     },
     {
+      "id": "9NV8BWGH15GN",
+      "title": "Sniper Ghost Warrior Contracts 2",
+      "cover": "//store-images.s-microsoft.com/image/apps.26838.14403486953530579.8b4d5859-c0ba-42f4-a4b1-7157a546eaa8.89013b87-c493-4a18-9bd4-700b28776012",
+      "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NV8BWGH15GN",
+      "tiers": [],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "Cloud"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "indie": false,
+      "leavingSoon": false,
+      "status": "active"
+    },
+    {
       "id": "9PNRSC0J6DT8",
       "title": "SnowRunner",
       "cover": "//store-images.s-microsoft.com/image/apps.25998.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.88e6f480-29a4-44c0-8a97-cece69dc489e",
@@ -8188,7 +8206,7 @@
         "Family & kids",
         "Platformer"
       ],
-      "indie": true,
+      "indie": false,
       "leavingSoon": false,
       "status": "active"
     },
@@ -9226,7 +9244,7 @@
         "Racing & flying",
         "Simulation"
       ],
-      "indie": false,
+      "indie": true,
       "leavingSoon": false,
       "status": "active"
     },
@@ -12168,7 +12186,7 @@
     {
       "id": "9NMS4SFNBGBH",
       "title": "Dead by Daylight Windows",
-      "cover": "//store-images.s-microsoft.com/image/apps.16719.13756572830160292.a0be61ed-4aae-47f9-8a44-c8be54b53f15.917800ae-51f5-48b3-aa38-cb498fde9b40",
+      "cover": "//store-images.s-microsoft.com/image/apps.26013.13756572830160292.10d79077-02d2-4107-bef1-759fb5bc3109.c11422fc-6bde-40ab-a506-71e18dc67fcf",
       "sourceUrl": "https://www.xbox.com/en-CA/games/store/-/9NMS4SFNBGBH",
       "tiers": [],
       "platforms": [
